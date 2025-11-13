@@ -214,3 +214,39 @@ Indica el monto total de esta línea de venta, calculado como cantidad × precio
             L --> C
         ```
 
+## 3. Análisis Exploratorio de Datos (EDA) y Resultados Clave
+
+Una vez completada la limpieza, consolidación y cálculo de las métricas RFM, se procedió al Análisis Exploratorio de Datos (EDA) para validar los supuestos y obtener *insights* críticos antes de la modelación con K-means.
+
+### 3.1. Métricas RFM y Distribución de Variables
+
+#### Estadísticas descriptivas básicas calculadas
+Se calcularon las estadísticas descriptivas para las métricas RFM de cada cliente. Los resultados iniciales mostraron que la **media** de **Frecuencia** y **Monetario** es significativamente más alta que su respectiva **mediana (50%)**.
+
+#### Identificación del tipo de distribución de variables
+* Se visualizó la distribución de **Frecuencia** y **Monetario** (histogramas), confirmando que ambas presentan una **fuerte asimetría positiva** (sesgo a la derecha).
+* **Conclusión Clave:** Esta asimetría prueba que solo una pequeña proporción de clientes (la "cola larga") concentra el mayor valor y la mayor cantidad de compras. Esto justifica plenamente la necesidad de la segmentación.
+
+### 3.2. Correlaciones, Outliers y Patrones de Negocio
+
+#### Análisis de correlaciones entre variables principales
+Se analizó la correlación lineal entre las variables de comportamiento:
+* **Frecuencia vs. Monetario:** Se observó una correlación **altamente positiva** (índice > 0.70). Esto demuestra que si la estrategia de marketing logra que un cliente **vuelva más seguido (aumentar Frecuencia)**, su Valor Monetario aumentará de manera significativa.
+* **Recencia vs. Frecuencia:** La correlación **negativa** indica que los clientes que han comprado más recientemente (R baja) son, de hecho, los más frecuentes, lo cual es un indicador de salud en la fidelización.
+
+#### Detección de outliers (valores extremos)
+Mediante el uso de Boxplots, se identificaron dos grupos de clientes atípicos que requieren atención inmediata:
+* **Outliers en Frecuencia y Monetario:** Son los **clientes 'Campeones' o 'VIP'**. Estos clientes, estadísticamente anómalos por su alto valor, deben ser el foco de programas de lealtad premium.
+* **Outliers en Recencia:** Son los **clientes 'En Riesgo de Fuga' o 'Perdidos'** (los que tienen una Recencia muy alta), y son el objetivo primario de las campañas de reactivación.
+
+#### Al menos 3 gráficos representativos y patrones adicionales
+Se crearon visualizaciones clave para la interpretación de negocio:
+1.  **Ventas Totales a lo largo del Tiempo:** Permitió identificar **patrones de estacionalidad** (días o meses pico de compra).
+2.  **Valor Monetario Total por Ciudad:** Identificó las **ciudades geográficas que concentran el mayor ingreso** (ej., Rio Cuarto, Carlos Paz), permitiendo la **focalización de los recursos de marketing**.
+3.  **Frecuencia de Métodos de Pago:** Reveló la **preferencia de hábito de pago** (ej., predominio de QR o Tarjeta), clave para el diseño de promociones y la optimización de infraestructura.
+
+#### Interpretación de resultados orientada al problema
+Los hallazgos del EDA ofrecen una solución directa al problema de negocio:
+* **Validación:** Se confirma que el **uso ineficiente de recursos** se debe a la distribución desigual de clientes (pocos valiosos vs. muchos de bajo valor), haciendo obligatoria la segmentación.
+* **Estrategia:** La evidencia de correlación F vs. M define que la prioridad estratégica es la **recurrencia y la retención**.
+* **Acción Inmediata:** La identificación de outliers y patrones geográficos permite al minimarket generar campañas dirigidas y altamente eficientes **incluso antes de aplicar el algoritmo K-means**.

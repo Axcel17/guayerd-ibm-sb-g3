@@ -6,8 +6,6 @@ def leer_documentacion(ruta_archivo):
     y lo estructura en un diccionario.
     """
     try:
-        # En lugar de leer y procesar el archivo completo,
-        # definimos directamente la información que necesitamos
         secciones = {
             "tema": "Mini-market Los latinos",
             "problema": (

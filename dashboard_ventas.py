@@ -37,7 +37,7 @@ def cargar_datos():
         df_clientes = pd.read_csv(r"Base de datos/Clientes.csv")
         df_productos = pd.read_csv(r"Base de datos/Productos.csv")
         df_ventas = pd.read_csv(r"Base de datos/Ventas.csv")
-        df_detalle = pd.read_csv(r"Base de datos/Detalle_ventas.csv")
+        df_detalle = pd.read_csv(r"Base de datos/Detalle_Ventas.csv")
         
         # Limpieza de datos
         df_clientes['fecha_alta'] = pd.to_datetime(df_clientes['fecha_alta'])

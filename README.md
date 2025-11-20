@@ -18,7 +18,7 @@ La solución consiste en implementar un sistema de segmentación de clientes bas
 
 ### 2.1. Estructura de la Base de Datos
 
-La base de datos del Minimarket Los Latinos consta de cuatro tablas relacionales que conforman un modelo de datos orientado al registro de ventas y clientes. El diseño incluye dos tablas dimensionales (Clientes y Productos) que almacenan la información maestra del negocio, y dos tablas de hechos (Ventas y Detalle_ventas) que registran las transacciones. Esta estructura permite rastrear el comportamiento de compra de los clientes, el desempeño de productos por categoría, y analizar patrones de venta a lo largo del tiempo. Las relaciones entre tablas están establecidas mediante llaves foráneas que garantizan la integridad referencial de los datos.
+La base de datos del Minimarket Los Latinos consta de cuatro tablas relacionales que conforman un modelo de datos orientado al registro de ventas y clientes. El diseño incluye dos tablas dimensionales (Clientes y Productos) que almacenan la información maestra del negocio, y dos tablas de hechos (Ventas y Detalle_Ventas) que registran las transacciones. Esta estructura permite rastrear el comportamiento de compra de los clientes, el desempeño de productos por categoría, y analizar patrones de venta a lo largo del tiempo. Las relaciones entre tablas están establecidas mediante llaves foráneas que garantizan la integridad referencial de los datos.
 
 ---
 
@@ -85,7 +85,7 @@ Indica el método de pago utilizado en la transacción (qr, efectivo, tarjeta, t
 
 ---
 
-#### 2.1.4. Detalle_ventas (Tabla de Hechos - Detalle)
+#### 2.1.4. Detalle_Ventas (Tabla de Hechos - Detalle)
 
 Esta tabla almacena el desglose detallado de cada venta, registrando los productos específicos comprados, cantidades, precios y el importe total por línea de venta.
 
@@ -126,7 +126,7 @@ Indica el monto total de esta línea de venta, calculado como cantidad × precio
     - `email`: Cadena de texto, escala **Nominal** (correo categórico sin orden, redundante).
     - `medio_pago`: Cadena de texto, escala **Nominal** (método de pago categórico sin orden).
 
-3. **Tabla Detalle_ventas**
+3. **Tabla Detalle_Ventas**
     - `id_venta`: Número entero, escala **Razón** (identificador con cero absoluto, clave foránea).
     - `id_producto`: Número entero, escala **Razón** (identificador con cero absoluto, clave foránea).
     - `nombre_producto`: Cadena de texto, escala **Nominal** (nombre categórico sin orden, redundante).

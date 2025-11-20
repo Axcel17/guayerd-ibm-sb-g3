@@ -70,7 +70,7 @@ guayerd-ibm-sb-g3/
     ├── Clientes.csv
     ├── Productos.csv
     ├── Ventas.csv
-    └── Detalle_ventas.csv
+    └── Detalle_Ventas.csv
 ```
 
 ## ▶️ Ejecución

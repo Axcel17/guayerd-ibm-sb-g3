@@ -30,7 +30,7 @@ def leer_documentacion(ruta_archivo):
                 "La base de datos del Minimarket Los Latinos consta de cuatro tablas relacionales "
                 "que conforman un modelo de datos orientado al registro de ventas y clientes. "
                 "El diseño incluye dos tablas dimensionales (Clientes y Productos) que almacenan "
-                "la información maestra del negocio, y dos tablas de hechos (Ventas y Detalle_ventas) "
+                "la información maestra del negocio, y dos tablas de hechos (Ventas y Detalle_Ventas) "
                 "que registran las transacciones. Esta estructura permite rastrear el comportamiento de "
                 "compra de los clientes, el desempeño de productos por categoría, y analizar patrones "
                 "de venta a lo largo del tiempo. Las relaciones entre tablas están establecidas mediante "
@@ -137,7 +137,7 @@ def submenu_estructura(docs):
         print("1. Tabla Clientes")
         print("2. Tabla Productos")
         print("3. Tabla Ventas")
-        print("4. Tabla Detalle_ventas")
+        print("4. Tabla Detalle_Ventas")
         print("5. Volver al menú principal")
         
         opcion = input("\n¿Qué tabla desea consultar? (1-5): ").strip()
@@ -149,7 +149,7 @@ def submenu_estructura(docs):
         elif opcion == "3":
             mostrar_tabla("Ventas", docs["tablas"]["ventas"])
         elif opcion == "4":
-            mostrar_tabla("Detalle_ventas", docs["tablas"]["detalle_ventas"])
+            mostrar_tabla("Detalle_Ventas", docs["tablas"]["detalle_ventas"])
         elif opcion == "5":
             return
         else:

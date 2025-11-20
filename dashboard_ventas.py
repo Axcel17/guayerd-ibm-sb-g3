@@ -34,10 +34,10 @@ def cargar_datos():
     """Carga y prepara todos los datos necesarios para el dashboard"""
     try:
         # Cargar archivos base
-        df_clientes = pd.read_excel(r"Base de datos/Clientes.xlsx")
-        df_productos = pd.read_excel(r"Base de datos/Productos.xlsx")
-        df_ventas = pd.read_excel(r"Base de datos/Ventas.xlsx")
-        df_detalle = pd.read_excel(r"Base de datos/Detalle_ventas.xlsx")
+        df_clientes = pd.read_csv(r"Base de datos/Clientes.csv")
+        df_productos = pd.read_csv(r"Base de datos/Productos.csv")
+        df_ventas = pd.read_csv(r"Base de datos/Ventas.csv")
+        df_detalle = pd.read_csv(r"Base de datos/Detalle_ventas.csv")
         
         # Limpieza de datos
         df_clientes['fecha_alta'] = pd.to_datetime(df_clientes['fecha_alta'])

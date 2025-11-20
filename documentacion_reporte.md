@@ -67,10 +67,10 @@ guayerd-ibm-sb-g3/
 ├── requirements.txt        # Dependencias
 │
 └── Base de datos/
-    ├── Clientes.xlsx
-    ├── Productos.xlsx
-    ├── Ventas.xlsx
-    └── Detalle_ventas.xlsx
+    ├── Clientes.csv
+    ├── Productos.csv
+    ├── Ventas.csv
+    └── Detalle_ventas.csv
 ```
 
 ## ▶️ Ejecución

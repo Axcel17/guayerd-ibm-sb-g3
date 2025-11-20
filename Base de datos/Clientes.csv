@@ -1,0 +1,577 @@
+﻿id_cliente,nombre_cliente,email,ciudad,fecha_alta
+1,Malena Vazquez Correa,malena.correa@gmail.com,Villa Crespo,2023-10-22
+2,Julian Manuel Maldonado Godoy,julian.godoy@gmail.com,Colegiales,2023-11-14
+3,Mora Ponce,mora.ponce@hotmail.com,Caballito,2023-10-22
+4,Martina Miranda Cabrera,mcabrera@hotmail.com,Núñez,2023-12-07
+5,Juan Pablo Tiziano Valentin Godoy Vazquez,jvazquez@outlook.com,Palermo,2024-05-23
+6,Thiago Joaquin Pereyra Castillo,thiago.castillo21@outlook.com,Villa Crespo,2023-07-28
+7,Luna Guillermina Ruiz Peralta,luna_peralta@gmail.com,Recoleta,2023-08-11
+8,Isabel Acosta,isabel_acosta@outlook.com,Palermo,2024-01-31
+9,Lorenzo Martinez Villalba,lorenzo.villalba@yahoo.com,Recoleta,2023-08-28
+10,Juana Milagros Ferreyra,jferreyra@outlook.com,Colegiales,2023-06-12
+11,Amparo Ojeda,amparo.ojeda@hotmail.com,Villa Crespo,2024-06-02
+12,Thiago Jazmin Ramirez Gonzalez,thiago.gonzalez@yahoo.com,Villa Crespo,2023-01-24
+13,Candelaria Rodriguez,candelariarodriguez@outlook.com,Almagro,2023-07-01
+14,Clara Juan Ignacio Muñoz,clara.munoz@hotmail.com,Núñez,2024-04-18
+15,Bianca Elena Guzman Vega,bianca.vega21@yahoo.com,Villa Crespo,2024-06-02
+16,Ciro Mendoza Velazquez,cvelazquez@hotmail.com,Almagro,2024-03-26
+17,Lola Chavez Vazquez,lolavazquez@gmail.com,Almagro,2023-10-03
+18,Delfina Mendoza Gomez,delfinagomez@outlook.com,Caballito,2024-09-21
+19,Sr(a). Agustin Ojeda,sr(a)..ojeda51@hotmail.com,Villa Crespo,2023-08-07
+20,Juan Pablo Gomez Rojas,jrojas@outlook.com,Colegiales,2023-09-20
+21,Thiago Nicolas Lara Vargas,thiago.vargas75@outlook.com,Caballito,2024-07-31
+22,Dr(a). Jeremias Acosta,dacosta@yahoo.com,Recoleta,2024-03-21
+23,Thiago Fernandez,thiagofernandez@hotmail.com,Flores,2023-02-19
+24,Milagros Francisco Muñoz,milagros.munoz50@yahoo.com,Núñez,2023-06-22
+25,Morena Acuña,morena.acuna@gmail.com,Núñez,2024-02-26
+26,Dr(a). Sofía Pereyra,dr(a)._pereyra@gmail.com,Villa Crespo,2023-02-13
+27,Dr(a). Valentino Herrera,dr(a)..herrera@outlook.com,Núñez,2024-03-23
+28,Camila Thiago Nahuel Gonzalez Fernandez,camila.fernandez@outlook.com,Núñez,2024-10-18
+29,Delfina Emma Gonzalez,delfina_gonzalez@hotmail.com,Núñez,2024-09-25
+30,Francisco Maidana Ramirez,francisco.ramirez@outlook.com,Villa Urquiza,2023-06-19
+31,Jazmin Thiago Gabriel Castro Romero,jazmin_romero@hotmail.com,Palermo,2023-08-03
+32,Dr(a). Luz Milagros Lopez,dr(a)..lopez@gmail.com,Villa Urquiza,2024-10-09
+33,Sr(a). Renata Morales,smorales@hotmail.com,Belgrano,2024-02-16
+34,Dr(a). Valentino Ojeda,dr(a).ojeda@outlook.com,Núñez,2024-01-29
+35,Máximo Sebastian Escobar,maximoescobar@hotmail.com,Villa Crespo,2023-11-09
+36,Josefina Camila Fernandez Molina,josefina_molina@yahoo.com,Núñez,2023-06-08
+37,Lautaro Juan Bautista Moreno Quiroga,lautaroquiroga@gmail.com,Almagro,2023-10-31
+38,Candela Flores Fernandez,candelafernandez@hotmail.com,Palermo,2023-07-01
+39,Julian Federico Sosa Cordoba,julian.cordoba@hotmail.com,Recoleta,2024-09-14
+40,Benicio Francesca Castro,benicio.castro@hotmail.com,Villa Crespo,2024-09-28
+41,Joaquin Benjamin Rodriguez,jrodriguez@hotmail.com,Colegiales,2023-08-28
+42,Dr(a). Valentino Gonzalez,dr(a)..gonzalez32@yahoo.com,Caballito,2023-07-27
+43,Alma Mia Bianca Cabrera Romero,alma.romero85@outlook.com,Flores,2023-05-14
+44,Jazmin Gonzalez Gomez,jazmin.gomez@gmail.com,Palermo,2023-04-27
+45,Juan Cruz Santino Gomez,juan.gomez@hotmail.com,Caballito,2023-07-09
+46,Thiago Benjamin Juliana Franco,thiagofranco@yahoo.com,Belgrano,2023-04-30
+47,Francesco Miranda,francesco.miranda@yahoo.com,Núñez,2023-04-30
+48,Sr(a). Lorenzo Maidana,smaidana@gmail.com,Recoleta,2024-10-03
+49,Clara Benitez Flores,claraflores@yahoo.com,Villa Urquiza,2023-08-10
+50,Dr(a). Olivia Soto,dr(a)..soto@hotmail.com,Flores,2023-03-09
+51,Felipe Julian Dominguez Nuñez,felipe_nunez@yahoo.com,Villa Crespo,2023-06-22
+52,Julieta Micaela Hernandez,jhernandez@yahoo.com,Belgrano,2023-06-06
+53,Ignacio Martinez Rodriguez,ignacio.rodriguez@gmail.com,Almagro,2023-03-07
+54,Isabel Thiago Benjamin Fernandez Navarro,isabel.navarro75@hotmail.com,Palermo,2024-04-03
+55,Santino Agustin Lopez Rivero,santinorivero@gmail.com,Colegiales,2023-12-28
+56,Isabella Morena Figueroa Avila,isabella.avila31@gmail.com,Colegiales,2023-04-17
+57,Francisco Ivan Vera,francisco.vera@gmail.com,Flores,2024-01-21
+58,Ramiro Joaquín Soto,rsoto@outlook.com,Villa Crespo,2023-05-02
+59,Ignacio Rodriguez,ignacio_rodriguez@hotmail.com,Villa Crespo,2023-11-21
+60,Benjamin Thiago Gabriel Vazquez,benjamin_vazquez@yahoo.com,Almagro,2024-05-16
+61,Milena Luca Gimenez,milena.gimenez@yahoo.com,Colegiales,2024-01-28
+62,Dr(a). Santino Gabriel Velazquez,dr(a)..velazquez@hotmail.com,Núñez,2023-11-01
+63,Matias Fernandez Pereyra,matias.pereyra@hotmail.com,Almagro,2023-04-07
+64,Julian Maldonado Castillo,jcastillo@outlook.com,Colegiales,2024-10-26
+65,Mateo Ledesma Duarte,mduarte@gmail.com,Núñez,2023-05-04
+66,Sr(a). Josefina Dominguez,sr(a)..dominguez@hotmail.com,Villa Crespo,2023-01-14
+67,Dr(a). Julieta Diaz,ddiaz@hotmail.com,Villa Crespo,2023-10-02
+68,Martina Simon Rivero,martina_rivero@hotmail.com,Villa Crespo,2023-08-26
+69,Ambar Gomez,ambar.gomez@gmail.com,Flores,2024-06-26
+70,Morena Sosa,morena.sosa@outlook.com,Belgrano,2024-04-30
+71,Ciro Martinez Moreno,ciromoreno@yahoo.com,Núñez,2024-03-13
+72,Juan Bautista Joaquin Campos Lucero,juan.lucero@gmail.com,Recoleta,2024-02-29
+73,Alma Diaz Perez,almaperez@gmail.com,Almagro,2023-05-02
+74,Agustin Bustos Rojas,agustin.rojas19@hotmail.com,Palermo,2023-03-04
+75,Emma Muñoz Peralta,emma_peralta@hotmail.com,Caballito,2024-03-27
+76,Valentina Camila Cardozo Medina,vmedina@yahoo.com,Colegiales,2024-07-19
+77,Dr(a). Clara Sanchez,dr(a).sanchez@hotmail.com,Flores,2023-04-30
+78,Sofia Lautaro Cabrera Sanchez,sofia_sanchez@yahoo.com,Caballito,2023-04-09
+79,Dr(a). Ana Paula Farias,dr(a)..farias@yahoo.com,Palermo,2024-04-14
+80,Valentin Emilia Fernandez Garcia,valentingarcia@yahoo.com,Almagro,2023-09-13
+81,Felipe Milo Ojeda,felipeojeda@gmail.com,Caballito,2023-05-30
+82,Uma  Dylan Herrera Suarez,uma.suarez@outlook.com,Almagro,2024-01-01
+83,Luciana Ponce Garcia,lgarcia@outlook.com,Palermo,2023-11-29
+84,Francisco Ian Benjamin Ramirez Flores,franciscoflores@outlook.com,Palermo,2023-12-19
+85,Santiago Lucia Soria,santiago_soria@outlook.com,Flores,2024-07-26
+86,Sofia Delfina Carrizo Acosta,sofia.acosta@yahoo.com,Colegiales,2023-05-06
+87,Sr(a). Uma Correa,sr(a)..correa6@gmail.com,Núñez,2024-01-04
+88,Martina Romero,martinaromero@outlook.com,Flores,2023-03-01
+89,Joaquina Maldonado Romero,joaquina_romero@outlook.com,Recoleta,2024-05-19
+90,Lautaro Nahuel Ojeda Ramos,lramos@outlook.com,Flores,2023-12-09
+91,Martina Jazmin Molina,martina_molina@hotmail.com,Caballito,2023-12-15
+92,Lautaro Nahuel Ignacio Gonzalez,lautarogonzalez@outlook.com,Flores,2023-06-08
+93,Enzo Tomàs Peralta,enzo_peralta@outlook.com,Caballito,2023-12-25
+94,Pedro Emanuel Martinez,pmartinez@outlook.com,Villa Urquiza,2023-03-25
+95,Dr(a). Agustina Campos,dr(a).campos@yahoo.com,Belgrano,2024-04-26
+96,Catalina Gimenez Acosta,cacosta@outlook.com,Recoleta,2024-10-24
+97,Federico Luna,federicoluna@outlook.com,Caballito,2024-09-01
+98,Dr(a). Juan Cruz Lopez,dr(a)..lopez@gmail.com,Caballito,2024-07-13
+99,Luana Caceres Coronel,luana.coronel@yahoo.com,Flores,2024-04-29
+100,Sofia Villalba Martinez,sofiamartinez@yahoo.com,Villa Urquiza,2023-03-19
+101,Emanuel Alejo Ramirez,emanuel.ramirez@gmail.com,Flores,2023-10-21
+102,Bautista Gomez,bgomez@yahoo.com,Palermo,2023-11-26
+103,Nicolas Ignacio Chavez Castro,nicolas.castro16@hotmail.com,Villa Urquiza,2024-10-03
+104,Juan Manuel Ian Sanchez,jsanchez@outlook.com,Villa Urquiza,2024-03-24
+105,Sr(a). Lautaro Benjamin Martin,smartin@yahoo.com,Núñez,2023-05-06
+106,Isabella Paloma Vega Flores,isabella.flores21@yahoo.com,Villa Crespo,2024-03-07
+107,Thiago Nicolas Uma Dominguez,thiago_dominguez@yahoo.com,Caballito,2023-12-22
+108,Santino Matias Flores,santino_flores@hotmail.com,Villa Crespo,2023-05-12
+109,Dr(a). Santino Castillo,dr(a)..castillo@hotmail.com,Belgrano,2023-11-12
+110,Giuliana Alma Lopez,giulianalopez@hotmail.com,Recoleta,2023-11-18
+111,Francisco Sanchez,fsanchez@yahoo.com,Flores,2023-10-17
+112,Sr(a). Malena Lopez,sr(a)..lopez54@gmail.com,Colegiales,2023-07-08
+113,Thiago Benjamin Garcia Diaz,thiago_diaz@outlook.com,Flores,2024-01-28
+114,Carmela Paulina Gomez Gomez,cgomez@hotmail.com,Villa Urquiza,2023-12-23
+115,Catalina Santino Lopez,catalina.lopez56@gmail.com,Flores,2023-10-10
+116,Luciana Juan Ignacio Rivero,luciana.rivero87@hotmail.com,Villa Urquiza,2024-10-20
+117,Sr(a). Juana Molina,smolina@gmail.com,Flores,2023-12-07
+118,Jeremias Alma Gonzalez Lopez,jeremias.lopez@gmail.com,Flores,2023-02-21
+119,Sr(a). Benicio Perez,sr(a).perez@gmail.com,Villa Crespo,2023-03-01
+120,Micaela Thiago Nahuel Franco,micaela.franco28@outlook.com,Almagro,2024-01-05
+121,Emanuel Nuñez Pereyra,emanuel_pereyra@yahoo.com,Villa Crespo,2024-10-24
+122,Vicente Sara Cabrera Diaz,vicente.diaz@gmail.com,Almagro,2023-11-21
+123,Tomàs Lautaro Nahuel Diaz Vargas,tomàs.vargas@gmail.com,Caballito,2023-04-24
+124,Lucía Rojas Franco,lfranco@hotmail.com,Caballito,2023-03-24
+125,Benjamin Vicente Valdez,benjamin.valdez@hotmail.com,Villa Urquiza,2024-07-02
+126,Sr(a). Renata Lopez,sr(a)._lopez@hotmail.com,Colegiales,2024-08-21
+127,Enzo Vazquez Aguirre,enzo.aguirre@hotmail.com,Villa Crespo,2023-04-27
+128,Joaquin Guillermina Lopez Sanchez,joaquin_sanchez@yahoo.com,Flores,2024-06-29
+129,Simon Villalba,simon.villalba@hotmail.com,Recoleta,2024-09-21
+130,Sofia Belen Malena Olivera,solivera@gmail.com,Colegiales,2024-06-01
+131,Dr(a). Agustin Gimenez,dgimenez@yahoo.com,Almagro,2023-12-23
+132,Malena Guadalupe Alvarez,malena_alvarez@gmail.com,Flores,2024-03-29
+133,Joaquin Ramirez Aguirre,joaquin.aguirre14@outlook.com,Villa Urquiza,2024-08-30
+134,Agustín Chavez,agustinchavez@outlook.com,Colegiales,2024-04-19
+135,Juan Ignacio Luna Morales Ramos,juan.ramos69@yahoo.com,Flores,2024-03-05
+136,Valentino Castillo,valentino_castillo@outlook.com,Caballito,2024-05-01
+137,Ciro Nuñez,ciro_nunez@yahoo.com,Caballito,2024-10-04
+138,Matilda Benjamin Gonzalez Martinez,mmartinez@yahoo.com,Almagro,2023-07-14
+139,Ian Ezequiel Castillo,iancastillo@yahoo.com,Caballito,2023-06-16
+140,Ana Paula Santino Herrera Muñoz,ana_munoz@outlook.com,Colegiales,2024-06-13
+141,Facundo Ambar Juarez,fjuarez@gmail.com,Núñez,2024-04-15
+142,Dr(a). Juana Sosa,dr(a).sosa@yahoo.com,Villa Urquiza,2023-10-01
+143,Alma Morales Avila,alma.avila31@yahoo.com,Villa Urquiza,2024-02-27
+144,Candela Morales Ferreyra,candela_ferreyra@hotmail.com,Flores,2024-08-22
+145,Joaquina Rodriguez Gimenez,jgimenez@outlook.com,Villa Urquiza,2023-08-08
+146,Dr(a). Luna Fernandez,dr(a)..fernandez45@outlook.com,Almagro,2024-05-11
+147,Benjamin Garcia Rodriguez,benjamin_rodriguez@outlook.com,Caballito,2023-06-25
+148,Joaquin Bautista Ramirez Velazquez,joaquin_velazquez@gmail.com,Núñez,2024-01-19
+149,Dr(a). Benicio Navarro,dr(a).navarro@hotmail.com,Caballito,2024-09-23
+150,Antonia Lopez,alopez@outlook.com,Recoleta,2024-01-22
+151,Sr(a). Maria Emilia Garcia,sr(a).garcia@outlook.com,Belgrano,2023-05-17
+152,Jazmin Gonzalez,jgonzalez@hotmail.com,Villa Crespo,2023-04-22
+153,Lucio Bianca Cardozo Duarte,lduarte@outlook.com,Belgrano,2024-03-06
+154,Martina Valentino Gomez Caceres,martina.caceres97@gmail.com,Palermo,2023-12-10
+155,Mia Valentina Ledesma,mia.ledesma61@yahoo.com,Almagro,2023-12-29
+156,Violeta Rodriguez Ramos,violeta_ramos@yahoo.com,Recoleta,2024-01-12
+157,Thiago Benjamin Maria Emilia Diaz Alvarez,thiago.alvarez52@gmail.com,Colegiales,2024-08-24
+158,Mateo Benjamin Bravo,mateobravo@hotmail.com,Colegiales,2024-10-20
+159,Juan David León Rodriguez,juanrodriguez@gmail.com,Núñez,2024-09-07
+160,Luciano Lopez,llopez@hotmail.com,Núñez,2023-04-16
+161,Elena Vega Peralta,elena_peralta@yahoo.com,Villa Crespo,2023-04-07
+162,Juan Cruz Alvarez Sanchez,jsanchez@gmail.com,Caballito,2024-02-09
+163,Juan Cruz Gonzalez,juan.gonzalez@hotmail.com,Caballito,2023-02-24
+164,Joaquin Catalina Coronel,joaquincoronel@gmail.com,Flores,2023-01-13
+165,Sr(a). Bautista Avila,sr(a)..avila77@outlook.com,Palermo,2023-01-10
+166,Felipe Juan Martin Gonzalez Olivera,felipe_olivera@yahoo.com,Recoleta,2024-03-10
+167,Sr(a). Sofía Benitez,sbenitez@hotmail.com,Flores,2023-01-25
+168,Catalina Delfina Martinez,catalinamartinez@outlook.com,Belgrano,2023-07-06
+169,Sr(a). Valentina Arias,sr(a)._arias@outlook.com,Villa Urquiza,2023-12-22
+170,Giuliana Lisandro Flores,giuliana_flores@yahoo.com,Villa Crespo,2023-07-13
+171,Alma Mia Gonzalez Blanco,alma.blanco64@gmail.com,Colegiales,2023-07-23
+172,Felipe Martina Suarez Valdez,felipe_valdez@outlook.com,Palermo,2023-02-19
+173,Sr(a). Juan Pablo Ruiz,sruiz@gmail.com,Villa Crespo,2023-04-11
+174,Sr(a). Thiago Quiroga,sr(a).quiroga@yahoo.com,Núñez,2024-01-23
+175,Victoria Benjamin Flores,victoriaflores@yahoo.com,Villa Urquiza,2024-02-01
+176,Emilia Antonella Perez Sanchez,emilia_sanchez@yahoo.com,Almagro,2023-12-23
+177,Benjamin Felipe Alvarez Nuñez,benjaminnunez@outlook.com,Flores,2024-09-04
+178,Isabella Francisco Vega,isabella.vega37@gmail.com,Villa Urquiza,2023-08-20
+179,Santino Camilo Rodriguez,santino_rodriguez@gmail.com,Flores,2024-02-23
+180,Santiago Medina,smedina@yahoo.com,Flores,2023-06-14
+181,Juan Ignacio Avila,juan_avila@yahoo.com,Villa Urquiza,2024-10-11
+182,Lautaro Avila,lautaro_avila@hotmail.com,Villa Crespo,2023-02-28
+183,Lautaro Constantino Aguero,lautaro.aguero90@gmail.com,Palermo,2024-01-18
+184,Mateo Mia Morena Franco Gonzalez,mateogonzalez@hotmail.com,Villa Crespo,2023-10-13
+185,Sr(a). Maria Luz Mendoza,sr(a)..mendoza71@gmail.com,Caballito,2024-06-17
+186,Felipe Tiziano Valentin Ramirez Herrera,felipe.herrera15@gmail.com,Belgrano,2023-12-30
+187,Dr(a). Manuel Juarez,dr(a)._juarez@outlook.com,Flores,2024-09-29
+188,Thiago Ezequiel Rodriguez,thiagorodriguez@yahoo.com,Núñez,2023-01-24
+189,Sr(a). Olivia Rodriguez,srodriguez@hotmail.com,Recoleta,2023-09-11
+190,Dr(a). Delfina Lopez,dr(a)._lopez@outlook.com,Palermo,2023-01-24
+191,Valentin Victoria Gimenez Gonzalez,vgonzalez@yahoo.com,Belgrano,2023-09-21
+192,Dr(a). Ciro Ramirez,dr(a)._ramirez@outlook.com,Núñez,2024-10-19
+193,Benjamin Ignacio Flores Perez,benjamin.perez49@outlook.com,Caballito,2024-02-02
+194,Ian Ezequiel Helena Gomez Bustos,ibustos@yahoo.com,Caballito,2024-03-03
+195,Abril Helena Rodriguez,abril.rodriguez@outlook.com,Villa Urquiza,2024-09-16
+196,Tiziano Diaz,tiziano.diaz49@hotmail.com,Villa Urquiza,2024-07-02
+197,Dylan Benjamin Valentino Molina Herrera,dherrera@outlook.com,Recoleta,2024-01-30
+198,Enzo Lopez,enzo.lopez@yahoo.com,Palermo,2024-06-22
+199,Bruno Diaz Torres,brunotorres@gmail.com,Villa Urquiza,2024-10-12
+200,Lisandro Gimenez,lisandro_gimenez@yahoo.com,Recoleta,2024-06-28
+201,Bautista Lautaro Benjamin Alvarez,balvarez@yahoo.com,Almagro,2024-05-03
+202,Francisca Vega Ojeda,francisca.ojeda98@gmail.com,Colegiales,2023-08-06
+203,Alexander Figueroa Correa,alexander_correa@hotmail.com,Recoleta,2023-05-14
+204,Milagros Constanza Navarro,milagros.navarro@yahoo.com,Belgrano,2024-07-28
+205,Camilo Benjamin Acosta Sosa,camilo.sosa@outlook.com,Palermo,2023-12-13
+206,Sr(a). Amparo Blanco,sr(a)..blanco48@hotmail.com,Caballito,2023-08-16
+207,Tomàs Julia Romero,tomàsromero@hotmail.com,Belgrano,2023-08-05
+208,Sr(a). Alma Mia Campos,scampos@hotmail.com,Villa Urquiza,2024-06-22
+209,Juan Cruz Thiago Nahuel Paez,juanpaez@yahoo.com,Villa Crespo,2023-10-23
+210,Antonio Ambar Navarro Herrera,antonio.herrera@yahoo.com,Villa Crespo,2024-08-31
+211,Sr(a). Guillermina Quiroga,sr(a)..quiroga@yahoo.com,Almagro,2024-02-10
+212,Agustina Martinez Gonzalez,agustina.gonzalez39@outlook.com,Villa Urquiza,2024-03-26
+213,Genaro Farias,genaro.farias26@yahoo.com,Recoleta,2023-04-19
+214,Renata Benjamin Martin,renata_martin@outlook.com,Villa Crespo,2023-06-25
+215,Benjamin Pedro Romero,benjamin.romero85@outlook.com,Palermo,2023-10-12
+216,Benicio Fernandez Juarez,benicio.juarez@yahoo.com,Villa Crespo,2024-10-26
+217,Renata Lopez,rlopez@outlook.com,Caballito,2024-04-11
+218,Santino Agustin Cruz Castillo,santino_castillo@hotmail.com,Recoleta,2024-04-07
+219,Guillermina Gonzalez Aguirre,guillermina.aguirre@outlook.com,Villa Urquiza,2023-05-18
+220,Sr(a). Juan Gabriel Guzman,sr(a).guzman@gmail.com,Villa Crespo,2023-11-11
+221,Valentino Milagros Blanco,valentinoblanco@hotmail.com,Belgrano,2024-09-14
+222,Victoria Gonzalez,vgonzalez@outlook.com,Belgrano,2023-01-25
+223,Sr(a). Mia Morena Gomez,sr(a)._gomez@outlook.com,Recoleta,2023-04-06
+224,Mia Jazmin Simon Fernandez,miafernandez@hotmail.com,Flores,2024-04-23
+225,Dylan Campos Sanchez,dylan_sanchez@gmail.com,Flores,2023-09-05
+226,Pilar Pilar Diaz Fernandez,pilar.fernandez@yahoo.com,Almagro,2024-02-09
+227,Sofia Fernandez,sofia_fernandez@yahoo.com,Almagro,2023-04-07
+228,Pilar Carrizo,pilar.carrizo30@gmail.com,Colegiales,2024-04-05
+229,Clara Rodriguez Torres,clara_torres@hotmail.com,Recoleta,2024-05-09
+230,Bautista Benjamin Gonzalo Gonzalez Vargas,bautista_vargas@yahoo.com,Recoleta,2023-06-30
+231,Maria Guadalupe Isabella Rojas,maria_rojas@yahoo.com,Recoleta,2023-06-25
+232,Zoe Jazmin Toledo Barrios,zoebarrios@yahoo.com,Villa Urquiza,2023-02-12
+233,Dr(a). Luisana Gonzalez,dgonzalez@yahoo.com,Colegiales,2024-09-06
+234,Victoria Clara Coronel,victoria.coronel20@gmail.com,Villa Urquiza,2024-01-05
+235,Joaquin Santiago Ferreyra Gomez,joaquin.gomez@outlook.com,Caballito,2023-12-14
+236,Bruno Vega Rojas,bruno_rojas@gmail.com,Almagro,2023-05-24
+237,Zoe Valentina Rios,zoe_rios@gmail.com,Flores,2023-06-17
+238,Joaquín Juan Ignacio Ferreyra,joaquin.ferreyra16@gmail.com,Caballito,2024-10-08
+239,Valentino Josefina Aguirre,valentino.aguirre@gmail.com,Almagro,2023-11-14
+240,Uma  Gonzalo Benitez Lucero,ulucero@hotmail.com,Recoleta,2024-06-16
+241,Francesco Pilar Gonzalez,francescogonzalez@hotmail.com,Caballito,2023-05-05
+242,Santiago Rivero,srivero@gmail.com,Villa Crespo,2024-04-29
+243,Thiago Lionel Lopez,thiagolopez@outlook.com,Belgrano,2023-08-21
+244,Dr(a). Mateo Lopez,dr(a).lopez@gmail.com,Almagro,2024-10-12
+245,Dr(a). Bruno Perez,dperez@outlook.com,Palermo,2023-08-18
+246,Mia Soto Lopez,mialopez@yahoo.com,Núñez,2023-06-01
+247,Sr(a). Josefina Lopez,sr(a)..lopez9@yahoo.com,Almagro,2023-05-17
+248,Francesca Kiara Herrera,francesca.herrera14@hotmail.com,Colegiales,2023-03-11
+249,Bautista Simon Gonzalez Sosa,bsosa@outlook.com,Villa Urquiza,2024-10-04
+250,Maximiliano Alvarez Ruiz,maximiliano.ruiz@yahoo.com,Flores,2023-04-19
+251,Tomas Thiago Emanuel Lopez,tomas.lopez14@yahoo.com,Recoleta,2024-05-15
+252,Lautaro Nahuel Lucía Correa,lcorrea@hotmail.com,Recoleta,2023-08-13
+253,Mateo Agustin Santino Benjamin Diaz,mdiaz@outlook.com,Flores,2024-04-07
+254,Catalina Rojas,catalina_rojas@yahoo.com,Núñez,2024-05-25
+255,Amparo Josefina Lopez Carrizo,amparo.carrizo@hotmail.com,Flores,2023-10-29
+256,Simon Farias,simon.farias30@outlook.com,Villa Urquiza,2023-09-07
+257,Juan Ignacio Rodriguez Lopez,juan.lopez@outlook.com,Flores,2023-04-24
+258,Joaquín Carrizo,joaquin_carrizo@hotmail.com,Villa Urquiza,2023-11-11
+259,Santino Gabriel Rivero Ruiz,santino.ruiz@yahoo.com,Recoleta,2024-04-04
+260,Sr(a). Santino Godoy,sr(a).godoy@gmail.com,Colegiales,2024-04-03
+261,Dr(a). Sofia Rios,dr(a)._rios@gmail.com,Flores,2023-06-15
+262,Paulina Villalba Fernandez,paulina.fernandez86@gmail.com,Villa Crespo,2024-09-16
+263,Sofia Navarro Coronel,sofia.coronel@hotmail.com,Belgrano,2024-08-29
+264,Nahiara Jazmin Sanchez,nahiara.sanchez@outlook.com,Núñez,2023-05-09
+265,Dr(a). Francisco Rodriguez,dr(a)._rodriguez@hotmail.com,Flores,2024-01-28
+266,Dr(a). Lola Moreno,dmoreno@gmail.com,Colegiales,2024-04-08
+267,Dr(a). Bautista Bravo,dr(a)._bravo@gmail.com,Belgrano,2023-09-20
+268,Mateo Lola Romero,mateo_romero@outlook.com,Almagro,2023-07-24
+269,Sofia Belen Federico Maldonado Gonzalez,sgonzalez@yahoo.com,Recoleta,2023-09-30
+270,Delfina Soria Diaz,delfina.diaz@gmail.com,Núñez,2023-05-05
+271,Juan Francisco Valentina Gonzalez Velazquez,juan.velazquez54@outlook.com,Belgrano,2023-04-11
+272,Lautaro Cabrera,lautaro_cabrera@gmail.com,Palermo,2023-07-09
+273,Tiziano Luciano Campos Bustos,tbustos@gmail.com,Recoleta,2023-01-15
+274,Morena Felipe Mendez,morena.mendez85@yahoo.com,Colegiales,2023-06-06
+275,Sr(a). Juan Cruz Medina,sr(a).medina@gmail.com,Almagro,2023-08-22
+276,Thiago Agustin Villalba,tvillalba@yahoo.com,Núñez,2024-09-13
+277,Zoe Ana Paula Ojeda Lopez,zoelopez@yahoo.com,Colegiales,2023-10-12
+278,Sr(a). Benjamin Ferreyra,sr(a)._ferreyra@hotmail.com,Belgrano,2024-07-21
+279,Ana Paula Ignacio Ramos Moreno,ana_moreno@gmail.com,Palermo,2023-06-19
+280,Sr(a). Sara Fernandez,sr(a).fernandez@hotmail.com,Flores,2023-10-17
+281,Alma Rodriguez Gimenez,agimenez@outlook.com,Recoleta,2023-12-21
+282,Abril Dominguez Godoy,abril.godoy@yahoo.com,Palermo,2023-05-19
+283,Dr(a). Facundo Leiva,dr(a)._leiva@yahoo.com,Colegiales,2023-06-12
+284,Julian Catalina Lopez,julian.lopez82@outlook.com,Recoleta,2023-06-26
+285,Catalina Sosa Juarez,catalinajuarez@yahoo.com,Almagro,2023-01-12
+286,Sr(a). Renata Sanchez,sr(a).sanchez@yahoo.com,Colegiales,2023-03-29
+287,Bautista Benjamin Godoy Guzman,bautista.guzman11@outlook.com,Almagro,2023-01-07
+288,Juan Pablo Guadalupe Gomez Ojeda,juan.ojeda@gmail.com,Núñez,2023-04-08
+289,Juan Ignacio Ojeda Pereyra,juan_pereyra@hotmail.com,Caballito,2023-09-09
+290,Gabriel Lucero Ramirez,gabrielramirez@hotmail.com,Colegiales,2023-03-04
+291,Ian Benjamin Gonzalez Suarez,ian.suarez@hotmail.com,Villa Urquiza,2023-04-13
+292,Juana Torres Gonzalez,jgonzalez@yahoo.com,Colegiales,2024-05-08
+293,Lautaro Benjamin Nina Maidana,lautaro_maidana@outlook.com,Belgrano,2023-03-14
+294,Sr(a). Sofia Rodriguez,sr(a)..rodriguez61@outlook.com,Villa Crespo,2023-01-12
+295,Josefina Sofia Rodriguez,jrodriguez@gmail.com,Villa Crespo,2023-02-02
+296,Bautista Juan Martin Rojas,bautista.rojas@outlook.com,Villa Crespo,2023-08-23
+297,Lucas Guadalupe Ferreyra Muñoz,lmunoz@yahoo.com,Villa Urquiza,2023-04-07
+298,Maia Castro Franco,maia.franco@yahoo.com,Colegiales,2024-07-20
+299,Martina Lucio Fernandez,mfernandez@yahoo.com,Núñez,2023-03-28
+300,Josefina Justina Aguirre Correa,josefina.correa8@gmail.com,Almagro,2024-06-13
+301,Olivia Maidana,omaidana@hotmail.com,Palermo,2023-02-22
+302,Sr(a). Juan Cruz Coronel,sr(a)..coronel57@hotmail.com,Almagro,2023-07-26
+303,León Sanchez Maidana,leon.maidana37@yahoo.com,Almagro,2024-02-08
+304,Valentina  Bautista Benjamin Perez,valentina_perez@gmail.com,Almagro,2023-02-28
+305,Camila Ramirez Vargas,camila.vargas87@outlook.com,Villa Crespo,2024-09-14
+306,Sr(a). Tiziano Diaz,sdiaz@hotmail.com,Almagro,2023-05-20
+307,Santino Campos,santinocampos@outlook.com,Villa Crespo,2024-01-25
+308,Sr(a). Thiago Benjamin Juarez,sr(a)..juarez90@hotmail.com,Colegiales,2024-08-26
+309,Lucía Martina Arias,lucia_arias@yahoo.com,Almagro,2024-02-21
+310,Gonzalo Silva,gsilva@gmail.com,Flores,2023-03-08
+311,Isabella Diaz Rodriguez,isabella_rodriguez@outlook.com,Belgrano,2024-05-26
+312,Juan Gabriel Campos Gutierrez,juan.gutierrez44@hotmail.com,Caballito,2024-04-01
+313,Dr(a). Luz Milagros Rojas,dr(a)..rojas@outlook.com,Recoleta,2023-03-31
+314,Luciano Mateo Ezequiel Barrios,lbarrios@gmail.com,Almagro,2024-02-15
+315,Martina Rodriguez,martinarodriguez@yahoo.com,Belgrano,2023-02-21
+316,Lucía Sofia Rojas Diaz,ldiaz@hotmail.com,Villa Urquiza,2023-01-22
+317,Alma Valentina Garcia Moreno,almamoreno@yahoo.com,Colegiales,2023-01-26
+318,Sr(a). Ignacio Romero,sr(a)..romero96@hotmail.com,Núñez,2023-06-21
+319,Isabella Roldan,isabellaroldan@outlook.com,Colegiales,2024-04-29
+320,Helena Juarez,helena_juarez@yahoo.com,Núñez,2023-01-31
+321,Alejo Silva,alejosilva@hotmail.com,Villa Crespo,2023-05-03
+322,Angelina Campos Flores,angelina_flores@gmail.com,Núñez,2024-01-12
+323,Julieta Quiroga Villalba,julieta.villalba@hotmail.com,Villa Crespo,2023-11-01
+324,Juan Gabriel Maia Nuñez Fernandez,juanfernandez@yahoo.com,Recoleta,2024-04-03
+325,Constantino Figueroa,constantino.figueroa29@outlook.com,Palermo,2023-08-26
+326,Maria Paz Alma Jazmin Cabrera,mcabrera@outlook.com,Caballito,2023-11-30
+327,Julieta Sosa,julieta_sosa@hotmail.com,Palermo,2023-01-03
+328,Dr(a). Juan Cruz Martinez,dr(a)._martinez@hotmail.com,Belgrano,2023-12-03
+329,Benjamin Muñoz,benjaminmunoz@yahoo.com,Villa Urquiza,2024-07-11
+330,Thiago Josefina Diaz,thiago.diaz@outlook.com,Caballito,2024-01-24
+331,Francisco Catalina Campos,fcampos@yahoo.com,Recoleta,2024-03-03
+332,Sr(a). Santino Benjamin Bustos,sr(a)._bustos@gmail.com,Palermo,2023-07-26
+333,Candela Bruno Alvarez,calvarez@yahoo.com,Recoleta,2023-03-10
+334,Sr(a). Lautaro Benjamin Vazquez,svazquez@gmail.com,Núñez,2023-10-23
+335,Emma Juan Manuel Maldonado Sanchez,emmasanchez@outlook.com,Flores,2023-11-20
+336,Juan Martin Alvarez Rojas,juanrojas@yahoo.com,Belgrano,2024-06-20
+337,Renzo Torres Herrera,rherrera@outlook.com,Recoleta,2024-03-17
+338,Thiago Enzo Gonzalez,tgonzalez@gmail.com,Flores,2024-10-07
+339,Octavio Sebastian Vera Ayala,octavio.ayala6@outlook.com,Villa Crespo,2024-10-10
+340,Francesca Thiago Ferreyra Rodriguez,francesca.rodriguez@outlook.com,Caballito,2024-09-09
+341,Maria Belen Francesca Barrios Romero,maria.romero@outlook.com,Belgrano,2023-05-28
+342,Tobias Molina Juarez,tobias_juarez@hotmail.com,Villa Urquiza,2024-03-05
+343,Antonella Martina Medina Godoy,antonellagodoy@hotmail.com,Recoleta,2024-09-25
+344,Sr(a). Julieta Gonzalez,sr(a)..gonzalez@outlook.com,Caballito,2023-06-15
+345,Dr(a). Delfina Molina,dr(a)..molina@outlook.com,Villa Crespo,2023-03-30
+346,Valentina Jazmin Emilia Carrizo,valentina.carrizo70@outlook.com,Palermo,2024-07-23
+347,Felipe Garcia Diaz,felipe_diaz@outlook.com,Palermo,2024-04-10
+348,Santino Benjamin Ludmila Gutierrez,santino_gutierrez@gmail.com,Almagro,2023-02-04
+349,Tobias Antonia Castillo Alvarez,tobias.alvarez52@yahoo.com,Almagro,2024-04-02
+350,Dr(a). Francesca Fernandez,dr(a)..fernandez64@outlook.com,Núñez,2023-05-05
+351,Santino Juan Cruz Perez,santino.perez11@gmail.com,Flores,2024-06-04
+352,Isabella Ciro Benitez,ibenitez@outlook.com,Almagro,2023-07-17
+353,Dr(a). Clara Farias,dr(a)._farias@outlook.com,Villa Urquiza,2024-08-05
+354,Thiago Benjamin Bautista Benjamin Cardozo Herrera,thiagoherrera@yahoo.com,Almagro,2023-11-17
+355,Sofía Maidana Sanchez,sofia_sanchez@yahoo.com,Villa Crespo,2024-03-20
+356,Guadalupe Romero Ruiz,guadalupe.ruiz@yahoo.com,Almagro,2023-04-11
+357,Juan David Olivia Gomez Ruiz,juanruiz@gmail.com,Belgrano,2024-06-12
+358,Nicolas Fernandez,nicolas.fernandez87@gmail.com,Belgrano,2023-08-03
+359,Valentino Valentina Diaz Garcia,valentino_garcia@outlook.com,Flores,2024-03-27
+360,Olivia Matilda Ledesma,oledesma@hotmail.com,Villa Urquiza,2024-09-01
+361,Dr(a). Mateo Agustin Molina,dr(a)..molina48@gmail.com,Colegiales,2023-04-17
+362,Valentino Cabrera,valentino.cabrera47@outlook.com,Villa Crespo,2023-02-05
+363,Julieta Ignacio Flores,julieta.flores@hotmail.com,Villa Urquiza,2023-07-07
+364,Lorenzo Valentina  Lopez Morales,lorenzo.morales@outlook.com,Villa Crespo,2024-01-12
+365,Emma Gutierrez,egutierrez@outlook.com,Villa Urquiza,2023-01-02
+366,Lisandro Agustin Correa Martinez,lisandro.martinez@yahoo.com,Belgrano,2024-07-18
+367,Bianca Silva Rodriguez,bianca.rodriguez@outlook.com,Almagro,2024-01-04
+368,Maria Victoria Perez,mperez@outlook.com,Villa Crespo,2024-04-28
+369,Juan Ignacio Mansilla Alvarez,juanalvarez@outlook.com,Núñez,2023-05-26
+370,Jazmin Mansilla Gomez,jazmingomez@hotmail.com,Villa Urquiza,2023-09-22
+371,Isabella Nicolas Gomez Gonzalez,igonzalez@outlook.com,Villa Urquiza,2024-03-02
+372,Sr(a). Gonzalo Bustos,sr(a).bustos@gmail.com,Recoleta,2023-01-24
+373,Simon Suarez Coronel,simon.coronel92@yahoo.com,Flores,2024-09-27
+374,Dr(a). Constantino Molina,dr(a).molina@outlook.com,Recoleta,2023-10-24
+375,Catalina Bruno Leiva Rodriguez,crodriguez@outlook.com,Belgrano,2024-10-17
+376,Dr(a). Milagros Morales,dmorales@hotmail.com,Belgrano,2023-09-25
+377,Sr(a). Victoria Rodriguez,sr(a)..rodriguez@hotmail.com,Villa Crespo,2023-03-24
+378,Salvador Josefina Barrios Rodriguez,salvadorrodriguez@outlook.com,Núñez,2024-09-02
+379,Manuel Fernandez Perez,manuel_perez@hotmail.com,Núñez,2023-04-22
+380,Genaro Gomez Ponce,genaro_ponce@gmail.com,Núñez,2024-01-22
+381,Emma Martina Lucero,elucero@hotmail.com,Belgrano,2024-08-20
+382,Juana Agostina Benitez Fernandez,jfernandez@outlook.com,Colegiales,2023-06-26
+383,Benjamin Julieta Lopez,benjamin.lopez@gmail.com,Colegiales,2023-04-23
+384,Dr(a). Benjamin Vazquez,dvazquez@yahoo.com,Colegiales,2024-10-02
+385,Bautista Agostina Perez,bperez@outlook.com,Villa Crespo,2023-02-05
+386,Martina Rios,martina.rios88@outlook.com,Villa Urquiza,2023-12-28
+387,Luca Bianca Medina Medina,lucamedina@yahoo.com,Flores,2023-10-06
+388,Thiago Nicolas Paz,thiago_paz@hotmail.com,Almagro,2024-07-15
+389,Isabella Vega Acosta,isabella_acosta@yahoo.com,Belgrano,2024-01-22
+390,Juan Gabriel Acosta,jacosta@gmail.com,Almagro,2023-11-05
+391,Lorenzo Gonzalez,lorenzo_gonzalez@yahoo.com,Caballito,2023-11-01
+392,Ian Benjamin Gonzalez Ramirez,ian_ramirez@yahoo.com,Colegiales,2023-02-22
+393,Candelaria Agostina Mendez,candelaria_mendez@outlook.com,Caballito,2024-02-11
+394,Tiziano Benjamin Thiago Benjamin Rojas,trojas@yahoo.com,Villa Urquiza,2024-03-27
+395,Gonzalo Maximo Sanchez,gonzalo.sanchez@gmail.com,Flores,2023-03-09
+396,Bianca Ramos,biancaramos@outlook.com,Palermo,2023-08-04
+397,Angelina Leiva Romero,aromero@yahoo.com,Villa Crespo,2023-04-04
+398,Ivan Aguirre,ivan.aguirre14@hotmail.com,Villa Crespo,2024-01-21
+399,Thiago Ignacio Soria Bustos,thiago.bustos98@outlook.com,Palermo,2023-05-29
+400,Tiziano Benjamin Silva,tsilva@hotmail.com,Almagro,2023-02-07
+401,Josefina Martinez,josefina.martinez10@yahoo.com,Núñez,2023-11-27
+402,Bautista Ramirez,bramirez@gmail.com,Belgrano,2024-08-26
+403,Elena Thiago Paez Torres,elena_torres@outlook.com,Núñez,2024-04-20
+404,Manuel Mia Morena Gutierrez,manuelgutierrez@hotmail.com,Colegiales,2023-04-11
+405,Sr(a). Mateo Gomez,sr(a)..gomez@gmail.com,Palermo,2023-12-20
+406,Milagros Juan Cruz Correa Carrizo,milagros.carrizo43@yahoo.com,Belgrano,2024-02-18
+407,Paloma Delfina Romero Figueroa,palomafigueroa@outlook.com,Colegiales,2023-03-04
+408,Milena Gomez,mgomez@outlook.com,Colegiales,2023-08-12
+409,Mateo Coronel,mcoronel@yahoo.com,Colegiales,2023-12-24
+410,Benicio Juan Ignacio Paez Lopez,benicio_lopez@outlook.com,Recoleta,2024-02-13
+411,Sofia Belen Vera Perez,sofia_perez@gmail.com,Colegiales,2023-10-14
+412,Juana Arias,jarias@hotmail.com,Palermo,2023-02-16
+413,Justina Paez Diaz,jdiaz@yahoo.com,Belgrano,2024-06-04
+414,Ignacio Soto,ignacio.soto@gmail.com,Caballito,2023-02-05
+415,Ludmila Morena Perez Dominguez,ludmila.dominguez41@hotmail.com,Flores,2024-01-29
+416,Isabella Ramirez,iramirez@yahoo.com,Palermo,2024-07-28
+417,Ludmila Gomez,ludmilagomez@outlook.com,Villa Urquiza,2023-04-28
+418,Lucía Emma Gonzalez Romero,luciaromero@yahoo.com,Núñez,2023-12-25
+419,Maria Victoria Thiago Benjamin Torres,maria_torres@yahoo.com,Caballito,2024-03-09
+420,Sr(a). Ian Benjamin Escobar,sescobar@outlook.com,Caballito,2024-04-27
+421,Alma Romero Aguero,alma_aguero@hotmail.com,Villa Urquiza,2023-01-21
+422,Sr(a). Juan Ignacio Maidana,smaidana@outlook.com,Villa Crespo,2023-01-21
+423,Florencia Ciro Blanco,fblanco@yahoo.com,Flores,2024-04-22
+424,Bautista Giuliana Toledo,bautistatoledo@outlook.com,Palermo,2023-09-08
+425,Ian Catalina Juarez,ian.juarez@outlook.com,Villa Urquiza,2024-06-26
+426,Thiago Lionel Priscila Duarte Dominguez,thiago.dominguez96@hotmail.com,Caballito,2024-07-01
+427,Josefina Ambar Torres,jtorres@outlook.com,Belgrano,2023-04-26
+428,Martina Tiziano Luna Romero,mromero@hotmail.com,Caballito,2023-03-31
+429,Uma Santiago Gomez Rodriguez,umarodriguez@hotmail.com,Palermo,2023-02-25
+430,Sr(a). Ian Benjamin Hernandez,sr(a)..hernandez43@gmail.com,Belgrano,2023-10-24
+431,Santino Garcia,santinogarcia@yahoo.com,Villa Urquiza,2023-04-08
+432,Dr(a). Angel Gabriel Rodriguez,dr(a)._rodriguez@outlook.com,Villa Crespo,2024-09-06
+433,Josefina Perez,josefina.perez@hotmail.com,Núñez,2024-09-13
+434,Uma  Mia Valentina Torres,umatorres@yahoo.com,Belgrano,2024-07-21
+435,Lola Mateo Lopez Alvarez,lola.alvarez5@yahoo.com,Belgrano,2024-08-10
+436,Benjamin Mendoza,benjamin.mendoza@gmail.com,Villa Crespo,2023-08-08
+437,Guillermina Juana Farias Gomez,guillermina_gomez@outlook.com,Villa Urquiza,2024-05-04
+438,Felipe Luna,fluna@yahoo.com,Belgrano,2024-03-29
+439,Nahuel Paez,nahuel_paez@hotmail.com,Recoleta,2023-10-09
+440,Camila Lopez Miranda,camila.miranda94@outlook.com,Belgrano,2023-11-03
+441,Manuel Santino Garcia Gonzalez,manuel_gonzalez@hotmail.com,Belgrano,2024-05-26
+442,Dr(a). Charo Rivero,dr(a)..rivero82@yahoo.com,Núñez,2023-02-27
+443,Dr(a). Bautista Soria,dr(a)..soria@hotmail.com,Belgrano,2023-06-14
+444,Catalina Flores,catalina.flores@outlook.com,Flores,2023-06-04
+445,Ignacio Ruiz,ignacio_ruiz@outlook.com,Villa Crespo,2023-05-30
+446,Dr(a). Emma Mendoza,dr(a)..mendoza@outlook.com,Almagro,2024-09-09
+447,Sr(a). Juan Martin Garcia,sr(a)..garcia@yahoo.com,Villa Crespo,2023-06-28
+448,Facundo Leiva Aguirre,faguirre@outlook.com,Recoleta,2024-03-21
+449,Dr(a). Julieta Lopez,dr(a)._lopez@hotmail.com,Caballito,2024-10-12
+450,Maximiliano Cordoba,maximilianocordoba@yahoo.com,Colegiales,2023-03-31
+451,Ciro Fernandez,cfernandez@yahoo.com,Núñez,2024-06-14
+452,Joaquin Gonzalez Ramirez,joaquinramirez@gmail.com,Núñez,2023-05-30
+453,Violeta Morena Jazmin Correa Vega,violeta_vega@gmail.com,Colegiales,2023-08-20
+454,Felipe Lautaro Sosa,fsosa@hotmail.com,Colegiales,2023-08-09
+455,Lautaro Micaela Gomez,lautaro_gomez@yahoo.com,Recoleta,2024-06-09
+456,Alma Valentina Gomez Garcia,agarcia@yahoo.com,Recoleta,2024-09-06
+457,Dr(a). Valentin Correa,dr(a)..correa@yahoo.com,Belgrano,2023-02-17
+458,Benjamin Gutierrez Ledesma,bledesma@gmail.com,Núñez,2023-06-18
+459,Juan Martin Rojas Fernandez,juan.fernandez@yahoo.com,Villa Crespo,2024-03-06
+460,Martina Garcia Peralta,martinaperalta@gmail.com,Palermo,2023-08-21
+461,Bautista Sanchez,bautista.sanchez@gmail.com,Recoleta,2024-06-22
+462,Delfina Ramos,delfina.ramos@outlook.com,Flores,2023-01-04
+463,Felipe Sanchez,felipe.sanchez18@outlook.com,Flores,2023-03-07
+464,Bautista Benjamin Medina,bautista.medina49@gmail.com,Núñez,2023-10-14
+465,Emilia Herrera,emilia.herrera@hotmail.com,Núñez,2023-06-28
+466,Bautista Gutierrez,bautistagutierrez@gmail.com,Palermo,2024-10-05
+467,Victoria Roldan,vroldan@yahoo.com,Núñez,2023-06-14
+468,Valentino Cardozo,valentinocardozo@yahoo.com,Almagro,2023-06-21
+469,Sr(a). Thiago Agustin Castillo,sr(a)..castillo@gmail.com,Flores,2024-08-09
+470,Dr(a). Bruno Roldan,dr(a).roldan@hotmail.com,Recoleta,2023-03-26
+471,Juan Ignacio Ignacio Ortiz Dominguez,juan.dominguez5@gmail.com,Caballito,2024-09-23
+472,Dr(a). Julieta Franco,dr(a)..franco52@hotmail.com,Núñez,2023-09-27
+473,Victoria Maria Victoria Gomez Ferreyra,victoriaferreyra@outlook.com,Caballito,2024-06-29
+474,Dr(a). Miguel Angel Fernandez,dfernandez@outlook.com,Colegiales,2023-01-11
+475,Sr(a). Catalina Lopez,sr(a)._lopez@hotmail.com,Villa Crespo,2024-01-15
+476,Sol Joaquin Roldan,sroldan@hotmail.com,Flores,2023-12-25
+477,Carmela Priscila Martinez Roldan,croldan@hotmail.com,Flores,2023-12-01
+478,Dr(a). Valentin Villalba,dr(a)._villalba@yahoo.com,Núñez,2023-02-01
+479,Joaquín Emma Vazquez,joaquin.vazquez54@hotmail.com,Villa Crespo,2023-04-05
+480,Sofia Garcia,sgarcia@yahoo.com,Caballito,2024-09-10
+481,Dr(a). Ciro Aguirre,dr(a).aguirre@yahoo.com,Palermo,2023-01-19
+482,Sr(a). Valentina  Ortiz,sortiz@hotmail.com,Flores,2023-07-07
+483,Dylan Ezequiel Juan Ignacio Lopez,dylan_lopez@gmail.com,Villa Urquiza,2024-04-22
+484,Dante Faustino Duarte Luna,dluna@hotmail.com,Palermo,2023-01-25
+485,Sofia Sanchez,ssanchez@gmail.com,Recoleta,2023-12-20
+486,Sr(a). Julieta Aguirre,saguirre@hotmail.com,Villa Urquiza,2023-12-20
+487,Valentina Jazmin Sofia Lucero,valentina_lucero@gmail.com,Caballito,2024-01-04
+488,Dr(a). Olivia Pereyra,dr(a)..pereyra@yahoo.com,Caballito,2024-04-16
+489,Valentino Miranda Avila,valentinoavila@yahoo.com,Caballito,2023-03-25
+490,Dr(a). Francesco Rodriguez,dr(a)..rodriguez37@yahoo.com,Núñez,2024-10-17
+491,Benjamin Castillo Torres,benjamin_torres@outlook.com,Núñez,2024-03-21
+492,Santiago Benjamin Martin Sanchez,santiago.sanchez@yahoo.com,Almagro,2024-06-08
+493,Agustina Cruz Cordoba,agustina_cordoba@yahoo.com,Palermo,2023-04-25
+494,Sr(a). Benjamin Ortiz,sr(a).ortiz@gmail.com,Villa Crespo,2023-08-13
+495,Santino Alvarez Sanchez,ssanchez@yahoo.com,Villa Crespo,2023-09-22
+496,Simon Lucero,simonlucero@yahoo.com,Colegiales,2024-08-19
+497,Sr(a). Camila Dominguez,sdominguez@outlook.com,Villa Crespo,2024-07-24
+498,Alejo Gutierrez,alejo.gutierrez63@yahoo.com,Belgrano,2024-01-24
+499,Dr(a). Isabella Romero,dr(a).romero@hotmail.com,Núñez,2023-11-18
+500,Bianca Gael Luna,bianca.luna@gmail.com,Recoleta,2024-05-07
+501,Benjamin Sanchez Dominguez,benjamin.dominguez@gmail.com,Flores,2023-09-28
+502,Dr(a). Lautaro Suarez,dr(a).suarez@gmail.com,Belgrano,2023-10-06
+503,Benjamin Felipe Gonzalez Duarte,benjamin.duarte65@outlook.com,Palermo,2024-04-20
+504,Alma Jazmin Paz Martinez,amartinez@yahoo.com,Villa Urquiza,2023-05-22
+505,Santiago Gonzalez,sgonzalez@yahoo.com,Palermo,2023-08-21
+506,Dr(a). Ian Benjamin Flores,dr(a)._flores@outlook.com,Palermo,2023-06-26
+507,Joaquin Thiago Gabriel Gimenez Bustos,joaquin.bustos90@hotmail.com,Recoleta,2024-09-02
+508,Benicio Maldonado,beniciomaldonado@hotmail.com,Caballito,2024-02-15
+509,Matilda Ledesma Juarez,matilda_juarez@outlook.com,Flores,2023-11-24
+510,Benicio Martina Ruiz,benicio.ruiz52@hotmail.com,Caballito,2023-06-14
+511,Maite Suarez,maite.suarez@gmail.com,Flores,2023-03-23
+512,Emilia Rodriguez,emilia.rodriguez71@gmail.com,Palermo,2024-07-28
+513,Dr(a). Isabella Maidana,dr(a)..maidana11@yahoo.com,Almagro,2023-03-20
+514,Mora Mia Morena Cabrera,mcabrera@gmail.com,Caballito,2023-07-16
+515,Sr(a). Malena Maldonado,smaldonado@yahoo.com,Villa Crespo,2023-09-22
+516,Joaquin Ramirez,joaquin_ramirez@gmail.com,Belgrano,2024-08-24
+517,Jeremias Santino Torres Farias,jeremias.farias@hotmail.com,Colegiales,2023-02-23
+518,Ambar Micaela Gonzalez,ambar.gonzalez92@gmail.com,Villa Crespo,2023-08-04
+519,Thiago Agustin Maia Romero Morales,tmorales@yahoo.com,Núñez,2023-03-31
+520,Sr(a). Thiago Ezequiel Alvarez,sr(a).alvarez@gmail.com,Núñez,2024-06-14
+521,Benicio Rodriguez,benicio.rodriguez@gmail.com,Flores,2023-04-22
+522,Milo Sofia Gomez Toledo,milo_toledo@yahoo.com,Almagro,2023-12-16
+523,Zoe Jazmin Morales Vazquez,zoe.vazquez35@yahoo.com,Caballito,2023-07-20
+524,Valentino Amparo Aguirre,valentino.aguirre49@hotmail.com,Colegiales,2024-02-10
+525,Tomàs Ruiz Gonzalez,tgonzalez@outlook.com,Caballito,2024-05-17
+526,Valentino Soto,valentino_soto@hotmail.com,Flores,2024-08-06
+527,Delfina Nina Duarte Martinez,delfinamartinez@yahoo.com,Almagro,2023-06-17
+528,Sr(a). Jazmin Benitez,sr(a)..benitez@outlook.com,Villa Urquiza,2023-12-07
+529,Camila Julieta Cardozo,camila.cardozo@hotmail.com,Recoleta,2023-08-26
+530,Juan Francisco Correa Dominguez,jdominguez@yahoo.com,Recoleta,2023-08-30
+531,Sofia Constanza Gimenez Mendoza,smendoza@gmail.com,Colegiales,2023-09-23
+532,Alma Valentina Milo Sanchez Romero,alma.romero42@gmail.com,Villa Crespo,2023-05-08
+533,Dr(a). Juana Fernandez,dfernandez@hotmail.com,Colegiales,2023-01-18
+534,Francisco Valentina Jazmin Chavez Vazquez,francisco.vazquez88@hotmail.com,Belgrano,2023-01-05
+535,Matilda Caceres,matilda.caceres35@hotmail.com,Recoleta,2023-12-26
+536,Isabella Ortiz,isabella.ortiz36@outlook.com,Villa Urquiza,2024-02-21
+537,Benjamin Maximiliano Diaz,benjamin_diaz@hotmail.com,Villa Urquiza,2023-06-02
+538,Renata Ruiz Perez,renata.perez26@gmail.com,Belgrano,2023-08-11
+539,Luana Benicio Paz,luana_paz@yahoo.com,Almagro,2023-03-09
+540,Dr(a). Ignacio Ponce,dponce@hotmail.com,Villa Crespo,2023-06-22
+541,Mora Juarez Gonzalez,moragonzalez@yahoo.com,Almagro,2023-06-07
+542,Dr(a). Delfina Diaz,dr(a)._diaz@outlook.com,Villa Urquiza,2024-04-04
+543,Sr(a). Lucas Gomez,sr(a)._gomez@yahoo.com,Villa Crespo,2024-06-26
+544,Maria Luz Dominguez,maria_dominguez@gmail.com,Colegiales,2023-07-07
+545,Mateo Valentin Rodriguez,mateorodriguez@gmail.com,Villa Urquiza,2024-04-12
+546,Dr(a). Valentino Torres,dr(a)..torres27@outlook.com,Recoleta,2024-07-01
+547,Luisana Thiago Nahuel Fernandez,luisana.fernandez53@hotmail.com,Villa Crespo,2023-05-12
+548,Juan Cruz Cabrera,juancabrera@yahoo.com,Flores,2023-05-25
+549,Renata Mateo Rodriguez Rodriguez,renata.rodriguez77@yahoo.com,Núñez,2023-07-24
+550,Nahiara Carrizo Romero,nahiara.romero89@gmail.com,Almagro,2024-03-05
+551,Isabel Victoria Peralta,iperalta@gmail.com,Recoleta,2024-08-26
+552,Candelaria Lopez Lopez,candelaria_lopez@hotmail.com,Colegiales,2023-09-19
+553,Dr(a). Matilda Lopez,dr(a)..lopez83@outlook.com,Flores,2023-01-26
+554,Felipe Felipe Gutierrez Martinez,felipe_martinez@hotmail.com,Núñez,2024-02-10
+555,Lorenzo Gomez,lgomez@hotmail.com,Villa Urquiza,2023-10-12
+556,Dr(a). Lucas Paez,dpaez@hotmail.com,Almagro,2024-01-29
+557,Lucas Juan Ignacio Diaz,lucas.diaz@outlook.com,Flores,2024-04-23
+558,Sr(a). Simon Roldan,sr(a)..roldan@hotmail.com,Almagro,2023-08-12
+559,Dr(a). Ignacio Castillo,dr(a).castillo@yahoo.com,Almagro,2023-10-13
+560,Emma Valdez,emma.valdez57@outlook.com,Recoleta,2023-11-29
+561,Thiago Benjamin Guadalupe Lopez,thiago.lopez@gmail.com,Almagro,2024-02-06
+562,Lucas Ezequiel Tomas Acosta,lucasacosta@hotmail.com,Núñez,2023-05-09
+563,Thiago Lopez Ferreyra,thiago_ferreyra@yahoo.com,Villa Urquiza,2023-02-27
+564,Sr(a). Francisco Fernandez,sr(a).fernandez@hotmail.com,Flores,2023-02-10
+565,Tobias Ferreyra Aguirre,taguirre@hotmail.com,Villa Urquiza,2023-07-08
+566,Pilar Diaz,pilar.diaz@hotmail.com,Caballito,2023-05-30
+567,Felipe Valentina Paz,felipe.paz@gmail.com,Núñez,2023-05-17
+568,Sr(a). Joaquin Gimenez,sr(a).gimenez@yahoo.com,Recoleta,2023-04-15
+569,Paula Gomez Ojeda,pojeda@outlook.com,Colegiales,2023-04-02
+570,Sr(a). Antonio Gomez,sgomez@gmail.com,Almagro,2023-06-23
+571,Catalina Vera Fernandez,cfernandez@hotmail.com,Villa Crespo,2024-02-06
+572,Mia Valentina Agustin Paez,mia.paez@hotmail.com,Almagro,2023-09-18
+573,Manuel Lucia Herrera Perez,manuel.perez@hotmail.com,Almagro,2024-02-28
+574,Benjamin Alejandro Renzo Mendoza,benjamin.mendoza66@yahoo.com,Colegiales,2023-09-22
+575,Santiago Simon Romero,santiago.romero50@hotmail.com,Villa Urquiza,2024-01-31
+576,Sr(a). Catalina Carrizo,sr(a).carrizo@hotmail.com,Villa Urquiza,2023-08-19

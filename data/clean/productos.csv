@@ -1,0 +1,101 @@
+id_producto,nombre_producto,categoria,precio_unitario
+21,Pan Lactal Integral,Lácteos y Panadería,272
+33,Chocolate con Leche 100g,Snacks y Golosinas,1255
+1,Coca Cola 1.5L,Bebidas,2347
+11,Café Molido 250g,Despensa,2053
+15,Leche Descremada 1L,Lácteos y Panadería,2538
+14,Leche Entera 1L,Lácteos y Panadería,1723
+20,Pan Lactal Blanco,Lácteos y Panadería,1571
+75,Licor de Café 700ml,Bebidas Alcohólicas,3204
+36,Dulce de Leche 400g,Despensa,2559
+9,Yerba Mate Suave 1kg,Despensa,3878
+5,Agua Mineral 500ml,Bebidas,4777
+29,Papas Fritas Onduladas 100g,Snacks y Golosinas,1868
+45,Fideos Spaghetti 500g,Despensa,745
+55,Shampoo 400ml,Limpieza y Cuidado,1407
+53,Lavandina 1L,Limpieza y Cuidado,1664
+51,Sal Fina 500g,Despensa,1745
+41,Aceite de Girasol 1L,Despensa,860
+43,Salsa de Tomate 500g,Despensa,887
+97,Limpiavidrios 500ml,Limpieza y Cuidado,872
+85,Jugo en Polvo Naranja,Bebidas,1856
+95,Mascarilla Capilar,Limpieza y Cuidado,1581
+69,Sidra 750ml,Bebidas Alcohólicas,744
+73,Gin 700ml,Bebidas Alcohólicas,1561
+71,Vodka 700ml,Bebidas Alcohólicas,508
+83,Queso Untable 190g,Lácteos y Panadería,1830
+77,Empanadas Congeladas,Congelados,4778
+87,Sopa Instantánea Pollo,Despensa,1679
+89,Caldo Concentrado Verdura,Despensa,1003
+39,Helado Vainilla 1L,Congelados,469
+31,Mix de Frutos Secos 200g,Snacks y Golosinas,3409
+34,Turrón 50g,Snacks y Golosinas,503
+28,Papas Fritas Clásicas 100g,Snacks y Golosinas,936
+19,Manteca 200g,Lácteos y Panadería,3251
+13,Té Verde 20 saquitos,Despensa,2383
+12,Té Negro 20 saquitos,Despensa,570
+27,Alfajor Simple,Snacks y Golosinas,2502
+93,Cepillo de Dientes,Limpieza y Cuidado,2142
+99,Esponjas x3,Limpieza y Cuidado,2430
+80,Helado de Frutilla 1L,Congelados,1981
+84,Queso Azul 150g,Lácteos y Panadería,1645
+94,Hilo Dental,Limpieza y Cuidado,1418
+79,Hamburguesas Congeladas x4,Congelados,2420
+81,Aceitunas Verdes 200g,Despensa,2520
+38,Mermelada de Frutilla 400g,Despensa,1584
+50,Azúcar 1kg,Despensa,727
+42,Vinagre de Alcohol 500ml,Despensa,1195
+49,Harina de Trigo 1kg,Despensa,2512
+47,Garbanzos 500g,Despensa,2939
+66,Cerveza Negra 1L,Bebidas Alcohólicas,1533
+26,Alfajor Triple,Snacks y Golosinas,1001
+23,Bizcochos Salados,Lácteos y Panadería,2380
+24,Galletitas Chocolate,Snacks y Golosinas,1305
+7,Jugo de Manzana 1L,Bebidas,3269
+10,Yerba Mate Intensa 1kg,Despensa,4883
+65,Cerveza Rubia 1L,Bebidas Alcohólicas,2423
+37,Mermelada de Durazno 400g,Despensa,3196
+40,Helado Chocolate 1L,Congelados,1215
+54,Jabón de Tocador,Limpieza y Cuidado,1592
+74,Whisky 750ml,Bebidas Alcohólicas,2953
+88,Caldo Concentrado Carne,Despensa,2570
+22,Medialunas de Manteca,Lácteos y Panadería,2069
+18,Queso Rallado 150g,Lácteos y Panadería,3444
+32,Chocolate Amargo 100g,Snacks y Golosinas,2234
+25,Galletitas Vainilla,Snacks y Golosinas,4015
+4,Fanta Naranja 1.5L,Bebidas,2033
+82,Aceitunas Negras 200g,Despensa,2394
+90,Toallas Húmedas x50,Limpieza y Cuidado,2902
+35,Barrita de Cereal 30g,Snacks y Golosinas,4430
+56,Papel Higiénico x4,Limpieza y Cuidado,2532
+59,Chicle Menta,Snacks y Golosinas,3612
+63,Granola 250g,Snacks y Golosinas,4337
+68,Vino Blanco 750ml,Bebidas Alcohólicas,2684
+44,Arroz Largo Fino 1kg,Despensa,2979
+46,Lentejas Secas 500g,Despensa,3036
+52,Detergente Líquido 750ml,Limpieza y Cuidado,2582
+98,Desengrasante 500ml,Limpieza y Cuidado,2843
+92,Crema Dental 90g,Limpieza y Cuidado,2512
+78,Verduras Congeladas Mix,Congelados,4289
+67,Vino Tinto Malbec 750ml,Bebidas Alcohólicas,4719
+70,Fernet 750ml,Bebidas Alcohólicas,4061
+6,Jugo de Naranja 1L,Bebidas,4170
+8,Energética Nitro 500ml,Bebidas,4218
+3,Sprite 1.5L,Bebidas,4964
+17,Queso Cremoso 500g,Lácteos y Panadería,4834
+91,Desodorante Aerosol,Limpieza y Cuidado,4690
+86,Jugo en Polvo Limón,Bebidas,4090
+72,Ron 700ml,Bebidas Alcohólicas,3876
+61,Miel Pura 250g,Despensa,4982
+62,Stevia 100 sobres,Despensa,3848
+57,Servilletas x100,Limpieza y Cuidado,4520
+64,Avena Instantánea 250g,Despensa,3953
+48,Porotos Negros 500g,Despensa,4462
+76,Pizza Congelada Muzzarella,Congelados,4286
+30,Maní Salado 200g,Snacks y Golosinas,4875
+2,Pepsi 1.5L,Bebidas,4973
+16,Yogur Natural 200g,Lácteos y Panadería,4613
+58,Caramelos Masticables,Snacks y Golosinas,4752
+60,Chupetín,Snacks y Golosinas,4647
+96,Suavizante 1L,Limpieza y Cuidado,4920
+100,Trapo de Piso,Limpieza y Cuidado,4854

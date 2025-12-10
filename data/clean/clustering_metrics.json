@@ -1,0 +1,9 @@
+{
+  "silhouette_score": 0.356935,
+  "calinski_harabasz_score": 308.825853,
+  "davies_bouldin_score": 0.915704,
+  "inertia": 7587.114713,
+  "n_clusters": 9,
+  "varianza_explicada_2d": 0.37175902241708025,
+  "varianza_explicada_3d": 0.47716457178705496
+}

@@ -1,0 +1,1532 @@
+id_cliente,recency_dias,frequency,monetary,cluster,cluster_nombre
+1,3,66,506437.0,2,Habitual Moderado
+2,6,16,122671.0,2,Habitual Moderado
+3,3,151,1095611.0,8,VIP Moderado
+4,29,11,39092.0,2,Habitual Moderado
+5,49,1,2167.0,1,Ocasional Inactivo (Limpieza)
+6,1,124,859836.0,8,VIP Moderado
+7,470,1,2069.0,4,Ocasional Inactivo (Lácteos)
+8,8,14,56025.0,2,Habitual Moderado
+9,5,61,379772.0,2,Habitual Moderado
+10,0,247,1708791.0,8,VIP Moderado
+11,4,6,20483.0,2,Habitual Moderado
+12,3,47,329304.0,2,Habitual Moderado
+13,4,357,2483808.0,3,VIP Premium Activo
+14,10,28,232987.0,2,Habitual Moderado
+15,1,9,105254.0,2,Habitual Moderado
+16,4,77,571156.0,2,Habitual Moderado
+17,6,54,321419.0,2,Habitual Moderado
+18,1,93,504456.0,2,Habitual Moderado
+19,0,18,171223.0,2,Habitual Moderado
+20,10,53,409112.0,2,Habitual Moderado
+21,2,22,173878.0,2,Habitual Moderado
+22,1,18,154606.0,2,Habitual Moderado
+23,2,193,1238972.0,8,VIP Moderado
+24,2,128,699305.0,8,VIP Moderado
+25,31,2,18175.0,2,Habitual Moderado
+26,80,14,64114.0,2,Habitual Moderado
+27,186,1,13076.0,5,Ocasional Inactivo (Bebidas)
+28,6,104,732510.0,8,VIP Moderado
+29,19,24,132660.0,2,Habitual Moderado
+30,10,58,334601.0,2,Habitual Moderado
+31,70,22,177201.0,2,Habitual Moderado
+32,4,25,172114.0,2,Habitual Moderado
+33,55,18,135314.0,2,Habitual Moderado
+34,20,4,25581.0,7,Ocasional Inactivo (Despensa)
+35,19,55,393276.0,2,Habitual Moderado
+36,13,59,342752.0,2,Habitual Moderado
+37,10,15,137787.0,2,Habitual Moderado
+38,31,16,79131.0,2,Habitual Moderado
+39,0,5,66884.0,2,Habitual Moderado
+40,4,8,43783.0,2,Habitual Moderado
+41,1,253,2046896.0,8,VIP Moderado
+42,3,131,785293.0,8,VIP Moderado
+43,0,582,3979425.0,3,VIP Premium Activo
+44,357,1,2069.0,4,Ocasional Inactivo (Lácteos)
+45,0,356,2062822.0,8,VIP Moderado
+46,0,183,1734137.0,8,VIP Moderado
+47,17,19,81514.0,2,Habitual Moderado
+48,1,25,206752.0,2,Habitual Moderado
+49,1,241,1739500.0,8,VIP Moderado
+50,24,11,70858.0,2,Habitual Moderado
+51,3,22,192801.0,2,Habitual Moderado
+52,5,225,1753917.0,8,VIP Moderado
+53,1,562,4064936.0,3,VIP Premium Activo
+54,13,110,593546.0,2,Habitual Moderado
+55,9,47,321992.0,2,Habitual Moderado
+56,3,64,450385.0,2,Habitual Moderado
+57,25,10,85716.0,2,Habitual Moderado
+58,6,194,1295764.0,8,VIP Moderado
+59,10,48,330333.0,2,Habitual Moderado
+60,2,4,31996.0,7,Ocasional Inactivo (Despensa)
+61,0,25,235539.0,2,Habitual Moderado
+62,328,1,1571.0,4,Ocasional Inactivo (Lácteos)
+63,50,14,93114.0,2,Habitual Moderado
+64,3,1,5477.0,5,Ocasional Inactivo (Bebidas)
+65,17,61,413512.0,2,Habitual Moderado
+66,5,41,239710.0,2,Habitual Moderado
+67,2,168,1299895.0,8,VIP Moderado
+68,1,267,2497778.0,8,VIP Moderado
+69,263,1,5490.0,4,Ocasional Inactivo (Lácteos)
+70,4,25,135158.0,2,Habitual Moderado
+71,21,19,209415.0,2,Habitual Moderado
+72,0,113,827944.0,8,VIP Moderado
+73,2,245,1367606.0,8,VIP Moderado
+74,8,61,350165.0,2,Habitual Moderado
+75,2,122,908685.0,8,VIP Moderado
+76,5,78,508811.0,2,Habitual Moderado
+77,646,1,13190.0,6,Ocasional Inactivo (Alcohol)
+78,0,335,2184919.0,8,VIP Moderado
+79,17,21,98061.0,2,Habitual Moderado
+80,9,53,465648.0,2,Habitual Moderado
+81,0,40,416043.0,2,Habitual Moderado
+82,0,219,1201576.0,8,VIP Moderado
+83,6,38,220432.0,2,Habitual Moderado
+84,9,44,172311.0,2,Habitual Moderado
+85,0,6,77487.0,2,Habitual Moderado
+86,3,14,54185.0,2,Habitual Moderado
+87,6,16,124429.0,2,Habitual Moderado
+88,80,19,182253.0,2,Habitual Moderado
+89,267,1,5322.0,5,Ocasional Inactivo (Bebidas)
+90,3,583,4390281.0,3,VIP Premium Activo
+91,358,1,2053.0,7,Ocasional Inactivo (Despensa)
+92,26,11,67581.0,2,Habitual Moderado
+93,70,14,125307.0,2,Habitual Moderado
+94,1,62,509983.0,2,Habitual Moderado
+95,1,8,36427.0,2,Habitual Moderado
+96,26,6,40867.0,2,Habitual Moderado
+97,288,1,12920.0,7,Ocasional Inactivo (Despensa)
+98,3,19,168049.0,2,Habitual Moderado
+99,0,274,1850507.0,8,VIP Moderado
+100,0,227,1594627.0,8,VIP Moderado
+101,16,19,130641.0,2,Habitual Moderado
+102,9,60,364773.0,2,Habitual Moderado
+103,1,18,115195.0,2,Habitual Moderado
+104,10,30,231767.0,2,Habitual Moderado
+105,10,39,276175.0,2,Habitual Moderado
+106,6,121,677624.0,8,VIP Moderado
+107,8,40,252887.0,2,Habitual Moderado
+108,83,18,174252.0,2,Habitual Moderado
+109,36,15,118554.0,2,Habitual Moderado
+110,45,18,96292.0,2,Habitual Moderado
+111,2,13,133961.0,2,Habitual Moderado
+112,83,21,120412.0,2,Habitual Moderado
+113,10,8,84282.0,2,Habitual Moderado
+114,0,133,1108576.0,8,VIP Moderado
+115,12,53,286564.0,2,Habitual Moderado
+116,1,6,46330.0,2,Habitual Moderado
+117,5,232,1663914.0,8,VIP Moderado
+118,7,42,246012.0,2,Habitual Moderado
+119,3,49,396600.0,2,Habitual Moderado
+120,0,153,1165049.0,8,VIP Moderado
+121,1,103,477537.0,2,Habitual Moderado
+122,3,248,1414637.0,8,VIP Moderado
+123,531,1,12944.0,4,Ocasional Inactivo (Lácteos)
+124,3,264,1611532.0,8,VIP Moderado
+125,14,4,33429.0,2,Habitual Moderado
+126,29,1,5436.0,0,Ocasional Inactivo (Snacks)
+127,10,59,493452.0,2,Habitual Moderado
+128,0,16,143025.0,2,Habitual Moderado
+129,10,8,38661.0,2,Habitual Moderado
+130,24,2,10781.0,0,Ocasional Inactivo (Snacks)
+131,632,1,27347.0,7,Ocasional Inactivo (Despensa)
+132,29,4,36841.0,2,Habitual Moderado
+133,3,5,41762.0,0,Ocasional Inactivo (Snacks)
+134,4,24,189345.0,2,Habitual Moderado
+135,17,7,39519.0,2,Habitual Moderado
+136,12,9,40634.0,2,Habitual Moderado
+137,1,191,894998.0,8,VIP Moderado
+138,6,51,367752.0,2,Habitual Moderado
+139,11,14,84279.0,2,Habitual Moderado
+140,13,6,28474.0,2,Habitual Moderado
+141,112,1,1723.0,4,Ocasional Inactivo (Lácteos)
+142,24,20,124969.0,2,Habitual Moderado
+143,4,53,358242.0,2,Habitual Moderado
+144,264,1,5333.0,7,Ocasional Inactivo (Despensa)
+145,6,43,261248.0,2,Habitual Moderado
+146,13,5,39096.0,2,Habitual Moderado
+147,13,17,176833.0,2,Habitual Moderado
+148,0,65,390642.0,2,Habitual Moderado
+149,0,105,831732.0,8,VIP Moderado
+150,4,48,296598.0,2,Habitual Moderado
+151,487,1,13007.0,7,Ocasional Inactivo (Despensa)
+152,0,243,1754602.0,8,VIP Moderado
+153,13,9,63812.0,2,Habitual Moderado
+154,0,640,4602363.0,3,VIP Premium Activo
+155,15,11,83082.0,2,Habitual Moderado
+156,3,41,238099.0,2,Habitual Moderado
+157,11,21,98241.0,2,Habitual Moderado
+158,6,26,162523.0,2,Habitual Moderado
+159,13,3,45865.0,0,Ocasional Inactivo (Snacks)
+160,2,42,392955.0,2,Habitual Moderado
+161,17,15,109211.0,2,Habitual Moderado
+162,27,4,13778.0,2,Habitual Moderado
+163,29,46,277376.0,2,Habitual Moderado
+164,5,52,378843.0,2,Habitual Moderado
+165,1,246,1419470.0,8,VIP Moderado
+166,0,9,90668.0,2,Habitual Moderado
+167,0,263,1769881.0,8,VIP Moderado
+168,667,1,1723.0,4,Ocasional Inactivo (Lácteos)
+169,2,63,531938.0,2,Habitual Moderado
+170,520,1,13062.0,7,Ocasional Inactivo (Despensa)
+171,21,11,115211.0,2,Habitual Moderado
+172,34,18,97210.0,2,Habitual Moderado
+173,1,22,145091.0,2,Habitual Moderado
+174,145,1,5482.0,4,Ocasional Inactivo (Lácteos)
+175,12,2,6221.0,1,Ocasional Inactivo (Limpieza)
+176,6,18,88134.0,2,Habitual Moderado
+177,5,23,167255.0,2,Habitual Moderado
+178,8,33,281623.0,2,Habitual Moderado
+179,12,20,87975.0,2,Habitual Moderado
+180,10,17,117896.0,2,Habitual Moderado
+181,9,2,6534.0,4,Ocasional Inactivo (Lácteos)
+182,0,223,1300826.0,8,VIP Moderado
+183,0,53,327444.0,2,Habitual Moderado
+184,1,417,2176614.0,3,VIP Premium Activo
+185,4,1,1665.0,0,Ocasional Inactivo (Snacks)
+186,17,61,554727.0,2,Habitual Moderado
+187,17,3,16110.0,2,Habitual Moderado
+188,6,212,1670620.0,8,VIP Moderado
+189,561,1,5470.0,5,Ocasional Inactivo (Bebidas)
+190,16,65,508675.0,2,Habitual Moderado
+191,634,1,1723.0,4,Ocasional Inactivo (Lácteos)
+192,0,59,451840.0,2,Habitual Moderado
+193,58,6,29590.0,5,Ocasional Inactivo (Bebidas)
+194,4,42,280452.0,2,Habitual Moderado
+195,13,1,5250.0,6,Ocasional Inactivo (Alcohol)
+196,6,10,46733.0,2,Habitual Moderado
+197,4,135,1113184.0,8,VIP Moderado
+198,1,19,91409.0,2,Habitual Moderado
+199,13,7,41495.0,6,Ocasional Inactivo (Alcohol)
+200,4,50,313305.0,2,Habitual Moderado
+201,53,1,2041.0,6,Ocasional Inactivo (Alcohol)
+202,6,51,415191.0,2,Habitual Moderado
+203,526,1,13046.0,7,Ocasional Inactivo (Despensa)
+204,1,91,607024.0,2,Habitual Moderado
+205,2,312,2112674.0,8,VIP Moderado
+206,1,66,558676.0,2,Habitual Moderado
+207,5,14,91305.0,2,Habitual Moderado
+208,17,4,21425.0,2,Habitual Moderado
+209,0,196,1359286.0,8,VIP Moderado
+210,6,29,209312.0,2,Habitual Moderado
+211,25,3,4771.0,7,Ocasional Inactivo (Despensa)
+212,12,2,3617.0,2,Habitual Moderado
+213,1,131,1104140.0,8,VIP Moderado
+214,6,125,702514.0,8,VIP Moderado
+215,442,1,13146.0,5,Ocasional Inactivo (Bebidas)
+216,238,1,5385.0,6,Ocasional Inactivo (Alcohol)
+217,6,193,1262446.0,8,VIP Moderado
+218,2,4,22129.0,5,Ocasional Inactivo (Bebidas)
+219,16,179,1347866.0,8,VIP Moderado
+220,3,220,1232685.0,8,VIP Moderado
+221,1,130,641032.0,8,VIP Moderado
+222,21,61,373677.0,2,Habitual Moderado
+223,2,167,1022513.0,8,VIP Moderado
+224,2,28,152508.0,2,Habitual Moderado
+225,0,33,213413.0,2,Habitual Moderado
+226,2,31,163130.0,2,Habitual Moderado
+227,2,250,1813602.0,8,VIP Moderado
+228,4,4,21027.0,2,Habitual Moderado
+229,6,96,531200.0,2,Habitual Moderado
+230,1,660,4585588.0,3,VIP Premium Activo
+231,6,144,1331687.0,8,VIP Moderado
+232,12,53,213413.0,2,Habitual Moderado
+233,2,9,94865.0,2,Habitual Moderado
+234,13,19,79215.0,2,Habitual Moderado
+235,49,16,145823.0,2,Habitual Moderado
+236,1,438,3077275.0,3,VIP Premium Activo
+237,16,63,390915.0,2,Habitual Moderado
+238,0,87,707619.0,2,Habitual Moderado
+239,3,178,1216653.0,8,VIP Moderado
+240,55,6,63049.0,2,Habitual Moderado
+241,13,64,588508.0,2,Habitual Moderado
+242,3,1,1745.0,7,Ocasional Inactivo (Despensa)
+243,18,15,115007.0,2,Habitual Moderado
+244,165,1,13116.0,1,Ocasional Inactivo (Limpieza)
+245,2,202,1268706.0,8,VIP Moderado
+246,41,14,109759.0,2,Habitual Moderado
+247,6,56,332508.0,2,Habitual Moderado
+248,44,21,144187.0,2,Habitual Moderado
+249,0,54,277782.0,2,Habitual Moderado
+250,0,58,344087.0,2,Habitual Moderado
+251,47,7,28200.0,2,Habitual Moderado
+252,20,16,101165.0,2,Habitual Moderado
+253,0,96,811749.0,8,VIP Moderado
+254,14,1,5353.0,4,Ocasional Inactivo (Lácteos)
+255,4,55,500851.0,2,Habitual Moderado
+256,29,51,367387.0,2,Habitual Moderado
+257,3,22,103426.0,2,Habitual Moderado
+258,1,195,1507037.0,8,VIP Moderado
+259,183,1,5343.0,4,Ocasional Inactivo (Lácteos)
+260,3,93,559369.0,2,Habitual Moderado
+261,29,49,210097.0,2,Habitual Moderado
+262,146,1,13081.0,0,Ocasional Inactivo (Snacks)
+263,28,4,13971.0,0,Ocasional Inactivo (Snacks)
+264,6,64,391109.0,2,Habitual Moderado
+265,0,65,521258.0,2,Habitual Moderado
+266,6,34,287321.0,2,Habitual Moderado
+267,36,12,116399.0,2,Habitual Moderado
+268,0,562,2971415.0,3,VIP Premium Activo
+269,13,44,204997.0,2,Habitual Moderado
+270,13,64,385569.0,2,Habitual Moderado
+271,480,1,1418.0,1,Ocasional Inactivo (Limpieza)
+272,3,183,1452225.0,8,VIP Moderado
+273,17,14,102017.0,2,Habitual Moderado
+274,1,53,426217.0,2,Habitual Moderado
+275,7,156,884293.0,8,VIP Moderado
+276,22,1,13161.0,7,Ocasional Inactivo (Despensa)
+277,36,18,121535.0,2,Habitual Moderado
+278,21,2,3591.0,0,Ocasional Inactivo (Snacks)
+279,4,45,190816.0,2,Habitual Moderado
+280,21,21,195804.0,2,Habitual Moderado
+281,0,505,4210976.0,3,VIP Premium Activo
+282,0,481,3453752.0,3,VIP Premium Activo
+283,12,41,217980.0,2,Habitual Moderado
+284,3,56,329845.0,2,Habitual Moderado
+285,90,12,53133.0,2,Habitual Moderado
+286,331,1,13005.0,7,Ocasional Inactivo (Despensa)
+287,5,425,2947066.0,3,VIP Premium Activo
+288,48,21,172962.0,2,Habitual Moderado
+289,6,157,797159.0,8,VIP Moderado
+290,456,1,5322.0,5,Ocasional Inactivo (Bebidas)
+291,4,165,975691.0,8,VIP Moderado
+292,0,30,179648.0,2,Habitual Moderado
+293,2,219,1909564.0,8,VIP Moderado
+294,2,54,500875.0,2,Habitual Moderado
+295,6,226,1500932.0,8,VIP Moderado
+296,1,52,617093.0,2,Habitual Moderado
+297,9,196,1086907.0,8,VIP Moderado
+298,20,8,30351.0,2,Habitual Moderado
+299,3,195,1458720.0,8,VIP Moderado
+300,31,14,96455.0,2,Habitual Moderado
+301,6,40,338107.0,2,Habitual Moderado
+302,2,165,874326.0,8,VIP Moderado
+303,50,4,21078.0,7,Ocasional Inactivo (Despensa)
+304,7,17,156281.0,2,Habitual Moderado
+305,5,24,132914.0,2,Habitual Moderado
+306,1,177,1432065.0,8,VIP Moderado
+307,4,25,166149.0,2,Habitual Moderado
+308,59,1,5449.0,7,Ocasional Inactivo (Despensa)
+309,43,4,21601.0,2,Habitual Moderado
+310,4,221,1235804.0,8,VIP Moderado
+311,3,10,43412.0,2,Habitual Moderado
+312,13,26,182599.0,2,Habitual Moderado
+313,22,67,688819.0,2,Habitual Moderado
+314,9,22,176254.0,2,Habitual Moderado
+315,3,223,1698060.0,8,VIP Moderado
+316,2,519,3754661.0,3,VIP Premium Activo
+317,0,142,785022.0,8,VIP Moderado
+318,1,193,978642.0,8,VIP Moderado
+319,161,1,5382.0,7,Ocasional Inactivo (Despensa)
+320,0,145,1133438.0,8,VIP Moderado
+321,13,38,244974.0,2,Habitual Moderado
+322,1,20,128975.0,2,Habitual Moderado
+323,382,1,12976.0,7,Ocasional Inactivo (Despensa)
+324,8,9,89128.0,2,Habitual Moderado
+325,13,51,274799.0,2,Habitual Moderado
+326,4,141,1299000.0,8,VIP Moderado
+327,58,15,71132.0,2,Habitual Moderado
+328,37,50,304097.0,2,Habitual Moderado
+329,10,27,255253.0,2,Habitual Moderado
+330,165,1,13187.0,7,Ocasional Inactivo (Despensa)
+331,3,70,432707.0,2,Habitual Moderado
+332,28,13,77492.0,2,Habitual Moderado
+333,7,21,108388.0,2,Habitual Moderado
+334,7,34,160107.0,2,Habitual Moderado
+335,22,14,124057.0,2,Habitual Moderado
+336,0,11,82531.0,2,Habitual Moderado
+337,39,1,1745.0,7,Ocasional Inactivo (Despensa)
+338,4,51,289668.0,2,Habitual Moderado
+339,2,65,648077.0,2,Habitual Moderado
+340,143,1,5492.0,0,Ocasional Inactivo (Snacks)
+341,20,18,108709.0,2,Habitual Moderado
+342,4,11,77543.0,2,Habitual Moderado
+343,12,12,95114.0,2,Habitual Moderado
+344,9,64,504419.0,2,Habitual Moderado
+345,1,131,719177.0,8,VIP Moderado
+346,0,68,516689.0,2,Habitual Moderado
+347,0,91,761380.0,8,VIP Moderado
+348,8,263,1731059.0,8,VIP Moderado
+349,10,9,52955.0,2,Habitual Moderado
+350,0,535,3898446.0,3,VIP Premium Activo
+351,10,29,222311.0,2,Habitual Moderado
+352,1,66,383127.0,2,Habitual Moderado
+353,0,6,57814.0,2,Habitual Moderado
+354,12,54,302023.0,2,Habitual Moderado
+355,6,9,70508.0,2,Habitual Moderado
+356,6,51,403363.0,2,Habitual Moderado
+357,24,19,99437.0,2,Habitual Moderado
+358,1,181,1332634.0,8,VIP Moderado
+359,5,8,52990.0,6,Ocasional Inactivo (Alcohol)
+360,38,3,11827.0,2,Habitual Moderado
+361,2,54,389836.0,2,Habitual Moderado
+362,399,1,13133.0,4,Ocasional Inactivo (Lácteos)
+363,0,161,1062586.0,8,VIP Moderado
+364,0,23,187144.0,2,Habitual Moderado
+365,1,133,1234956.0,8,VIP Moderado
+366,36,4,35963.0,5,Ocasional Inactivo (Bebidas)
+367,23,9,49388.0,2,Habitual Moderado
+368,6,1,27480.0,2,Habitual Moderado
+369,10,57,539532.0,2,Habitual Moderado
+370,14,17,101149.0,2,Habitual Moderado
+371,6,61,637188.0,2,Habitual Moderado
+372,13,19,132410.0,2,Habitual Moderado
+373,278,1,5489.0,0,Ocasional Inactivo (Snacks)
+374,0,52,340432.0,2,Habitual Moderado
+375,22,4,11418.0,0,Ocasional Inactivo (Snacks)
+376,6,17,125428.0,2,Habitual Moderado
+377,2,477,4283170.0,3,VIP Premium Activo
+378,34,28,187898.0,2,Habitual Moderado
+379,16,21,165183.0,2,Habitual Moderado
+380,16,6,69006.0,2,Habitual Moderado
+381,7,9,48720.0,2,Habitual Moderado
+382,10,13,131435.0,2,Habitual Moderado
+383,14,13,104555.0,2,Habitual Moderado
+384,0,78,473270.0,2,Habitual Moderado
+385,0,189,1328534.0,8,VIP Moderado
+386,0,481,4081658.0,3,VIP Premium Activo
+387,13,44,366049.0,2,Habitual Moderado
+388,10,10,56654.0,2,Habitual Moderado
+389,2,22,175241.0,2,Habitual Moderado
+390,3,58,272211.0,2,Habitual Moderado
+391,15,46,284771.0,2,Habitual Moderado
+392,6,257,1852560.0,8,VIP Moderado
+393,1,216,1073878.0,8,VIP Moderado
+394,6,93,443372.0,2,Habitual Moderado
+395,47,21,127815.0,2,Habitual Moderado
+396,20,17,118882.0,2,Habitual Moderado
+397,33,42,369955.0,2,Habitual Moderado
+398,302,1,13134.0,0,Ocasional Inactivo (Snacks)
+399,57,22,164769.0,2,Habitual Moderado
+400,500,1,1159.0,7,Ocasional Inactivo (Despensa)
+401,6,54,448007.0,2,Habitual Moderado
+402,9,115,494058.0,2,Habitual Moderado
+403,26,7,37242.0,2,Habitual Moderado
+404,2,60,328760.0,2,Habitual Moderado
+405,0,152,1119675.0,8,VIP Moderado
+406,43,1,2053.0,7,Ocasional Inactivo (Despensa)
+407,8,54,502035.0,2,Habitual Moderado
+408,2,145,1176744.0,8,VIP Moderado
+409,19,12,150587.0,2,Habitual Moderado
+410,184,1,27449.0,7,Ocasional Inactivo (Despensa)
+411,3,243,1674966.0,8,VIP Moderado
+412,4,390,2836849.0,3,VIP Premium Activo
+413,0,18,141434.0,2,Habitual Moderado
+414,3,48,247150.0,2,Habitual Moderado
+415,6,27,152947.0,2,Habitual Moderado
+416,216,1,12986.0,1,Ocasional Inactivo (Limpieza)
+417,15,44,271700.0,2,Habitual Moderado
+418,23,16,163838.0,2,Habitual Moderado
+419,0,80,545868.0,2,Habitual Moderado
+420,19,22,165366.0,2,Habitual Moderado
+421,0,50,385897.0,2,Habitual Moderado
+422,7,53,270550.0,2,Habitual Moderado
+423,1,28,218729.0,2,Habitual Moderado
+424,523,1,5287.0,1,Ocasional Inactivo (Limpieza)
+425,6,6,51486.0,2,Habitual Moderado
+426,6,7,29524.0,2,Habitual Moderado
+427,3,36,164638.0,2,Habitual Moderado
+428,43,13,113831.0,2,Habitual Moderado
+429,4,33,291257.0,2,Habitual Moderado
+430,13,57,351642.0,2,Habitual Moderado
+431,1,552,4054045.0,3,VIP Premium Activo
+432,3,73,560737.0,2,Habitual Moderado
+433,115,1,5389.0,1,Ocasional Inactivo (Limpieza)
+434,78,5,42431.0,2,Habitual Moderado
+435,6,18,143800.0,2,Habitual Moderado
+436,1,147,832442.0,8,VIP Moderado
+437,12,24,170717.0,2,Habitual Moderado
+438,261,1,13185.0,0,Ocasional Inactivo (Snacks)
+439,2,144,1037229.0,8,VIP Moderado
+440,25,64,340609.0,2,Habitual Moderado
+441,0,292,1576985.0,8,VIP Moderado
+442,13,67,304314.0,2,Habitual Moderado
+443,0,473,4071804.0,3,VIP Premium Activo
+444,8,34,281473.0,2,Habitual Moderado
+445,4,148,1023694.0,8,VIP Moderado
+446,1,103,865764.0,8,VIP Moderado
+447,6,65,470123.0,2,Habitual Moderado
+448,37,8,69396.0,2,Habitual Moderado
+449,6,59,328165.0,2,Habitual Moderado
+450,477,1,1849.0,0,Ocasional Inactivo (Snacks)
+451,0,5,65432.0,2,Habitual Moderado
+452,0,37,300950.0,2,Habitual Moderado
+453,4,36,243980.0,2,Habitual Moderado
+454,6,53,260774.0,2,Habitual Moderado
+455,1,171,1479928.0,8,VIP Moderado
+456,0,204,1463230.0,8,VIP Moderado
+457,516,1,13191.0,7,Ocasional Inactivo (Despensa)
+458,3,56,327664.0,2,Habitual Moderado
+459,13,4,33201.0,6,Ocasional Inactivo (Alcohol)
+460,618,1,1016.0,6,Ocasional Inactivo (Alcohol)
+461,7,3,12666.0,4,Ocasional Inactivo (Lácteos)
+462,3,233,2131899.0,8,VIP Moderado
+463,27,20,129110.0,2,Habitual Moderado
+464,40,67,407903.0,2,Habitual Moderado
+465,1,190,1429988.0,8,VIP Moderado
+466,3,3,23262.0,2,Habitual Moderado
+467,66,22,158952.0,2,Habitual Moderado
+468,0,263,2439153.0,8,VIP Moderado
+469,35,6,52046.0,2,Habitual Moderado
+470,430,1,2114.0,4,Ocasional Inactivo (Lácteos)
+471,3,22,198881.0,2,Habitual Moderado
+472,24,12,73955.0,2,Habitual Moderado
+473,26,1,5318.0,7,Ocasional Inactivo (Despensa)
+474,7,60,619807.0,2,Habitual Moderado
+475,3,61,379083.0,2,Habitual Moderado
+476,2,512,3613843.0,3,VIP Premium Activo
+477,422,1,887.0,7,Ocasional Inactivo (Despensa)
+478,38,61,469195.0,2,Habitual Moderado
+479,5,309,2443199.0,8,VIP Moderado
+480,3,8,58148.0,2,Habitual Moderado
+481,3,143,1051710.0,8,VIP Moderado
+482,10,64,586290.0,2,Habitual Moderado
+483,19,28,178764.0,2,Habitual Moderado
+484,0,213,1389482.0,8,VIP Moderado
+485,5,17,67874.0,2,Habitual Moderado
+486,52,17,90334.0,2,Habitual Moderado
+487,2,10,81029.0,2,Habitual Moderado
+488,0,47,221030.0,2,Habitual Moderado
+489,2,66,505725.0,2,Habitual Moderado
+490,51,6,41283.0,2,Habitual Moderado
+491,12,7,44839.0,2,Habitual Moderado
+492,20,6,40388.0,2,Habitual Moderado
+493,8,155,1106843.0,8,VIP Moderado
+494,470,1,2069.0,4,Ocasional Inactivo (Lácteos)
+495,8,67,463713.0,2,Habitual Moderado
+496,6,8,46481.0,2,Habitual Moderado
+497,32,2,7469.0,7,Ocasional Inactivo (Despensa)
+498,6,6,27624.0,2,Habitual Moderado
+499,5,58,268610.0,2,Habitual Moderado
+500,3,11,107642.0,2,Habitual Moderado
+501,45,20,97910.0,2,Habitual Moderado
+502,2,52,440924.0,2,Habitual Moderado
+503,7,11,109556.0,2,Habitual Moderado
+504,330,1,5454.0,4,Ocasional Inactivo (Lácteos)
+505,519,1,2053.0,7,Ocasional Inactivo (Despensa)
+506,0,173,1305905.0,8,VIP Moderado
+507,39,8,42988.0,2,Habitual Moderado
+508,0,75,542054.0,2,Habitual Moderado
+509,5,50,360345.0,2,Habitual Moderado
+510,0,266,1987291.0,8,VIP Moderado
+511,1,204,970207.0,8,VIP Moderado
+512,2,95,483710.0,2,Habitual Moderado
+513,48,13,83009.0,2,Habitual Moderado
+514,506,1,1289.0,7,Ocasional Inactivo (Despensa)
+515,2,63,429909.0,2,Habitual Moderado
+516,173,1,5199.0,5,Ocasional Inactivo (Bebidas)
+517,1,186,1366099.0,8,VIP Moderado
+518,24,12,106532.0,2,Habitual Moderado
+519,16,33,223241.0,2,Habitual Moderado
+520,3,53,393328.0,2,Habitual Moderado
+521,5,33,199247.0,2,Habitual Moderado
+522,0,173,1547875.0,8,VIP Moderado
+523,44,16,142460.0,2,Habitual Moderado
+524,289,1,13159.0,6,Ocasional Inactivo (Alcohol)
+525,1,7,36891.0,5,Ocasional Inactivo (Bebidas)
+526,3,3,56651.0,1,Ocasional Inactivo (Limpieza)
+527,0,155,951610.0,8,VIP Moderado
+528,498,1,1745.0,7,Ocasional Inactivo (Despensa)
+529,0,11,73728.0,2,Habitual Moderado
+530,5,461,3233881.0,3,VIP Premium Activo
+531,3,45,417230.0,2,Habitual Moderado
+532,60,12,70183.0,2,Habitual Moderado
+533,0,53,351602.0,2,Habitual Moderado
+534,546,1,13009.0,1,Ocasional Inactivo (Limpieza)
+535,0,169,976735.0,8,VIP Moderado
+536,29,17,109741.0,2,Habitual Moderado
+537,13,57,223085.0,2,Habitual Moderado
+538,3,223,1721596.0,8,VIP Moderado
+539,5,49,278105.0,2,Habitual Moderado
+540,146,22,103802.0,2,Habitual Moderado
+541,1,185,1780802.0,8,VIP Moderado
+542,56,2,18460.0,2,Habitual Moderado
+543,6,19,167282.0,2,Habitual Moderado
+544,44,22,144789.0,2,Habitual Moderado
+545,46,1,13191.0,6,Ocasional Inactivo (Alcohol)
+546,12,10,45489.0,2,Habitual Moderado
+547,3,31,214852.0,2,Habitual Moderado
+548,25,58,427809.0,2,Habitual Moderado
+549,511,1,2053.0,7,Ocasional Inactivo (Despensa)
+550,6,8,25570.0,2,Habitual Moderado
+551,2,23,279869.0,2,Habitual Moderado
+552,66,21,139311.0,2,Habitual Moderado
+553,5,11,33912.0,2,Habitual Moderado
+554,0,25,156992.0,2,Habitual Moderado
+555,2,12,57536.0,2,Habitual Moderado
+556,22,3,19672.0,0,Ocasional Inactivo (Snacks)
+557,0,70,578290.0,2,Habitual Moderado
+558,6,35,255139.0,2,Habitual Moderado
+559,0,181,1025617.0,8,VIP Moderado
+560,16,20,151502.0,2,Habitual Moderado
+561,40,1,5264.0,1,Ocasional Inactivo (Limpieza)
+562,6,51,376934.0,2,Habitual Moderado
+563,6,34,271265.0,2,Habitual Moderado
+564,0,593,3311361.0,3,VIP Premium Activo
+565,417,1,5463.0,6,Ocasional Inactivo (Alcohol)
+566,36,22,130344.0,2,Habitual Moderado
+567,462,1,13022.0,6,Ocasional Inactivo (Alcohol)
+568,10,16,112560.0,2,Habitual Moderado
+569,512,1,5285.0,5,Ocasional Inactivo (Bebidas)
+570,7,227,1601044.0,8,VIP Moderado
+571,97,8,50184.0,0,Ocasional Inactivo (Snacks)
+572,0,148,1072712.0,8,VIP Moderado
+573,4,175,1290862.0,8,VIP Moderado
+574,3,58,368682.0,2,Habitual Moderado
+575,10,9,45185.0,2,Habitual Moderado
+576,3,61,564920.0,2,Habitual Moderado
+577,647,1,5376.0,7,Ocasional Inactivo (Despensa)
+578,389,1,1720.0,4,Ocasional Inactivo (Lácteos)
+579,6,91,663157.0,2,Habitual Moderado
+580,0,141,1177099.0,8,VIP Moderado
+581,37,12,98979.0,2,Habitual Moderado
+582,6,65,433319.0,2,Habitual Moderado
+583,1,60,373607.0,2,Habitual Moderado
+584,20,17,101107.0,2,Habitual Moderado
+585,0,88,674996.0,8,VIP Moderado
+586,1,22,121395.0,2,Habitual Moderado
+587,3,63,466514.0,2,Habitual Moderado
+588,0,13,74665.0,2,Habitual Moderado
+589,13,1,5223.0,2,Habitual Moderado
+590,355,1,5286.0,6,Ocasional Inactivo (Alcohol)
+591,2,234,1259578.0,8,VIP Moderado
+592,7,27,214868.0,2,Habitual Moderado
+593,289,1,2033.0,5,Ocasional Inactivo (Bebidas)
+594,32,9,67898.0,2,Habitual Moderado
+595,11,22,116880.0,2,Habitual Moderado
+596,4,40,183328.0,2,Habitual Moderado
+597,22,31,218300.0,2,Habitual Moderado
+598,0,207,1341306.0,8,VIP Moderado
+599,9,8,65893.0,2,Habitual Moderado
+600,6,12,38968.0,2,Habitual Moderado
+601,0,36,197960.0,2,Habitual Moderado
+602,19,1,13024.0,1,Ocasional Inactivo (Limpieza)
+603,0,110,848205.0,8,VIP Moderado
+604,650,1,2033.0,5,Ocasional Inactivo (Bebidas)
+605,211,1,5222.0,7,Ocasional Inactivo (Despensa)
+606,6,21,134883.0,2,Habitual Moderado
+607,1,62,381769.0,2,Habitual Moderado
+608,180,1,27315.0,7,Ocasional Inactivo (Despensa)
+609,5,35,261293.0,2,Habitual Moderado
+610,2,8,58454.0,2,Habitual Moderado
+611,37,23,170417.0,2,Habitual Moderado
+612,2,42,203335.0,2,Habitual Moderado
+613,0,14,106546.0,2,Habitual Moderado
+614,0,67,556922.0,2,Habitual Moderado
+615,6,40,244280.0,2,Habitual Moderado
+616,40,6,29853.0,2,Habitual Moderado
+617,25,22,166652.0,2,Habitual Moderado
+618,10,7,30264.0,2,Habitual Moderado
+619,4,436,2439728.0,3,VIP Premium Activo
+620,0,34,239628.0,2,Habitual Moderado
+621,5,11,93476.0,2,Habitual Moderado
+622,13,11,93105.0,2,Habitual Moderado
+623,31,17,100842.0,2,Habitual Moderado
+624,547,1,1561.0,6,Ocasional Inactivo (Alcohol)
+625,23,1,5366.0,7,Ocasional Inactivo (Despensa)
+626,7,15,82197.0,2,Habitual Moderado
+627,6,105,692151.0,8,VIP Moderado
+628,4,164,1481340.0,8,VIP Moderado
+629,1,29,225000.0,2,Habitual Moderado
+630,7,18,141321.0,2,Habitual Moderado
+631,13,60,358635.0,2,Habitual Moderado
+632,0,57,452800.0,2,Habitual Moderado
+633,5,39,234346.0,2,Habitual Moderado
+634,0,118,687021.0,8,VIP Moderado
+635,13,1,27298.0,5,Ocasional Inactivo (Bebidas)
+636,3,257,1396909.0,8,VIP Moderado
+637,19,18,120437.0,2,Habitual Moderado
+638,1,41,227120.0,2,Habitual Moderado
+639,2,205,1370884.0,8,VIP Moderado
+640,589,1,1745.0,7,Ocasional Inactivo (Despensa)
+641,0,58,368248.0,2,Habitual Moderado
+642,29,18,132556.0,2,Habitual Moderado
+643,17,59,489592.0,2,Habitual Moderado
+644,0,121,875168.0,8,VIP Moderado
+645,6,233,1334300.0,8,VIP Moderado
+646,3,16,93783.0,2,Habitual Moderado
+647,20,17,115334.0,2,Habitual Moderado
+648,23,37,289779.0,2,Habitual Moderado
+649,8,21,127250.0,2,Habitual Moderado
+650,138,1,27237.0,5,Ocasional Inactivo (Bebidas)
+651,88,17,67639.0,2,Habitual Moderado
+652,6,11,47493.0,2,Habitual Moderado
+653,9,58,405391.0,2,Habitual Moderado
+654,14,16,110080.0,2,Habitual Moderado
+655,15,59,271885.0,2,Habitual Moderado
+656,53,5,23693.0,2,Habitual Moderado
+657,0,61,309591.0,2,Habitual Moderado
+658,7,45,303992.0,2,Habitual Moderado
+659,3,11,52068.0,2,Habitual Moderado
+660,6,55,418121.0,2,Habitual Moderado
+661,423,1,2040.0,4,Ocasional Inactivo (Lácteos)
+662,189,1,5461.0,0,Ocasional Inactivo (Snacks)
+663,15,21,161486.0,2,Habitual Moderado
+664,8,42,243021.0,2,Habitual Moderado
+665,2,483,4033323.0,3,VIP Premium Activo
+666,6,45,240784.0,2,Habitual Moderado
+667,3,43,231048.0,2,Habitual Moderado
+668,437,1,1571.0,4,Ocasional Inactivo (Lácteos)
+669,2,12,58981.0,2,Habitual Moderado
+670,27,7,21438.0,2,Habitual Moderado
+671,8,41,236074.0,2,Habitual Moderado
+672,6,44,370753.0,2,Habitual Moderado
+673,4,173,982636.0,8,VIP Moderado
+674,22,7,17679.0,2,Habitual Moderado
+675,4,489,2548138.0,3,VIP Premium Activo
+676,2,53,397133.0,2,Habitual Moderado
+677,2,212,1442555.0,8,VIP Moderado
+678,0,168,1128240.0,8,VIP Moderado
+679,4,58,345819.0,2,Habitual Moderado
+680,1,57,372679.0,2,Habitual Moderado
+681,0,21,139560.0,2,Habitual Moderado
+682,10,20,137479.0,2,Habitual Moderado
+683,8,19,118789.0,2,Habitual Moderado
+684,628,1,5466.0,4,Ocasional Inactivo (Lácteos)
+685,10,41,248317.0,2,Habitual Moderado
+686,8,32,157445.0,2,Habitual Moderado
+687,6,7,69742.0,2,Habitual Moderado
+688,17,62,445589.0,2,Habitual Moderado
+689,10,11,86568.0,2,Habitual Moderado
+690,4,196,1567285.0,8,VIP Moderado
+691,9,16,98138.0,2,Habitual Moderado
+692,10,16,108273.0,2,Habitual Moderado
+693,3,21,208613.0,2,Habitual Moderado
+694,3,44,195194.0,2,Habitual Moderado
+695,6,208,1138130.0,8,VIP Moderado
+696,3,131,1020919.0,8,VIP Moderado
+697,7,17,159647.0,2,Habitual Moderado
+698,218,1,13022.0,4,Ocasional Inactivo (Lácteos)
+699,134,11,69867.0,2,Habitual Moderado
+700,4,18,116234.0,2,Habitual Moderado
+701,2,29,176731.0,2,Habitual Moderado
+702,30,27,251974.0,2,Habitual Moderado
+703,0,447,3147809.0,3,VIP Premium Activo
+704,2,199,1116646.0,8,VIP Moderado
+705,0,185,1374349.0,8,VIP Moderado
+706,48,16,115998.0,2,Habitual Moderado
+707,0,184,1611751.0,8,VIP Moderado
+708,5,169,854049.0,8,VIP Moderado
+709,1,594,3379145.0,3,VIP Premium Activo
+710,13,11,78745.0,2,Habitual Moderado
+711,17,9,33211.0,0,Ocasional Inactivo (Snacks)
+712,458,1,5171.0,5,Ocasional Inactivo (Bebidas)
+713,38,22,243801.0,2,Habitual Moderado
+714,127,1,13198.0,7,Ocasional Inactivo (Despensa)
+715,7,36,360566.0,2,Habitual Moderado
+716,3,56,408874.0,2,Habitual Moderado
+717,0,181,1114780.0,8,VIP Moderado
+718,6,8,51300.0,2,Habitual Moderado
+719,664,1,2069.0,4,Ocasional Inactivo (Lácteos)
+720,15,50,377040.0,2,Habitual Moderado
+721,11,60,456034.0,2,Habitual Moderado
+722,7,12,132532.0,0,Ocasional Inactivo (Snacks)
+723,0,134,763877.0,8,VIP Moderado
+724,8,20,189050.0,2,Habitual Moderado
+725,3,252,1746474.0,8,VIP Moderado
+726,3,45,305032.0,2,Habitual Moderado
+727,0,505,2939324.0,3,VIP Premium Activo
+728,3,209,1379962.0,8,VIP Moderado
+729,9,8,39438.0,2,Habitual Moderado
+730,1,223,1449100.0,8,VIP Moderado
+731,8,1,2002.0,0,Ocasional Inactivo (Snacks)
+732,6,52,378729.0,2,Habitual Moderado
+733,6,7,67020.0,2,Habitual Moderado
+734,50,9,62825.0,2,Habitual Moderado
+735,0,26,234903.0,2,Habitual Moderado
+736,312,1,13176.0,6,Ocasional Inactivo (Alcohol)
+737,640,1,5378.0,5,Ocasional Inactivo (Bebidas)
+738,13,22,162147.0,2,Habitual Moderado
+739,0,184,1032726.0,8,VIP Moderado
+740,17,40,319953.0,2,Habitual Moderado
+741,0,23,178112.0,2,Habitual Moderado
+742,0,32,283970.0,2,Habitual Moderado
+743,520,1,5486.0,4,Ocasional Inactivo (Lácteos)
+744,3,84,573966.0,2,Habitual Moderado
+745,9,58,434814.0,2,Habitual Moderado
+746,0,245,1723107.0,8,VIP Moderado
+747,25,1,5493.0,4,Ocasional Inactivo (Lácteos)
+748,5,58,467679.0,2,Habitual Moderado
+749,6,12,65555.0,2,Habitual Moderado
+750,384,1,13124.0,4,Ocasional Inactivo (Lácteos)
+751,104,18,105245.0,2,Habitual Moderado
+752,4,55,283926.0,2,Habitual Moderado
+753,30,2,6865.0,1,Ocasional Inactivo (Limpieza)
+754,13,66,493150.0,2,Habitual Moderado
+755,255,1,5493.0,7,Ocasional Inactivo (Despensa)
+756,2,54,322249.0,2,Habitual Moderado
+757,12,63,381333.0,2,Habitual Moderado
+758,5,6,20446.0,2,Habitual Moderado
+759,8,47,352990.0,2,Habitual Moderado
+760,5,13,73525.0,2,Habitual Moderado
+761,5,19,133886.0,2,Habitual Moderado
+762,0,3,17195.0,7,Ocasional Inactivo (Despensa)
+763,0,194,1343448.0,8,VIP Moderado
+764,13,51,377414.0,2,Habitual Moderado
+765,11,25,197216.0,2,Habitual Moderado
+766,1,247,1741533.0,8,VIP Moderado
+767,3,42,284199.0,2,Habitual Moderado
+768,2,12,60309.0,2,Habitual Moderado
+769,0,7,49356.0,2,Habitual Moderado
+770,15,22,122269.0,2,Habitual Moderado
+771,0,102,751357.0,2,Habitual Moderado
+772,36,14,132902.0,2,Habitual Moderado
+773,1,216,1410257.0,8,VIP Moderado
+774,22,5,53261.0,2,Habitual Moderado
+775,5,66,520469.0,2,Habitual Moderado
+776,2,43,267652.0,2,Habitual Moderado
+777,8,23,145340.0,2,Habitual Moderado
+778,17,60,440590.0,2,Habitual Moderado
+779,2,250,1586169.0,8,VIP Moderado
+780,5,447,3224704.0,3,VIP Premium Activo
+781,4,21,231083.0,2,Habitual Moderado
+782,20,10,47377.0,2,Habitual Moderado
+783,0,11,77639.0,2,Habitual Moderado
+784,130,1,12982.0,7,Ocasional Inactivo (Despensa)
+785,10,14,90278.0,2,Habitual Moderado
+786,352,1,5306.0,6,Ocasional Inactivo (Alcohol)
+787,7,27,152429.0,2,Habitual Moderado
+788,15,5,18596.0,1,Ocasional Inactivo (Limpieza)
+789,6,37,397540.0,2,Habitual Moderado
+790,6,50,327563.0,2,Habitual Moderado
+791,4,54,301525.0,2,Habitual Moderado
+792,38,7,60204.0,2,Habitual Moderado
+793,8,3,8906.0,2,Habitual Moderado
+794,2,134,972055.0,8,VIP Moderado
+795,4,523,3891079.0,3,VIP Premium Activo
+796,1,1,5441.0,4,Ocasional Inactivo (Lácteos)
+797,287,1,5390.0,7,Ocasional Inactivo (Despensa)
+798,27,19,89617.0,2,Habitual Moderado
+799,0,519,3759131.0,3,VIP Premium Activo
+800,0,660,4618672.0,3,VIP Premium Activo
+801,5,116,929171.0,8,VIP Moderado
+802,8,10,91726.0,2,Habitual Moderado
+803,6,48,269375.0,2,Habitual Moderado
+804,118,1,5273.0,6,Ocasional Inactivo (Alcohol)
+805,6,222,1319552.0,8,VIP Moderado
+806,1,209,1601948.0,8,VIP Moderado
+807,4,13,98125.0,2,Habitual Moderado
+808,13,8,47120.0,2,Habitual Moderado
+809,344,1,1856.0,5,Ocasional Inactivo (Bebidas)
+810,7,10,80883.0,2,Habitual Moderado
+811,582,1,1255.0,0,Ocasional Inactivo (Snacks)
+812,249,1,5234.0,7,Ocasional Inactivo (Despensa)
+813,24,4,33281.0,2,Habitual Moderado
+814,1,184,968656.0,8,VIP Moderado
+815,4,24,223866.0,2,Habitual Moderado
+816,10,14,115573.0,2,Habitual Moderado
+817,83,20,186858.0,2,Habitual Moderado
+818,61,6,59771.0,2,Habitual Moderado
+819,1,165,990252.0,8,VIP Moderado
+820,6,48,234066.0,2,Habitual Moderado
+821,6,2,10792.0,7,Ocasional Inactivo (Despensa)
+822,24,36,329060.0,2,Habitual Moderado
+823,71,4,11991.0,2,Habitual Moderado
+824,0,200,1130699.0,8,VIP Moderado
+825,3,5,27950.0,2,Habitual Moderado
+826,6,106,529333.0,2,Habitual Moderado
+827,0,22,101955.0,2,Habitual Moderado
+828,0,172,1010349.0,8,VIP Moderado
+829,1,374,2508565.0,3,VIP Premium Activo
+830,639,1,1723.0,4,Ocasional Inactivo (Lácteos)
+831,9,61,384380.0,2,Habitual Moderado
+832,1,29,266041.0,2,Habitual Moderado
+833,7,9,35636.0,2,Habitual Moderado
+834,609,1,12999.0,5,Ocasional Inactivo (Bebidas)
+835,9,8,60089.0,2,Habitual Moderado
+836,3,55,240747.0,2,Habitual Moderado
+837,21,49,424604.0,2,Habitual Moderado
+838,19,37,309004.0,2,Habitual Moderado
+839,1,6,35039.0,2,Habitual Moderado
+840,6,4,29873.0,2,Habitual Moderado
+841,69,11,156113.0,2,Habitual Moderado
+842,11,21,155943.0,2,Habitual Moderado
+843,6,233,1642785.0,8,VIP Moderado
+844,525,1,5469.0,5,Ocasional Inactivo (Bebidas)
+845,3,6,36146.0,0,Ocasional Inactivo (Snacks)
+846,13,53,483983.0,2,Habitual Moderado
+847,13,21,95898.0,2,Habitual Moderado
+848,38,27,248549.0,2,Habitual Moderado
+849,2,206,1434270.0,8,VIP Moderado
+850,0,73,514754.0,2,Habitual Moderado
+851,1,1,13189.0,6,Ocasional Inactivo (Alcohol)
+852,16,42,296406.0,2,Habitual Moderado
+853,5,47,330050.0,2,Habitual Moderado
+854,1,7,42294.0,0,Ocasional Inactivo (Snacks)
+855,8,28,252205.0,2,Habitual Moderado
+856,0,241,1830160.0,8,VIP Moderado
+857,0,378,2637326.0,3,VIP Premium Activo
+858,8,21,129516.0,2,Habitual Moderado
+859,3,93,588674.0,2,Habitual Moderado
+860,11,21,150556.0,2,Habitual Moderado
+861,5,21,203515.0,2,Habitual Moderado
+862,5,115,670213.0,2,Habitual Moderado
+863,1,151,1197880.0,8,VIP Moderado
+864,5,19,113817.0,2,Habitual Moderado
+865,490,1,5198.0,7,Ocasional Inactivo (Despensa)
+866,0,51,333940.0,2,Habitual Moderado
+867,5,8,73759.0,2,Habitual Moderado
+868,3,46,267819.0,2,Habitual Moderado
+869,643,1,12997.0,7,Ocasional Inactivo (Despensa)
+870,12,28,241546.0,2,Habitual Moderado
+871,0,82,526444.0,2,Habitual Moderado
+872,12,10,66077.0,2,Habitual Moderado
+873,16,37,361498.0,2,Habitual Moderado
+874,0,102,736018.0,8,VIP Moderado
+875,414,1,13131.0,4,Ocasional Inactivo (Lácteos)
+876,270,1,27235.0,6,Ocasional Inactivo (Alcohol)
+877,11,23,181515.0,2,Habitual Moderado
+878,6,133,1271232.0,8,VIP Moderado
+879,0,525,3746928.0,3,VIP Premium Activo
+880,3,67,316820.0,2,Habitual Moderado
+881,643,1,5309.0,7,Ocasional Inactivo (Despensa)
+882,1,175,1060452.0,8,VIP Moderado
+883,0,19,102496.0,2,Habitual Moderado
+884,8,30,182592.0,2,Habitual Moderado
+885,6,24,189430.0,2,Habitual Moderado
+886,668,1,1799.0,0,Ocasional Inactivo (Snacks)
+887,7,8,56972.0,2,Habitual Moderado
+888,19,12,115688.0,2,Habitual Moderado
+889,10,232,1691170.0,8,VIP Moderado
+890,4,11,56675.0,2,Habitual Moderado
+891,52,3,16215.0,4,Ocasional Inactivo (Lácteos)
+892,0,7,71962.0,2,Habitual Moderado
+893,1,266,1498553.0,8,VIP Moderado
+894,3,58,437449.0,2,Habitual Moderado
+895,7,23,154781.0,2,Habitual Moderado
+896,0,609,5242937.0,3,VIP Premium Activo
+897,15,4,20478.0,2,Habitual Moderado
+898,35,40,231522.0,2,Habitual Moderado
+899,17,19,99384.0,2,Habitual Moderado
+900,0,389,2833130.0,3,VIP Premium Activo
+901,1,30,194477.0,2,Habitual Moderado
+902,3,261,1470607.0,8,VIP Moderado
+903,0,246,1300130.0,8,VIP Moderado
+904,589,1,5386.0,7,Ocasional Inactivo (Despensa)
+905,11,52,364668.0,2,Habitual Moderado
+906,35,20,157727.0,2,Habitual Moderado
+907,0,55,296508.0,2,Habitual Moderado
+908,0,43,257529.0,2,Habitual Moderado
+909,0,3,11290.0,0,Ocasional Inactivo (Snacks)
+910,12,20,92135.0,2,Habitual Moderado
+911,110,1,745.0,7,Ocasional Inactivo (Despensa)
+912,40,12,110658.0,2,Habitual Moderado
+913,10,54,282296.0,2,Habitual Moderado
+914,577,1,5361.0,7,Ocasional Inactivo (Despensa)
+915,2,18,116197.0,2,Habitual Moderado
+916,1,12,50717.0,2,Habitual Moderado
+917,2,16,99627.0,2,Habitual Moderado
+918,0,189,1596977.0,8,VIP Moderado
+919,6,14,76485.0,2,Habitual Moderado
+920,290,1,12972.0,1,Ocasional Inactivo (Limpieza)
+921,23,16,116417.0,2,Habitual Moderado
+922,111,11,39842.0,2,Habitual Moderado
+923,2,87,636913.0,2,Habitual Moderado
+924,2,137,1029061.0,8,VIP Moderado
+925,10,67,446123.0,2,Habitual Moderado
+926,21,34,149469.0,2,Habitual Moderado
+927,0,127,954892.0,8,VIP Moderado
+928,5,67,369785.0,2,Habitual Moderado
+929,10,59,401064.0,2,Habitual Moderado
+930,0,146,796324.0,8,VIP Moderado
+931,4,192,1373569.0,8,VIP Moderado
+932,237,1,544.0,4,Ocasional Inactivo (Lácteos)
+933,0,203,1791759.0,8,VIP Moderado
+934,9,19,99413.0,2,Habitual Moderado
+935,9,43,305313.0,2,Habitual Moderado
+936,34,9,59785.0,2,Habitual Moderado
+937,2,142,978631.0,8,VIP Moderado
+938,0,34,248595.0,2,Habitual Moderado
+939,8,61,536331.0,2,Habitual Moderado
+940,4,178,1306986.0,8,VIP Moderado
+941,0,24,243889.0,2,Habitual Moderado
+942,8,16,212548.0,2,Habitual Moderado
+943,0,107,739859.0,8,VIP Moderado
+944,177,1,27275.0,0,Ocasional Inactivo (Snacks)
+945,6,207,1199805.0,8,VIP Moderado
+946,10,60,454229.0,2,Habitual Moderado
+947,18,62,536187.0,2,Habitual Moderado
+948,4,144,1087819.0,8,VIP Moderado
+949,337,1,2069.0,4,Ocasional Inactivo (Lácteos)
+950,17,18,149585.0,2,Habitual Moderado
+951,20,52,412894.0,2,Habitual Moderado
+952,3,158,852366.0,8,VIP Moderado
+953,0,52,277836.0,2,Habitual Moderado
+954,5,267,1361030.0,8,VIP Moderado
+955,5,43,297585.0,2,Habitual Moderado
+956,0,143,1017925.0,8,VIP Moderado
+957,503,1,1981.0,0,Ocasional Inactivo (Snacks)
+958,9,226,1611222.0,8,VIP Moderado
+959,1,143,921445.0,8,VIP Moderado
+960,3,5,23439.0,1,Ocasional Inactivo (Limpieza)
+961,4,357,2725923.0,3,VIP Premium Activo
+962,3,52,307955.0,2,Habitual Moderado
+963,4,36,288596.0,2,Habitual Moderado
+964,2,33,318786.0,2,Habitual Moderado
+965,50,1,13021.0,4,Ocasional Inactivo (Lácteos)
+966,178,1,2033.0,5,Ocasional Inactivo (Bebidas)
+967,1,211,1485531.0,8,VIP Moderado
+968,3,172,1300208.0,8,VIP Moderado
+969,1,19,157406.0,2,Habitual Moderado
+970,1,14,121127.0,2,Habitual Moderado
+971,6,175,994129.0,8,VIP Moderado
+972,2,33,241683.0,2,Habitual Moderado
+973,3,46,289411.0,2,Habitual Moderado
+974,64,14,139057.0,2,Habitual Moderado
+975,2,31,203327.0,2,Habitual Moderado
+976,8,45,372804.0,2,Habitual Moderado
+977,3,50,319412.0,2,Habitual Moderado
+978,1,53,368735.0,2,Habitual Moderado
+979,0,15,130149.0,2,Habitual Moderado
+980,354,1,1305.0,0,Ocasional Inactivo (Snacks)
+981,478,1,1730.0,1,Ocasional Inactivo (Limpieza)
+982,0,48,368198.0,2,Habitual Moderado
+983,273,1,1003.0,7,Ocasional Inactivo (Despensa)
+984,1,381,2832513.0,3,VIP Premium Activo
+985,45,4,9465.0,0,Ocasional Inactivo (Snacks)
+986,3,63,418597.0,2,Habitual Moderado
+987,0,32,237055.0,2,Habitual Moderado
+988,18,12,75263.0,2,Habitual Moderado
+989,13,12,57412.0,2,Habitual Moderado
+990,13,28,207385.0,2,Habitual Moderado
+991,13,4,21518.0,1,Ocasional Inactivo (Limpieza)
+992,11,31,146158.0,2,Habitual Moderado
+993,0,537,4564555.0,3,VIP Premium Activo
+994,25,11,88772.0,2,Habitual Moderado
+995,3,224,1352138.0,8,VIP Moderado
+996,3,195,986636.0,8,VIP Moderado
+997,3,107,723365.0,8,VIP Moderado
+998,2,51,240034.0,2,Habitual Moderado
+999,12,20,74458.0,2,Habitual Moderado
+1000,0,647,4534163.0,3,VIP Premium Activo
+1001,6,252,2176617.0,8,VIP Moderado
+1002,516,1,3635.0,5,Ocasional Inactivo (Bebidas)
+1003,647,1,5314.0,7,Ocasional Inactivo (Despensa)
+1004,6,51,282515.0,2,Habitual Moderado
+1005,10,46,354442.0,2,Habitual Moderado
+1006,2,202,1116117.0,8,VIP Moderado
+1007,8,6,28798.0,2,Habitual Moderado
+1008,19,3,23980.0,7,Ocasional Inactivo (Despensa)
+1009,4,159,1004126.0,8,VIP Moderado
+1010,69,22,156752.0,2,Habitual Moderado
+1011,33,9,46636.0,2,Habitual Moderado
+1012,38,10,93909.0,2,Habitual Moderado
+1013,33,21,126605.0,2,Habitual Moderado
+1014,111,1,5441.0,4,Ocasional Inactivo (Lácteos)
+1015,6,50,330737.0,2,Habitual Moderado
+1016,42,14,135108.0,2,Habitual Moderado
+1017,1,166,866022.0,8,VIP Moderado
+1018,0,64,381618.0,2,Habitual Moderado
+1019,10,48,341955.0,2,Habitual Moderado
+1020,13,1,5123.0,2,Habitual Moderado
+1021,6,27,168529.0,2,Habitual Moderado
+1022,1,55,321966.0,2,Habitual Moderado
+1023,3,21,220997.0,2,Habitual Moderado
+1024,0,182,1304524.0,8,VIP Moderado
+1025,2,37,186522.0,2,Habitual Moderado
+1026,7,164,1161519.0,8,VIP Moderado
+1027,23,42,217175.0,2,Habitual Moderado
+1028,10,60,427292.0,2,Habitual Moderado
+1029,0,55,441525.0,2,Habitual Moderado
+1030,3,141,1212370.0,8,VIP Moderado
+1031,12,65,563609.0,2,Habitual Moderado
+1032,21,10,66163.0,2,Habitual Moderado
+1033,10,31,220736.0,2,Habitual Moderado
+1034,123,1,27414.0,6,Ocasional Inactivo (Alcohol)
+1035,2,49,342737.0,2,Habitual Moderado
+1036,1,93,798817.0,8,VIP Moderado
+1037,45,21,131416.0,2,Habitual Moderado
+1038,14,48,212597.0,2,Habitual Moderado
+1039,10,67,542384.0,2,Habitual Moderado
+1040,24,11,90773.0,2,Habitual Moderado
+1041,154,1,5286.0,0,Ocasional Inactivo (Snacks)
+1042,3,15,83485.0,2,Habitual Moderado
+1043,11,22,167408.0,2,Habitual Moderado
+1044,5,45,234395.0,2,Habitual Moderado
+1045,0,44,336587.0,2,Habitual Moderado
+1046,6,14,109666.0,2,Habitual Moderado
+1047,5,251,1693328.0,8,VIP Moderado
+1048,83,1,13169.0,4,Ocasional Inactivo (Lácteos)
+1049,0,576,3988331.0,3,VIP Premium Activo
+1050,2,148,1166193.0,8,VIP Moderado
+1051,462,1,2053.0,7,Ocasional Inactivo (Despensa)
+1052,2,171,1199040.0,8,VIP Moderado
+1053,80,49,270004.0,2,Habitual Moderado
+1054,13,23,216450.0,2,Habitual Moderado
+1055,45,8,61084.0,2,Habitual Moderado
+1056,34,11,71203.0,2,Habitual Moderado
+1057,0,634,4409161.0,3,VIP Premium Activo
+1058,13,52,375485.0,2,Habitual Moderado
+1059,13,2,40557.0,1,Ocasional Inactivo (Limpieza)
+1060,7,63,303149.0,2,Habitual Moderado
+1061,5,128,697461.0,8,VIP Moderado
+1062,17,6,40163.0,2,Habitual Moderado
+1063,3,8,39754.0,2,Habitual Moderado
+1064,20,17,55305.0,2,Habitual Moderado
+1065,6,51,437709.0,2,Habitual Moderado
+1066,1,148,1330773.0,8,VIP Moderado
+1067,0,3,28186.0,0,Ocasional Inactivo (Snacks)
+1068,0,542,4749583.0,3,VIP Premium Activo
+1069,48,7,26828.0,2,Habitual Moderado
+1070,9,66,339512.0,2,Habitual Moderado
+1071,52,6,62850.0,2,Habitual Moderado
+1072,402,1,12965.0,1,Ocasional Inactivo (Limpieza)
+1073,3,20,137475.0,2,Habitual Moderado
+1074,20,20,89838.0,2,Habitual Moderado
+1075,41,20,131466.0,2,Habitual Moderado
+1076,0,219,2024770.0,8,VIP Moderado
+1077,27,29,164010.0,2,Habitual Moderado
+1078,20,4,11194.0,2,Habitual Moderado
+1079,5,358,2591471.0,3,VIP Premium Activo
+1080,71,1,1724.0,0,Ocasional Inactivo (Snacks)
+1081,1,93,709424.0,8,VIP Moderado
+1082,10,39,250807.0,2,Habitual Moderado
+1083,220,1,13149.0,2,Habitual Moderado
+1084,24,7,48421.0,2,Habitual Moderado
+1085,636,1,5475.0,0,Ocasional Inactivo (Snacks)
+1086,1,9,83628.0,2,Habitual Moderado
+1087,21,40,246757.0,2,Habitual Moderado
+1088,6,151,1089258.0,8,VIP Moderado
+1089,19,10,71783.0,2,Habitual Moderado
+1090,2,102,750094.0,8,VIP Moderado
+1091,22,39,287931.0,2,Habitual Moderado
+1092,219,1,5471.0,6,Ocasional Inactivo (Alcohol)
+1093,10,3,11915.0,2,Habitual Moderado
+1094,0,194,1697899.0,8,VIP Moderado
+1095,6,124,633133.0,8,VIP Moderado
+1096,0,169,1421219.0,8,VIP Moderado
+1097,10,63,280962.0,2,Habitual Moderado
+1098,2,50,301152.0,2,Habitual Moderado
+1099,153,1,5340.0,1,Ocasional Inactivo (Limpieza)
+1100,615,1,2000.0,0,Ocasional Inactivo (Snacks)
+1101,2,262,1407693.0,8,VIP Moderado
+1102,7,36,302880.0,2,Habitual Moderado
+1103,3,17,163181.0,2,Habitual Moderado
+1104,2,236,1195537.0,8,VIP Moderado
+1105,1,10,66873.0,2,Habitual Moderado
+1106,584,1,2033.0,5,Ocasional Inactivo (Bebidas)
+1107,5,68,367856.0,2,Habitual Moderado
+1108,2,42,177601.0,2,Habitual Moderado
+1109,3,99,661110.0,8,VIP Moderado
+1110,15,4,33233.0,2,Habitual Moderado
+1111,7,9,65807.0,2,Habitual Moderado
+1112,1,20,164267.0,2,Habitual Moderado
+1113,7,17,170558.0,2,Habitual Moderado
+1114,1,29,202011.0,2,Habitual Moderado
+1115,0,70,552489.0,2,Habitual Moderado
+1116,2,52,365408.0,2,Habitual Moderado
+1117,9,19,138863.0,2,Habitual Moderado
+1118,6,53,374599.0,2,Habitual Moderado
+1119,5,141,683391.0,8,VIP Moderado
+1120,498,1,5471.0,6,Ocasional Inactivo (Alcohol)
+1121,41,2,26359.0,7,Ocasional Inactivo (Despensa)
+1122,22,38,262231.0,2,Habitual Moderado
+1123,13,52,409448.0,2,Habitual Moderado
+1124,0,311,2854295.0,3,VIP Premium Activo
+1125,0,161,1403538.0,8,VIP Moderado
+1126,0,11,59233.0,2,Habitual Moderado
+1127,3,45,283089.0,2,Habitual Moderado
+1128,4,252,2364340.0,8,VIP Moderado
+1129,0,240,1769465.0,8,VIP Moderado
+1130,6,156,824898.0,8,VIP Moderado
+1131,380,1,13058.0,7,Ocasional Inactivo (Despensa)
+1132,226,1,1520.0,7,Ocasional Inactivo (Despensa)
+1133,9,2,14699.0,5,Ocasional Inactivo (Bebidas)
+1134,10,221,1225937.0,8,VIP Moderado
+1135,41,10,84736.0,2,Habitual Moderado
+1136,4,302,2148824.0,8,VIP Moderado
+1137,185,1,290.0,4,Ocasional Inactivo (Lácteos)
+1138,5,2,32632.0,4,Ocasional Inactivo (Lácteos)
+1139,6,65,367477.0,2,Habitual Moderado
+1140,66,3,12803.0,6,Ocasional Inactivo (Alcohol)
+1141,3,219,1151284.0,8,VIP Moderado
+1142,12,20,84304.0,2,Habitual Moderado
+1143,24,39,335636.0,2,Habitual Moderado
+1144,58,3,20278.0,2,Habitual Moderado
+1145,1,161,890550.0,8,VIP Moderado
+1146,5,18,130450.0,2,Habitual Moderado
+1147,1,2,18368.0,0,Ocasional Inactivo (Snacks)
+1148,125,1,27464.0,7,Ocasional Inactivo (Despensa)
+1149,4,193,1275870.0,8,VIP Moderado
+1150,6,37,251908.0,2,Habitual Moderado
+1151,73,10,92498.0,2,Habitual Moderado
+1152,0,236,1814962.0,8,VIP Moderado
+1153,614,1,5408.0,0,Ocasional Inactivo (Snacks)
+1154,2,9,85241.0,2,Habitual Moderado
+1155,6,30,224713.0,2,Habitual Moderado
+1156,5,131,828918.0,8,VIP Moderado
+1157,1,450,3116121.0,3,VIP Premium Activo
+1158,1,14,71411.0,2,Habitual Moderado
+1159,10,41,325803.0,2,Habitual Moderado
+1160,1,1,2053.0,7,Ocasional Inactivo (Despensa)
+1161,0,243,1542335.0,8,VIP Moderado
+1162,172,1,5238.0,1,Ocasional Inactivo (Limpieza)
+1163,17,17,114774.0,2,Habitual Moderado
+1164,191,1,13195.0,5,Ocasional Inactivo (Bebidas)
+1165,1,78,706266.0,8,VIP Moderado
+1166,12,42,254668.0,2,Habitual Moderado
+1167,1,18,151443.0,2,Habitual Moderado
+1168,3,183,1203045.0,8,VIP Moderado
+1169,14,6,58543.0,2,Habitual Moderado
+1170,545,1,12937.0,5,Ocasional Inactivo (Bebidas)
+1171,0,72,566060.0,2,Habitual Moderado
+1172,9,5,16386.0,0,Ocasional Inactivo (Snacks)
+1173,3,174,1260575.0,8,VIP Moderado
+1174,2,62,300367.0,2,Habitual Moderado
+1175,0,19,158195.0,2,Habitual Moderado
+1176,576,1,1868.0,0,Ocasional Inactivo (Snacks)
+1177,0,21,164267.0,2,Habitual Moderado
+1178,6,47,226121.0,2,Habitual Moderado
+1179,289,1,13146.0,6,Ocasional Inactivo (Alcohol)
+1180,13,13,52699.0,2,Habitual Moderado
+1181,14,25,182019.0,2,Habitual Moderado
+1182,26,5,41727.0,2,Habitual Moderado
+1183,58,19,166247.0,2,Habitual Moderado
+1184,40,3,8026.0,2,Habitual Moderado
+1185,308,1,2033.0,5,Ocasional Inactivo (Bebidas)
+1186,12,29,226365.0,2,Habitual Moderado
+1187,10,37,209815.0,2,Habitual Moderado
+1188,1,67,426631.0,2,Habitual Moderado
+1189,5,22,221392.0,2,Habitual Moderado
+1190,3,2,7374.0,5,Ocasional Inactivo (Bebidas)
+1191,6,9,103402.0,2,Habitual Moderado
+1192,27,54,278693.0,2,Habitual Moderado
+1193,14,19,153158.0,2,Habitual Moderado
+1194,66,17,155609.0,2,Habitual Moderado
+1195,13,2,10643.0,7,Ocasional Inactivo (Despensa)
+1196,6,14,154054.0,2,Habitual Moderado
+1197,1,47,291766.0,2,Habitual Moderado
+1198,2,189,1046806.0,8,VIP Moderado
+1199,3,54,462505.0,2,Habitual Moderado
+1200,4,35,211820.0,2,Habitual Moderado
+1201,29,64,368595.0,2,Habitual Moderado
+1202,1,218,1606587.0,8,VIP Moderado
+1203,10,1,272.0,4,Ocasional Inactivo (Lácteos)
+1204,640,1,5152.0,0,Ocasional Inactivo (Snacks)
+1205,11,208,1857116.0,8,VIP Moderado
+1206,6,124,863021.0,8,VIP Moderado
+1207,10,61,392604.0,2,Habitual Moderado
+1208,6,31,183923.0,2,Habitual Moderado
+1209,1,418,2940758.0,3,VIP Premium Activo
+1210,0,257,1792215.0,8,VIP Moderado
+1211,31,9,60171.0,2,Habitual Moderado
+1212,6,31,249596.0,2,Habitual Moderado
+1213,5,51,415297.0,2,Habitual Moderado
+1214,3,202,1175356.0,8,VIP Moderado
+1215,35,7,27164.0,2,Habitual Moderado
+1216,4,67,431236.0,2,Habitual Moderado
+1217,48,13,61173.0,2,Habitual Moderado
+1218,2,37,296470.0,2,Habitual Moderado
+1219,4,24,108583.0,2,Habitual Moderado
+1220,15,12,76631.0,2,Habitual Moderado
+1221,0,63,597642.0,2,Habitual Moderado
+1222,17,62,514733.0,2,Habitual Moderado
+1223,1,47,217266.0,2,Habitual Moderado
+1224,24,16,62265.0,2,Habitual Moderado
+1225,0,244,1732063.0,8,VIP Moderado
+1226,4,215,1045993.0,8,VIP Moderado
+1227,41,19,133617.0,2,Habitual Moderado
+1228,0,242,2060183.0,8,VIP Moderado
+1229,9,17,146986.0,2,Habitual Moderado
+1230,475,1,5469.0,7,Ocasional Inactivo (Despensa)
+1231,5,19,175871.0,2,Habitual Moderado
+1232,0,208,1653232.0,8,VIP Moderado
+1233,15,21,155324.0,2,Habitual Moderado
+1234,10,1,13171.0,7,Ocasional Inactivo (Despensa)
+1235,11,5,30188.0,2,Habitual Moderado
+1236,4,41,255196.0,2,Habitual Moderado
+1237,1,23,141696.0,2,Habitual Moderado
+1238,58,3,8354.0,6,Ocasional Inactivo (Alcohol)
+1239,43,10,35801.0,2,Habitual Moderado
+1240,3,314,2205770.0,8,VIP Moderado
+1241,180,1,1305.0,0,Ocasional Inactivo (Snacks)
+1242,499,1,12988.0,7,Ocasional Inactivo (Despensa)
+1243,3,244,1824934.0,8,VIP Moderado
+1244,3,45,387304.0,2,Habitual Moderado
+1245,51,15,110925.0,2,Habitual Moderado
+1246,3,93,648580.0,8,VIP Moderado
+1247,66,6,105832.0,2,Habitual Moderado
+1248,2,588,4099899.0,3,VIP Premium Activo
+1249,52,19,163311.0,2,Habitual Moderado
+1250,1,55,354244.0,2,Habitual Moderado
+1251,13,4,44354.0,6,Ocasional Inactivo (Alcohol)
+1252,510,1,1843.0,4,Ocasional Inactivo (Lácteos)
+1253,1,54,372642.0,2,Habitual Moderado
+1254,3,27,151698.0,2,Habitual Moderado
+1255,0,52,360507.0,2,Habitual Moderado
+1256,3,23,183674.0,2,Habitual Moderado
+1257,523,1,12989.0,7,Ocasional Inactivo (Despensa)
+1258,7,35,235807.0,2,Habitual Moderado
+1259,1,49,249692.0,2,Habitual Moderado
+1260,24,9,96516.0,2,Habitual Moderado
+1261,26,1,5188.0,2,Habitual Moderado
+1262,1,36,219852.0,2,Habitual Moderado
+1263,34,55,335511.0,2,Habitual Moderado
+1264,13,60,306290.0,2,Habitual Moderado
+1265,5,13,135935.0,2,Habitual Moderado
+1266,384,1,1581.0,1,Ocasional Inactivo (Limpieza)
+1267,10,41,304966.0,2,Habitual Moderado
+1268,62,1,27155.0,6,Ocasional Inactivo (Alcohol)
+1269,2,6,36221.0,2,Habitual Moderado
+1270,12,45,297795.0,2,Habitual Moderado
+1271,30,66,400085.0,2,Habitual Moderado
+1272,2,518,3750746.0,3,VIP Premium Activo
+1273,3,66,564930.0,2,Habitual Moderado
+1274,18,43,214747.0,2,Habitual Moderado
+1275,542,1,2030.0,6,Ocasional Inactivo (Alcohol)
+1276,18,1,5355.0,4,Ocasional Inactivo (Lácteos)
+1277,0,120,1134200.0,8,VIP Moderado
+1278,23,1,2040.0,4,Ocasional Inactivo (Lácteos)
+1279,1,1,5303.0,0,Ocasional Inactivo (Snacks)
+1280,649,1,5401.0,7,Ocasional Inactivo (Despensa)
+1281,6,14,62448.0,2,Habitual Moderado
+1282,7,18,110269.0,2,Habitual Moderado
+1283,2,110,887732.0,8,VIP Moderado
+1284,13,13,99099.0,2,Habitual Moderado
+1285,7,24,159317.0,2,Habitual Moderado
+1286,4,39,297074.0,2,Habitual Moderado
+1287,17,28,112814.0,2,Habitual Moderado
+1288,0,21,208846.0,2,Habitual Moderado
+1289,578,1,5038.0,5,Ocasional Inactivo (Bebidas)
+1290,94,11,41777.0,2,Habitual Moderado
+1291,613,1,5405.0,7,Ocasional Inactivo (Despensa)
+1292,0,105,845677.0,8,VIP Moderado
+1293,8,28,136289.0,2,Habitual Moderado
+1294,2,420,3911551.0,3,VIP Premium Activo
+1295,65,12,95302.0,2,Habitual Moderado
+1296,30,4,60949.0,2,Habitual Moderado
+1297,9,212,1148065.0,8,VIP Moderado
+1298,13,67,384026.0,2,Habitual Moderado
+1299,24,49,377371.0,2,Habitual Moderado
+1300,0,187,1139198.0,8,VIP Moderado
+1301,9,11,70187.0,2,Habitual Moderado
+1302,15,28,258074.0,2,Habitual Moderado
+1303,4,23,250837.0,2,Habitual Moderado
+1304,24,2,10071.0,2,Habitual Moderado
+1305,412,1,12954.0,0,Ocasional Inactivo (Snacks)
+1306,16,54,238876.0,2,Habitual Moderado
+1307,0,228,1157507.0,8,VIP Moderado
+1308,2,29,185196.0,2,Habitual Moderado
+1309,0,179,1537443.0,8,VIP Moderado
+1310,5,185,1269556.0,8,VIP Moderado
+1311,9,17,175905.0,2,Habitual Moderado
+1312,273,1,5078.0,6,Ocasional Inactivo (Alcohol)
+1313,0,61,357709.0,2,Habitual Moderado
+1314,5,7,36968.0,2,Habitual Moderado
+1315,1,176,1347835.0,8,VIP Moderado
+1316,3,32,187520.0,2,Habitual Moderado
+1317,5,599,4385969.0,3,VIP Premium Activo
+1318,100,6,26181.0,2,Habitual Moderado
+1319,10,20,74203.0,2,Habitual Moderado
+1320,0,203,1134931.0,8,VIP Moderado
+1321,33,1,1723.0,4,Ocasional Inactivo (Lácteos)
+1322,5,2,26139.0,2,Habitual Moderado
+1323,1,65,508685.0,2,Habitual Moderado
+1324,0,190,1623529.0,8,VIP Moderado
+1325,5,95,655318.0,8,VIP Moderado
+1326,39,32,194573.0,2,Habitual Moderado
+1327,3,153,976633.0,8,VIP Moderado
+1328,10,57,315064.0,2,Habitual Moderado
+1329,6,42,226751.0,2,Habitual Moderado
+1330,322,1,12980.0,1,Ocasional Inactivo (Limpieza)
+1331,367,1,13065.0,7,Ocasional Inactivo (Despensa)
+1332,6,221,1585049.0,8,VIP Moderado
+1333,2,177,967273.0,8,VIP Moderado
+1334,31,51,333099.0,2,Habitual Moderado
+1335,0,222,1837061.0,8,VIP Moderado
+1336,1,1,1805.0,6,Ocasional Inactivo (Alcohol)
+1337,3,26,157371.0,2,Habitual Moderado
+1338,15,37,172299.0,2,Habitual Moderado
+1339,6,19,145697.0,2,Habitual Moderado
+1340,10,59,392477.0,2,Habitual Moderado
+1341,21,22,126062.0,2,Habitual Moderado
+1342,11,13,86033.0,2,Habitual Moderado
+1343,17,4,25496.0,2,Habitual Moderado
+1344,45,42,229605.0,2,Habitual Moderado
+1345,27,62,631053.0,2,Habitual Moderado
+1346,7,23,199804.0,2,Habitual Moderado
+1347,35,3,19934.0,1,Ocasional Inactivo (Limpieza)
+1348,1,67,581143.0,2,Habitual Moderado
+1349,6,48,379182.0,2,Habitual Moderado
+1350,55,1,13088.0,6,Ocasional Inactivo (Alcohol)
+1351,34,67,530099.0,2,Habitual Moderado
+1352,20,27,144482.0,2,Habitual Moderado
+1353,3,206,1630041.0,8,VIP Moderado
+1354,16,20,131139.0,2,Habitual Moderado
+1355,0,571,4049591.0,3,VIP Premium Activo
+1356,0,257,1379245.0,8,VIP Moderado
+1357,107,1,5480.0,6,Ocasional Inactivo (Alcohol)
+1358,77,1,13130.0,0,Ocasional Inactivo (Snacks)
+1359,3,57,439546.0,2,Habitual Moderado
+1360,3,177,1056103.0,8,VIP Moderado
+1361,3,61,459085.0,2,Habitual Moderado
+1362,21,57,264639.0,2,Habitual Moderado
+1363,6,47,451585.0,2,Habitual Moderado
+1364,0,499,2716188.0,3,VIP Premium Activo
+1365,235,1,13129.0,2,Habitual Moderado
+1366,34,40,307652.0,2,Habitual Moderado
+1367,13,40,310081.0,2,Habitual Moderado
+1368,3,37,143221.0,2,Habitual Moderado
+1369,600,1,5263.0,1,Ocasional Inactivo (Limpieza)
+1370,2,5,66818.0,2,Habitual Moderado
+1371,0,153,1104924.0,8,VIP Moderado
+1372,476,1,5441.0,4,Ocasional Inactivo (Lácteos)
+1373,7,66,424498.0,2,Habitual Moderado
+1374,655,1,544.0,4,Ocasional Inactivo (Lácteos)
+1375,3,217,1579345.0,8,VIP Moderado
+1376,1,135,673647.0,8,VIP Moderado
+1377,0,563,4874372.0,3,VIP Premium Activo
+1378,1,22,197790.0,2,Habitual Moderado
+1379,531,1,5037.0,7,Ocasional Inactivo (Despensa)
+1380,1,259,2296768.0,8,VIP Moderado
+1381,0,236,1345812.0,8,VIP Moderado
+1382,6,151,1018237.0,8,VIP Moderado
+1383,6,19,104822.0,2,Habitual Moderado
+1384,84,18,127632.0,2,Habitual Moderado
+1385,41,28,205298.0,2,Habitual Moderado
+1386,1,291,1702587.0,8,VIP Moderado
+1387,0,386,2078965.0,8,VIP Moderado
+1388,309,1,1723.0,4,Ocasional Inactivo (Lácteos)
+1389,448,1,1592.0,1,Ocasional Inactivo (Limpieza)
+1390,29,4,22025.0,2,Habitual Moderado
+1391,4,12,95161.0,2,Habitual Moderado
+1392,11,12,47223.0,2,Habitual Moderado
+1393,31,44,248721.0,2,Habitual Moderado
+1394,3,213,1263600.0,8,VIP Moderado
+1395,34,11,91345.0,2,Habitual Moderado
+1396,10,18,153285.0,2,Habitual Moderado
+1397,1,139,851494.0,8,VIP Moderado
+1398,1,412,2488439.0,3,VIP Premium Activo
+1399,8,13,85100.0,2,Habitual Moderado
+1400,3,14,51731.0,2,Habitual Moderado
+1401,6,4,36720.0,0,Ocasional Inactivo (Snacks)
+1402,10,61,546168.0,2,Habitual Moderado
+1403,4,10,29869.0,2,Habitual Moderado
+1404,0,25,211146.0,2,Habitual Moderado
+1405,0,255,2192119.0,8,VIP Moderado
+1406,5,143,801140.0,8,VIP Moderado
+1407,18,26,140243.0,2,Habitual Moderado
+1408,10,21,214615.0,2,Habitual Moderado
+1409,8,46,277768.0,2,Habitual Moderado
+1410,5,177,1157385.0,8,VIP Moderado
+1411,24,3,16930.0,4,Ocasional Inactivo (Lácteos)
+1412,481,1,5435.0,7,Ocasional Inactivo (Despensa)
+1413,6,41,180287.0,2,Habitual Moderado
+1414,8,36,213085.0,2,Habitual Moderado
+1415,39,5,53533.0,2,Habitual Moderado
+1416,0,509,2686201.0,3,VIP Premium Activo
+1417,30,33,147223.0,2,Habitual Moderado
+1418,13,30,172752.0,2,Habitual Moderado
+1419,0,59,573645.0,2,Habitual Moderado
+1420,0,39,306449.0,2,Habitual Moderado
+1421,382,1,5312.0,6,Ocasional Inactivo (Alcohol)
+1422,13,64,507258.0,2,Habitual Moderado
+1423,14,40,247430.0,2,Habitual Moderado
+1424,23,18,158304.0,2,Habitual Moderado
+1425,6,179,1159496.0,8,VIP Moderado
+1426,1,8,32099.0,2,Habitual Moderado
+1427,0,28,186083.0,2,Habitual Moderado
+1428,13,8,58013.0,2,Habitual Moderado
+1429,642,1,1490.0,7,Ocasional Inactivo (Despensa)
+1430,1,189,908910.0,8,VIP Moderado
+1431,0,147,771218.0,8,VIP Moderado
+1432,0,189,1126628.0,8,VIP Moderado
+1433,9,16,114975.0,2,Habitual Moderado
+1434,5,548,4087042.0,3,VIP Premium Activo
+1435,2,47,334795.0,2,Habitual Moderado
+1436,117,16,114431.0,2,Habitual Moderado
+1437,9,32,189552.0,2,Habitual Moderado
+1438,1,20,103335.0,2,Habitual Moderado
+1439,20,33,260191.0,2,Habitual Moderado
+1440,30,2,10760.0,6,Ocasional Inactivo (Alcohol)
+1441,4,119,920203.0,8,VIP Moderado
+1442,29,52,252218.0,2,Habitual Moderado
+1443,126,1,1255.0,0,Ocasional Inactivo (Snacks)
+1444,1,200,1612298.0,8,VIP Moderado
+1445,21,13,69997.0,2,Habitual Moderado
+1446,0,511,3401497.0,3,VIP Premium Activo
+1447,390,1,5491.0,0,Ocasional Inactivo (Snacks)
+1448,3,10,70898.0,2,Habitual Moderado
+1449,2,18,87731.0,2,Habitual Moderado
+1450,10,22,96490.0,2,Habitual Moderado
+1451,96,20,122354.0,2,Habitual Moderado
+1452,80,17,173407.0,2,Habitual Moderado
+1453,3,49,374010.0,2,Habitual Moderado
+1454,206,1,5296.0,7,Ocasional Inactivo (Despensa)
+1455,3,140,594837.0,8,VIP Moderado
+1456,1,55,469028.0,2,Habitual Moderado
+1457,40,13,59952.0,2,Habitual Moderado
+1458,2,225,1244416.0,8,VIP Moderado
+1459,19,4,25501.0,2,Habitual Moderado
+1460,3,266,1739985.0,8,VIP Moderado
+1461,12,1,13195.0,2,Habitual Moderado
+1462,0,131,889549.0,8,VIP Moderado
+1463,2,60,619876.0,2,Habitual Moderado
+1464,13,47,439408.0,2,Habitual Moderado
+1465,2,124,1105761.0,8,VIP Moderado
+1466,11,62,511971.0,2,Habitual Moderado
+1467,0,42,407671.0,2,Habitual Moderado
+1468,584,1,13121.0,5,Ocasional Inactivo (Bebidas)
+1469,1,172,822626.0,8,VIP Moderado
+1470,1,254,1642215.0,8,VIP Moderado
+1471,78,5,48547.0,2,Habitual Moderado
+1472,0,264,1441049.0,8,VIP Moderado
+1473,34,15,70667.0,2,Habitual Moderado
+1474,7,6,40398.0,0,Ocasional Inactivo (Snacks)
+1475,2,18,119507.0,2,Habitual Moderado
+1476,0,542,2681367.0,3,VIP Premium Activo
+1477,3,37,150528.0,2,Habitual Moderado
+1478,13,42,346654.0,2,Habitual Moderado
+1479,410,1,1723.0,4,Ocasional Inactivo (Lácteos)
+1480,1,244,1662666.0,8,VIP Moderado
+1481,5,60,529645.0,2,Habitual Moderado
+1482,11,3,5420.0,2,Habitual Moderado
+1483,16,49,256041.0,2,Habitual Moderado
+1484,9,14,141996.0,2,Habitual Moderado
+1485,10,51,331112.0,2,Habitual Moderado
+1486,371,1,13033.0,1,Ocasional Inactivo (Limpieza)
+1487,14,2,29008.0,0,Ocasional Inactivo (Snacks)
+1488,17,11,64157.0,2,Habitual Moderado
+1489,239,1,12974.0,6,Ocasional Inactivo (Alcohol)
+1490,283,1,5424.0,6,Ocasional Inactivo (Alcohol)
+1491,23,21,156128.0,2,Habitual Moderado
+1492,2,157,1275031.0,8,VIP Moderado
+1493,95,9,46173.0,2,Habitual Moderado
+1494,5,226,1823881.0,8,VIP Moderado
+1495,7,33,238615.0,2,Habitual Moderado
+1496,0,37,202967.0,2,Habitual Moderado
+1497,19,15,119007.0,2,Habitual Moderado
+1498,4,31,211512.0,2,Habitual Moderado
+1499,2,20,151121.0,2,Habitual Moderado
+1500,9,39,245613.0,2,Habitual Moderado
+1501,10,16,99793.0,2,Habitual Moderado
+1502,2,20,126191.0,2,Habitual Moderado
+1503,10,1,5362.0,7,Ocasional Inactivo (Despensa)
+1504,6,15,116197.0,2,Habitual Moderado
+1505,19,26,134314.0,2,Habitual Moderado
+1506,662,1,13111.0,7,Ocasional Inactivo (Despensa)
+1507,0,39,249866.0,2,Habitual Moderado
+1508,0,199,1220828.0,8,VIP Moderado
+1509,25,20,124618.0,2,Habitual Moderado
+1510,42,22,138953.0,2,Habitual Moderado
+1511,585,1,2053.0,7,Ocasional Inactivo (Despensa)
+1512,74,9,49959.0,2,Habitual Moderado
+1513,1,45,311068.0,2,Habitual Moderado
+1514,0,49,375404.0,2,Habitual Moderado
+1515,3,6,44085.0,0,Ocasional Inactivo (Snacks)
+1516,0,131,958620.0,8,VIP Moderado
+1517,5,76,478037.0,2,Habitual Moderado
+1518,6,25,164886.0,2,Habitual Moderado
+1519,114,1,5498.0,0,Ocasional Inactivo (Snacks)
+1520,10,4,25381.0,2,Habitual Moderado
+1521,14,7,45322.0,2,Habitual Moderado
+1522,0,12,84449.0,2,Habitual Moderado
+1523,0,375,3315042.0,3,VIP Premium Activo
+1524,2,221,2005608.0,8,VIP Moderado
+1525,2,4,28877.0,2,Habitual Moderado
+1526,34,65,629667.0,2,Habitual Moderado
+1527,5,197,1752415.0,8,VIP Moderado
+1528,5,21,145574.0,2,Habitual Moderado
+1529,5,45,329073.0,2,Habitual Moderado
+1530,9,2,7380.0,6,Ocasional Inactivo (Alcohol)
+1531,2,260,1496693.0,8,VIP Moderado

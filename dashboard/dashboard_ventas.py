@@ -13,6 +13,7 @@ import plotly.graph_objects as go
 from plotly.subplots import make_subplots
 from datetime import datetime, timedelta
 from io import BytesIO
+import json
 import warnings
 warnings.filterwarnings('ignore')
 
@@ -34,10 +35,10 @@ def cargar_datos():
     """Carga y prepara todos los datos necesarios para el dashboard"""
     try:
         # Cargar archivos base
-        df_clientes = pd.read_csv(r"data/raw/clientes.csv")
-        df_productos = pd.read_csv(r"data/raw/productos.csv")
-        df_ventas = pd.read_csv(r"data/raw/ventas.csv")
-        df_detalle = pd.read_csv(r"data/raw/detalle_ventas.csv")
+        df_clientes = pd.read_csv(r"../data/raw/clientes.csv")
+        df_productos = pd.read_csv(r"../data/raw/productos.csv")
+        df_ventas = pd.read_csv(r"../data/raw/ventas.csv")
+        df_detalle = pd.read_csv(r"../data/raw/detalle_ventas.csv")
         
         # Limpieza de datos
         df_clientes['fecha_alta'] = pd.to_datetime(df_clientes['fecha_alta'])
@@ -382,7 +383,7 @@ with col1:
         hovermode='x unified'
     )
     
-    st.plotly_chart(fig_tiempo, use_container_width=True)
+    st.plotly_chart(fig_tiempo, width='stretch')
 
 # Insights automáticos
 if len(ventas_tiempo) > 0:
@@ -439,7 +440,7 @@ with col1:
     )
     fig_ciudad_ventas.update_traces(texttemplate='$%{text:,.0f}', textposition='inside')
     fig_ciudad_ventas.update_layout(height=400, showlegend=False)
-    st.plotly_chart(fig_ciudad_ventas, use_container_width=True)
+    st.plotly_chart(fig_ciudad_ventas, width='stretch')
 
 with col2:
     fig_ciudad_trans = px.pie(
@@ -452,14 +453,14 @@ with col2:
     )
     fig_ciudad_trans.update_traces(textposition='inside', textinfo='percent+label')
     fig_ciudad_trans.update_layout(height=400)
-    st.plotly_chart(fig_ciudad_trans, use_container_width=True)
+    st.plotly_chart(fig_ciudad_trans, width='stretch')
 
 # Tabla resumen
 ciudad_stats_display = ciudad_stats.copy()
 ciudad_stats_display['ventas_totales'] = ciudad_stats_display['ventas_totales'].apply(lambda x: f"ARS ${x:,.2f}")
 ciudad_stats_display['ticket_promedio'] = (ciudad_stats['ventas_totales'] / ciudad_stats['num_transacciones']).apply(lambda x: f"ARS ${x:,.2f}")
 ciudad_stats_display.columns = ['Ciudad', 'Ventas Totales', 'Transacciones', 'Unidades Vendidas', 'Ticket Promedio']
-st.dataframe(ciudad_stats_display, use_container_width=True, hide_index=True)
+st.dataframe(ciudad_stats_display, width='stretch', hide_index=True)
 
 st.markdown("---")
 
@@ -501,7 +502,7 @@ with col1:
         fig_productos.update_traces(texttemplate='%{text:,.0f} unid.', textposition='inside')
 
     fig_productos.update_layout(height=500, showlegend=False, yaxis={'categoryorder':'total ascending'})
-    st.plotly_chart(fig_productos, use_container_width=True)
+    st.plotly_chart(fig_productos, width='stretch')
 
 with col2:
     # Distribución por categoría con información detallada en hover
@@ -541,7 +542,7 @@ with col2:
         title='Distribución de Ventas por Categoría',
         height=500
     )
-    st.plotly_chart(fig_cat_pie, use_container_width=True)
+    st.plotly_chart(fig_cat_pie, width='stretch')
 
 st.markdown("---")
 
@@ -573,7 +574,7 @@ with col1:
     )
     fig_pago.update_traces(textposition='inside')
     fig_pago.update_layout(height=400, showlegend=False)
-    st.plotly_chart(fig_pago, use_container_width=True)
+    st.plotly_chart(fig_pago, width='stretch')
 
 with col2:
     # Método de pago por ciudad (top 3 ciudades)
@@ -592,7 +593,7 @@ with col2:
         barmode='group'
     )
     fig_pago_ciudad.update_layout(height=400)
-    st.plotly_chart(fig_pago_ciudad, use_container_width=True)
+    st.plotly_chart(fig_pago_ciudad, width='stretch')
 
 st.markdown("---")
 
@@ -704,7 +705,7 @@ else:
         title='Distribución de Segmentos de Clientes',
         height=450
     )
-    st.plotly_chart(fig_seg_pie, use_container_width=True)
+    st.plotly_chart(fig_seg_pie, width='stretch')
     
     # Tabla detallada de segmentos
     segmento_metricas_display = segmento_metricas.copy()
@@ -713,7 +714,7 @@ else:
     segmento_metricas_display['Gasto Promedio'] = segmento_metricas_display['Gasto Promedio'].apply(lambda x: f"ARS ${x:,.2f}")
     segmento_metricas_display['Porcentaje'] = segmento_metricas_display['Porcentaje'].apply(lambda x: f"{x:.1f}%")
     segmento_metricas_display = segmento_metricas_display[['Segmento', 'Cantidad Clientes', 'Porcentaje', 'Recencia Promedio', 'Frecuencia Promedio', 'Gasto Promedio']]
-    st.dataframe(segmento_metricas_display, use_container_width=True, hide_index=True)
+    st.dataframe(segmento_metricas_display, width='stretch', hide_index=True)
 
     # Gráficos de distribución RFM - Box plots con violin para mejor visualización
     col_header1, col_header2 = st.columns([10, 1])
@@ -766,7 +767,7 @@ else:
             showlegend=False,
             xaxis={'tickangle': 0}
         )
-        st.plotly_chart(fig_rec, use_container_width=True)
+        st.plotly_chart(fig_rec, width='stretch')
 
     with col2:
         fig_freq = go.Figure()
@@ -791,7 +792,7 @@ else:
             showlegend=False,
             xaxis={'tickangle': 0}
         )
-        st.plotly_chart(fig_freq, use_container_width=True)
+        st.plotly_chart(fig_freq, width='stretch')
 
     with col3:
         fig_mon = go.Figure()
@@ -816,7 +817,7 @@ else:
             showlegend=False,
             xaxis={'tickangle': 0}
         )
-        st.plotly_chart(fig_mon, use_container_width=True)
+        st.plotly_chart(fig_mon, width='stretch')
 
     # Scatter plots RFM mejorados
     st.subheader("Análisis de Relaciones entre Métricas RFM")
@@ -844,7 +845,7 @@ else:
             color_discrete_sequence=px.colors.qualitative.Bold
         )
         fig_scatter1.update_layout(height=500)
-        st.plotly_chart(fig_scatter1, use_container_width=True)
+        st.plotly_chart(fig_scatter1, width='stretch')
         st.info("💡 **Insight:** Los mejores clientes están en la esquina superior derecha (alta frecuencia + alto gasto)")
 
     with tab2:
@@ -861,7 +862,7 @@ else:
             color_discrete_sequence=px.colors.qualitative.Bold
         )
         fig_scatter2.update_layout(height=500)
-        st.plotly_chart(fig_scatter2, use_container_width=True)
+        st.plotly_chart(fig_scatter2, width='stretch')
         st.info("💡 **Insight:** Los mejores clientes están en la esquina superior izquierda (compra reciente + alto gasto)")
 
     with tab3:
@@ -878,7 +879,7 @@ else:
             color_discrete_sequence=px.colors.qualitative.Bold
         )
         fig_scatter3.update_layout(height=500)
-        st.plotly_chart(fig_scatter3, use_container_width=True)
+        st.plotly_chart(fig_scatter3, width='stretch')
         st.info("💡 **Insight:** Los mejores clientes están en la esquina superior izquierda (compra reciente + alta frecuencia)")
 
     # Top clientes
@@ -911,7 +912,7 @@ else:
     })
     top_clientes_display = top_clientes_display.rename(columns=nuevos_nombres)
     
-    st.dataframe(top_clientes_display, use_container_width=True, hide_index=True)
+    st.dataframe(top_clientes_display, width='stretch', hide_index=True)
 
 st.markdown("---")
 
@@ -962,7 +963,7 @@ if len(df_rfm_filtrado) > 0:
             yaxis_title=""
         )
         
-        st.plotly_chart(fig_corr, use_container_width=True)
+        st.plotly_chart(fig_corr, width='stretch')
 
     with col2:
         # Interpretación automática
@@ -1045,7 +1046,7 @@ with tab1:
         markers=True
     )
     fig_trend.update_layout(height=450, hovermode='x unified')
-    st.plotly_chart(fig_trend, use_container_width=True)
+    st.plotly_chart(fig_trend, width='stretch')
     
     # Identificar categoría con mayor crecimiento
     if len(ventas_mes_cat) > 0:
@@ -1099,7 +1100,7 @@ with tab2:
         )
         fig_estacional.update_traces(texttemplate='$%{text:,.0f}', textposition='inside')
         fig_estacional.update_layout(height=400, showlegend=False)
-        st.plotly_chart(fig_estacional, use_container_width=True)
+        st.plotly_chart(fig_estacional, width='stretch')
         
         mejor_dia = ventas_dia.loc[ventas_dia['importe'].idxmax(), 'dia_semana_esp']
         peor_dia = ventas_dia.loc[ventas_dia['importe'].idxmin(), 'dia_semana_esp']
@@ -1131,7 +1132,7 @@ with tab2:
         )
         fig_mes.update_traces(texttemplate='$%{text:,.0f}', textposition='inside')
         fig_mes.update_layout(height=400, showlegend=False)
-        st.plotly_chart(fig_mes, use_container_width=True)
+        st.plotly_chart(fig_mes, width='stretch')
         
         mejor_mes = ventas_mes.loc[ventas_mes['importe'].idxmax(), 'mes_nombre']
         peor_mes = ventas_mes.loc[ventas_mes['importe'].idxmin(), 'mes_nombre']
@@ -1159,7 +1160,7 @@ with tab2:
         yaxis_title='Mes',
         height=400
     )
-    st.plotly_chart(fig_heat, use_container_width=True)
+    st.plotly_chart(fig_heat, width='stretch')
     
     st.markdown("""
     <div class="insight-box">
@@ -1188,27 +1189,27 @@ with tab3:
     if tabla_seleccion == "Datos Consolidados (Filtrados)":
         data_to_export = df_filtrado
         st.markdown(f"**Preview** (primeras 100 filas de {len(df_filtrado):,} totales)")
-        st.dataframe(df_filtrado.head(100), use_container_width=True)
+        st.dataframe(df_filtrado.head(100), width='stretch')
     elif tabla_seleccion == "RFM Segmentado":
         data_to_export = df_rfm_seg
         st.markdown(f"**Preview** ({len(df_rfm_seg):,} clientes)")
-        st.dataframe(df_rfm_seg, use_container_width=True)
+        st.dataframe(df_rfm_seg, width='stretch')
     elif tabla_seleccion == "Clientes":
         data_to_export = df_clientes
         st.markdown(f"**Preview** ({len(df_clientes):,} clientes)")
-        st.dataframe(df_clientes, use_container_width=True)
+        st.dataframe(df_clientes, width='stretch')
     elif tabla_seleccion == "Productos":
         data_to_export = df_productos
         st.markdown(f"**Preview** ({len(df_productos):,} productos)")
-        st.dataframe(df_productos, use_container_width=True)
+        st.dataframe(df_productos, width='stretch')
     elif tabla_seleccion == "Ventas":
         data_to_export = df_ventas
         st.markdown(f"**Preview** (primeras 100 filas de {len(df_ventas):,} totales)")
-        st.dataframe(df_ventas.head(100), use_container_width=True)
+        st.dataframe(df_ventas.head(100), width='stretch')
     else:
         data_to_export = df_detalle
         st.markdown(f"**Preview** (primeras 100 filas de {len(df_detalle):,} totales)")
-        st.dataframe(df_detalle.head(100), use_container_width=True)
+        st.dataframe(df_detalle.head(100), width='stretch')
     
     # Botones de descarga
     if formato == "CSV":
@@ -1217,7 +1218,7 @@ with tab3:
             data=data_to_export.to_csv(index=False).encode('utf-8'),
             file_name=f'{tabla_seleccion.lower().replace(" ", "_")}.csv',
             mime='text/csv',
-            use_container_width=True
+            width='stretch'
         )
     else:
         # Para Excel necesitamos usar BytesIO
@@ -1232,10 +1233,578 @@ with tab3:
             data=excel_data,
             file_name=f'{tabla_seleccion.lower().replace(" ", "_")}.xlsx',
             mime='application/vnd.openxmlformats-officedocument.spreadsheetml.sheet',
-            use_container_width=True
+            width='stretch'
         )
     
     st.success("✅ Datos listos para descargar. Click en el botón de arriba para iniciar la descarga.")
+
+st.markdown("---")
+
+# =============================
+# SECCIÓN: ANÁLISIS DE CLUSTERING
+# =============================
+st.header("Segmentación de Clientes basado en patrones")
+
+st.markdown("""
+<div style='background-color: #f0f2f6; padding: 15px; border-radius: 10px; margin-bottom: 20px;'>
+    <p style='margin: 10px 0 0 0;'>
+        El clustering fue creado usando <b>K-Means con 9 grupos</b>, basado en <b>14 variables</b> que incluyen 
+        métricas RFM y comportamiento de compra por categoría. A diferencia de la segmentación RFM por reglas 
+        (que solo usa 3 variables), este modelo captura patrones más complejos del comportamiento del cliente.
+    </p>
+</div>
+""", unsafe_allow_html=True)
+
+try:
+    # Cargar datos de clustering
+    df_clustering = pd.read_csv("../data/clean/clustering_features.csv")
+    df_profiles = pd.read_csv("../data/clean/clustering_profiles.csv")
+    df_viz_2d = pd.read_csv("../data/clean/clustering_viz_2d.csv")
+    df_viz_3d = pd.read_csv("../data/clean/clustering_viz_3d.csv")
+    
+    with open("../data/clean/clustering_metrics.json", "r") as f:
+        metrics = json.load(f)
+    
+    # Merge con datos de clientes para tener info completa
+    df_clustering_full = df_clustering.merge(
+        df_clientes[['id_cliente', 'nombre_cliente', 'ciudad']], 
+        on='id_cliente', 
+        how='left'
+    )
+    
+    # =============================
+    # MÉTRICAS DE CALIDAD DEL CLUSTERING
+    # =============================
+    st.subheader("Métricas de Calidad del Modelo")
+    
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric(
+            "Silhouette Score",
+            f"{metrics['silhouette_score']:.3f}",
+            help="Mide qué tan bien separados están los clusters. Rango: [-1, 1]. Valor > 0.3 indica buena separación."
+        )
+    
+    with col2:
+        st.metric(
+            "Calinski-Harabasz",
+            f"{metrics['calinski_harabasz_score']:.1f}",
+            help="Ratio de dispersión entre clusters vs dentro de clusters. Valores más altos son mejores."
+        )
+    
+    with col3:
+        st.metric(
+            "Davies-Bouldin",
+            f"{metrics['davies_bouldin_score']:.3f}",
+            help="Mide la similitud promedio entre clusters. Valores más bajos son mejores (óptimo: 0)."
+        )
+    
+    with col4:
+        st.metric(
+            "N° de Clusters",
+            f"{metrics['n_clusters']}",
+            help="Número óptimo de grupos determinado por análisis de Silhouette, Calinski-Harabasz y Davies-Bouldin."
+        )
+    
+    # Explicación de por qué es mejor
+    with st.expander("¿Por qué estos indicadores validan nuestro clustering?"):
+        st.markdown("""
+        ### Interpretación de las Métricas
+        
+        **Silhouette Score = 0.357**
+        - Rango aceptable: >0.3 
+        - Nuestro modelo: **Buena separación entre clusters**
+        - Indica que los clientes dentro de cada grupo son más similares entre sí que con otros grupos
+        
+        **Calinski-Harabasz = 308.83**
+        - No tiene límite superior, valores altos son mejores
+        - Nuestro modelo: **Clusters bien definidos y compactos**
+        - Muestra que la varianza entre clusters es alta comparada con la varianza interna
+        
+        **Davies-Bouldin = 0.916**
+        - Rango: [0, ∞], valores bajos son mejores
+        - Nuestro modelo: **Clusters con baja similitud entre sí**
+        - Cerca de 1 es excelente, indica que cada cluster es único y bien diferenciado
+        
+        **Conclusión**: El modelo con **9 clusters** fue seleccionado como óptimo porque maximiza 
+        la diferenciación entre grupos mientras mantiene la cohesión interna de cada segmento.
+        """)
+    
+    st.markdown("---")
+    
+    # =============================
+    # DISTRIBUCIÓN DE CLIENTES POR CLUSTER
+    # =============================
+    st.subheader("Distribución de Clientes por Segmento")
+    
+    # Calcular distribución
+    dist_clusters = df_clustering_full.groupby('cluster_nombre').agg({
+        'id_cliente': 'count',
+        'monetary': 'sum',
+        'frequency': 'sum'
+    }).reset_index()
+    dist_clusters.columns = ['Segmento', 'N_Clientes', 'Ventas_Total', 'Transacciones_Total']
+    dist_clusters['Pct_Clientes'] = (dist_clusters['N_Clientes'] / dist_clusters['N_Clientes'].sum() * 100).round(1)
+    dist_clusters['Pct_Ventas'] = (dist_clusters['Ventas_Total'] / dist_clusters['Ventas_Total'].sum() * 100).round(1)
+    dist_clusters = dist_clusters.sort_values('N_Clientes', ascending=False)
+    
+    col1, col2 = st.columns(2)
+    
+    with col1:
+        # Gráfico de torta con cantidad de clientes
+        fig_pie_clientes = px.pie(
+            dist_clusters,
+            values='N_Clientes',
+            names='Segmento',
+            title='Distribución de Clientes por Segmento',
+            hole=0.4,
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        fig_pie_clientes.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_pie_clientes, width='stretch')
+    
+    with col2:
+        # Gráfico de torta con valor de ventas
+        fig_pie_ventas = px.pie(
+            dist_clusters,
+            values='Ventas_Total',
+            names='Segmento',
+            title='Distribución de Valor de Ventas por Segmento',
+            hole=0.4,
+            color_discrete_sequence=px.colors.qualitative.Pastel
+        )
+        fig_pie_ventas.update_traces(textposition='inside', textinfo='percent+label')
+        st.plotly_chart(fig_pie_ventas, width='stretch')
+    
+    # Tabla resumen
+    dist_clusters['Ventas_Total'] = dist_clusters['Ventas_Total'].apply(lambda x: f"${x:,.0f}")
+    dist_clusters['Transacciones_Total'] = dist_clusters['Transacciones_Total'].apply(lambda x: f"{x:,.0f}")
+    st.dataframe(
+        dist_clusters.style.background_gradient(subset=['Pct_Clientes', 'Pct_Ventas'], cmap='Blues'),
+        width='stretch',
+        hide_index=True
+    )
+    
+    st.markdown("---")
+    
+    # =============================
+    # VISUALIZACIÓN 3D INTERACTIVA
+    # =============================
+    st.subheader("Visualización 3D de Clusters")
+    
+    tab1, tab2, tab3 = st.tabs(["Vista PCA", "Vista RFM", "Vista RFM log"])
+    
+    with tab1:
+        st.markdown("**Componentes Principales (PCA)** - Varianza explicada: {:.1%}".format(metrics['varianza_explicada_3d']))
+        
+        fig_3d_pca = px.scatter_3d(
+            df_viz_3d,
+            x='PC1',
+            y='PC2',
+            z='PC3',
+            color='Cluster_Nombre',
+            hover_data={
+                'ID_Cliente': True,
+                'Recency': ':.0f',
+                'Frequency': ':.0f',
+                'Monetary': ':$,.0f',
+                'PC1': False,
+                'PC2': False,
+                'PC3': False
+            },
+            labels={
+                'Cluster_Nombre': 'Segmento',
+                'Recency': 'Días sin compra',
+                'Frequency': 'N° Compras',
+                'Monetary': 'Valor Total'
+            },
+            title='Clusters en Espacio de Componentes Principales',
+            height=600,
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        
+        fig_3d_pca.update_traces(marker=dict(size=4, opacity=0.7))
+        fig_3d_pca.update_layout(
+            scene=dict(
+                xaxis_title='PC1',
+                yaxis_title='PC2',
+                zaxis_title='PC3',
+                camera=dict(eye=dict(x=1.5, y=1.5, z=1.3))
+            ),
+            legend=dict(
+                orientation='v',
+                yanchor='top',
+                y=0.99,
+                xanchor='left',
+                x=0.01
+            )
+        )
+        
+        st.plotly_chart(fig_3d_pca, width='stretch')
+        
+        st.info("**Tip**: Usa el mouse para rotar, zoom y explorar el gráfico 3D. PCA reduce las 14 dimensiones originales a 3 componentes principales.")
+    
+    with tab2:
+        
+        fig_3d_rfm = px.scatter_3d(
+            df_viz_3d,
+            x='Recency',
+            y='Frequency',
+            z='Monetary',
+            color='Cluster_Nombre',
+            hover_data={
+                'ID_Cliente': True,
+                'Cluster_Nombre': False
+            },
+            labels={
+                'Cluster_Nombre': 'Segmento',
+                'Recency': 'Recency (días)',
+                'Frequency': 'Frequency (compras)',
+                'Monetary': 'Monetary ($)'
+            },
+            title='Clusters en Espacio RFM Original',
+            height=600,
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        
+        fig_3d_rfm.update_traces(marker=dict(size=5, opacity=0.7))
+        fig_3d_rfm.update_layout(
+            scene=dict(
+                xaxis_title='Recency',
+                yaxis_title='Frequency',
+                zaxis_title='Monetary',
+                camera=dict(eye=dict(x=1.3, y=-1.5, z=1.2))
+            ),
+            legend=dict(
+                orientation='v',
+                yanchor='top',
+                y=0.99,
+                xanchor='left',
+                x=0.01
+            )
+        )
+        
+        st.plotly_chart(fig_3d_rfm, width='stretch')
+        
+        st.info("**Interpretación**: Recency bajo (izquierda) = activos, Frequency alto (arriba) = frecuentes, Monetary alto (adelante) = alto valor")
+    
+    with tab3:
+        
+        fig_3d_rfm = px.scatter_3d(
+            df_viz_3d,
+            x='Recency',
+            y='Frequency',
+            z='Monetary',
+            color='Cluster_Nombre',
+            hover_data={
+                'ID_Cliente': True,
+                'Cluster_Nombre': False
+            },
+            labels={
+                'Cluster_Nombre': 'Segmento',
+                'Recency': 'Recency (días)',
+                'Frequency': 'Frequency (compras)',
+                'Monetary': 'Monetary ($)'
+            },
+            title='Clusters en Espacio RFM Escalado',
+            height=600,
+            log_y=True,
+            log_z=True,
+            color_discrete_sequence=px.colors.qualitative.Set3
+        )
+        
+        fig_3d_rfm.update_traces(marker=dict(size=5, opacity=0.7))
+        fig_3d_rfm.update_layout(
+            scene=dict(
+                xaxis_title='Recency',
+                yaxis_title='Frequency (log)',
+                zaxis_title='Monetary (log)',
+                camera=dict(eye=dict(x=1.3, y=-1.5, z=1.2))
+            ),
+            legend=dict(
+                orientation='v',
+                yanchor='top',
+                y=0.99,
+                xanchor='left',
+                x=0.01
+            )
+        )
+        
+        st.plotly_chart(fig_3d_rfm, width='stretch')
+        
+        st.info("**Interpretación**: Recency bajo (izquierda) = activos, Frequency alto (arriba) = frecuentes, Monetary alto (adelante) = alto valor")
+
+    st.markdown("---")
+    
+    # =============================
+    # VISUALIZACIÓN 2D
+    # =============================
+    st.subheader("Visualización 2D de Clusters")
+    
+    fig_2d = px.scatter(
+        df_viz_2d,
+        x='PC1',
+        y='PC2',
+        color='Cluster_Nombre',
+        hover_data={
+            'ID_Cliente': True,
+            'Recency': ':.0f',
+            'Frequency': ':.0f',
+            'Monetary': ':$,.0f',
+            'PC1': False,
+            'PC2': False
+        },
+        labels={
+            'Cluster_Nombre': 'Segmento'
+        },
+        title=f'Clusters en 2D (PCA) - Varianza explicada: {metrics["varianza_explicada_2d"]:.1%}',
+        height=600,
+        color_discrete_sequence=px.colors.qualitative.Set3
+    )
+    
+    fig_2d.update_traces(marker=dict(size=8, opacity=0.6, line=dict(width=0.5, color='white')))
+    fig_2d.update_layout(
+        xaxis_title='Componente Principal 1',
+        yaxis_title='Componente Principal 2',
+        legend=dict(
+            title='Segmento',
+            orientation='v',
+            yanchor='top',
+            y=1,
+            xanchor='left',
+            x=1.02
+        )
+    )
+    
+    st.plotly_chart(fig_2d, width='stretch')
+    
+    st.markdown("---")
+    
+    # =============================
+    # PERFILES DETALLADOS POR CLUSTER
+    # =============================
+    st.subheader("Perfiles por Segmento")
+    
+    # Selector de cluster
+    clusters_disponibles = sorted(df_clustering_full['cluster_nombre'].unique())
+    cluster_seleccionado = st.selectbox(
+        "Selecciona un segmento para ver su detalle:",
+        clusters_disponibles
+    )
+    
+    # Filtrar datos del cluster seleccionado
+    cluster_data = df_clustering_full[df_clustering_full['cluster_nombre'] == cluster_seleccionado]
+    cluster_profile = df_profiles[df_profiles['cluster_nombre'] == cluster_seleccionado].iloc[0]
+    
+    # Métricas del cluster
+    col1, col2, col3, col4 = st.columns(4)
+    
+    with col1:
+        st.metric(
+            "👥 Total Clientes",
+            f"{len(cluster_data):,}",
+            f"{len(cluster_data)/len(df_clustering_full)*100:.1f}% del total"
+        )
+    
+    with col2:
+        st.metric(
+            "📅 Recency Promedio",
+            f"{cluster_profile['recency_dias']:.0f} días",
+            "Días desde última compra"
+        )
+    
+    with col3:
+        st.metric(
+            "🔄 Frequency Promedio",
+            f"{cluster_profile['frequency']:.0f}",
+            "Compras realizadas"
+        )
+    
+    with col4:
+        st.metric(
+            "💰 Monetary Promedio",
+            f"${cluster_profile['monetary']:,.0f}",
+            "Valor total generado"
+        )
+    
+    
+    categorias_cluster = {
+        'Despensa': cluster_profile['pct_despensa'],
+        'Lácteos/Panadería': cluster_profile['pct_lácteos_panadería'],
+        'Bebidas': cluster_profile['pct_bebidas'],
+        'Snacks/Golosinas': cluster_profile['pct_snacks_golosinas'],
+        'Limpieza/Cuidado': cluster_profile['pct_limpieza_cuidado'],
+        'Bebidas Alcohólicas': cluster_profile['pct_bebidas_alcohólicas'],
+        'Congelados': cluster_profile['pct_congelados']
+    }
+    
+    df_cat = pd.DataFrame(list(categorias_cluster.items()), columns=['Categoría', 'Porcentaje'])
+    df_cat = df_cat.sort_values('Porcentaje', ascending=True)
+    
+    fig_cat = px.bar(
+        df_cat,
+        x='Porcentaje',
+        y='Categoría',
+        orientation='h',
+        title=f'Preferencias de Categoría',
+        color='Porcentaje',
+        color_continuous_scale='Blues',
+        text='Porcentaje'
+    )
+    
+    fig_cat.update_traces(texttemplate='%{text:.1f}%', textposition='outside')
+    fig_cat.update_layout(showlegend=False, height=400)
+    
+    st.plotly_chart(fig_cat, width='stretch')
+    
+    # Top clientes del cluster
+    st.markdown(f"**Top 10 Clientes del Segmento**")
+    
+    top_clientes_cluster = cluster_data.nlargest(10, 'monetary')[
+        ['nombre_cliente', 'ciudad', 'recency_dias', 'frequency', 'monetary']
+    ].copy()
+    
+    top_clientes_cluster.columns = ['Cliente', 'Ciudad', 'Días sin Compra', 'N° Compras', 'Valor Total']
+    top_clientes_cluster['Valor Total'] = top_clientes_cluster['Valor Total'].apply(lambda x: f"${x:,.0f}")
+    
+    st.dataframe(top_clientes_cluster, width='stretch', hide_index=True)
+    
+    st.markdown("---")
+    
+    # =============================
+    # COMPARACIÓN ENTRE CLUSTERS
+    # =============================
+    st.subheader("Comparación Entre Segmentos")
+    
+    # Heatmap de perfiles
+    df_profiles_viz = df_profiles[['cluster_nombre', 'recency_dias', 'frequency', 'monetary',
+                                     'pct_despensa', 'pct_bebidas_alcohólicas', 'pct_lácteos_panadería',
+                                     'pct_limpieza_cuidado', 'pct_snacks_golosinas', 'pct_bebidas']].copy()
+    
+    df_profiles_viz.columns = ['Segmento', 'Recency', 'Frequency', 'Monetary', 
+                                'Despensa%', 'Alcohol%', 'Lácteos%', 'Limpieza%', 'Snacks%', 'Bebidas%']
+    
+    # Normalizar para visualización
+    from sklearn.preprocessing import StandardScaler
+    
+    numeric_cols = df_profiles_viz.columns[1:]
+    scaler = StandardScaler()
+    df_profiles_norm = df_profiles_viz.copy()
+    df_profiles_norm[numeric_cols] = scaler.fit_transform(df_profiles_viz[numeric_cols])
+    
+    fig_heatmap = px.imshow(
+        df_profiles_norm[numeric_cols].T,
+        labels=dict(x="Segmento", y="Variable", color="Valor Normalizado"),
+        x=df_profiles_norm['Segmento'],
+        y=numeric_cols,
+        aspect="auto",
+        color_continuous_scale='RdBu_r',
+        title='Mapa de Calor: Perfil Comparativo de Segmentos (Valores Normalizados)',
+        height=500
+    )
+    
+    # fig_heatmap.update_xaxis(side="bottom")
+    st.plotly_chart(fig_heatmap, width='stretch')
+    
+    st.info("**Interpretación**: Colores cálidos (rojo) = valores altos relativos, colores fríos (azul) = valores bajos relativos")
+    
+    # Comparación de métricas RFM
+    fig_rfm_compare = go.Figure()
+    
+    for metric, name in [('recency_dias', 'Recency'), ('frequency', 'Frequency'), ('monetary', 'Monetary')]:
+        fig_rfm_compare.add_trace(go.Bar(
+            name=name,
+            x=df_profiles['cluster_nombre'],
+            y=df_profiles[metric],
+            text=df_profiles[metric].round(0),
+            textposition='auto',
+        ))
+    
+    fig_rfm_compare.update_layout(
+        title='Comparación de Métricas RFM por Segmento',
+        xaxis_title='Segmento',
+        yaxis_title='Valor',
+        barmode='group',
+        height=500,
+        legend=dict(orientation='h', yanchor='bottom', y=1.02, xanchor='right', x=1)
+    )
+    
+    st.plotly_chart(fig_rfm_compare, width='stretch')
+    
+    st.markdown("---")
+    
+    # =============================
+    # RECOMENDACIONES ESTRATÉGICAS
+    # =============================
+    st.subheader("💡 Recomendaciones Estratégicas por Segmento")
+    
+    recomendaciones = {
+        "VIP Premium Activo": {
+            "emoji": "👑",
+            "color": "#FFD700",
+            "estrategia": [
+                "🎁 Programa de fidelización exclusivo con beneficios premium",
+                "📧 Comunicación personalizada con ofertas VIP anticipadas",
+                "🎯 Cross-selling de productos premium y lanzamientos exclusivos",
+                "💎 Eventos especiales y acceso prioritario a promociones"
+            ]
+        },
+        "VIP Moderado": {
+            "emoji": "⭐",
+            "color": "#87CEEB",
+            "estrategia": [
+                "🚀 Programa de incentivos para aumentar frecuencia de compra",
+                "📦 Bundles personalizados basados en historial de compra",
+                "🎯 Upselling estratégico para migrar a categoría Premium",
+                "💌 Comunicación regular con ofertas relevantes"
+            ]
+        },
+        "Habitual Moderado": {
+            "emoji": "🔄",
+            "color": "#90EE90",
+            "estrategia": [
+                "📈 Campañas de engagement para aumentar valor de compra",
+                "🎁 Programas de recompensas por volumen",
+                "🛒 Recomendaciones personalizadas en categorías poco exploradas",
+                "📱 App móvil con ofertas exclusivas"
+            ]
+        }
+    }
+    
+    # Agregar recomendaciones para inactivos
+    for cluster in clusters_disponibles:
+        if "Inactivo" in cluster:
+            categoria = cluster.split("(")[-1].replace(")", "") if "(" in cluster else "general"
+            recomendaciones[cluster] = {
+                "emoji": "💤",
+                "color": "#FFB6C1",
+                "estrategia": [
+                    f"📧 Campaña de reactivación con descuento especial en {categoria}",
+                    "🎯 Email marketing con productos que compraban frecuentemente",
+                    "📱 SMS con código de descuento de bienvenida de regreso",
+                    "🔔 Recordatorios de productos en su categoría preferida"
+                ]
+            }
+    
+    # Mostrar recomendaciones
+    for cluster_nombre, info in recomendaciones.items():
+        if cluster_nombre in clusters_disponibles:
+            with st.expander(f"{info['emoji']} **{cluster_nombre}** - Estrategias Recomendadas"):
+                st.markdown(f"<div style='background-color: {info['color']}20; padding: 15px; border-radius: 10px;'>", unsafe_allow_html=True)
+                for estrategia in info['estrategia']:
+                    st.markdown(f"- {estrategia}")
+                st.markdown("</div>", unsafe_allow_html=True)
+
+except FileNotFoundError as e:
+    st.error("""
+    ⚠️ **Archivos de clustering no encontrados**
+    
+    Por favor, ejecuta el notebook `2_feature_engineering.ipynb` hasta la última celda 
+    para generar los archivos necesarios para esta sección.
+    """)
+except Exception as e:
+    st.error(f"Error al cargar datos de clustering: {e}")
 
 st.markdown("---")
 

@@ -1345,8 +1345,8 @@ try:
         'frequency': 'sum'
     }).reset_index()
     dist_clusters.columns = ['Segmento', 'N_Clientes', 'Ventas_Total', 'Transacciones_Total']
-    dist_clusters['Pct_Clientes'] = (dist_clusters['N_Clientes'] / dist_clusters['N_Clientes'].sum() * 100).round(1)
-    dist_clusters['Pct_Ventas'] = (dist_clusters['Ventas_Total'] / dist_clusters['Ventas_Total'].sum() * 100).round(1)
+    dist_clusters['Pct_Clientes'] = (dist_clusters['N_Clientes'] / dist_clusters['N_Clientes'].sum() * 100).apply(lambda x: f"{x:,.1f}%")
+    dist_clusters['Pct_Ventas'] = (dist_clusters['Ventas_Total'] / dist_clusters['Ventas_Total'].sum() * 100).apply(lambda x: f"{x:,.1f}%")
     dist_clusters = dist_clusters.sort_values('N_Clientes', ascending=False)
     
     col1, col2 = st.columns(2)
@@ -1381,7 +1381,7 @@ try:
     dist_clusters['Ventas_Total'] = dist_clusters['Ventas_Total'].apply(lambda x: f"${x:,.0f}")
     dist_clusters['Transacciones_Total'] = dist_clusters['Transacciones_Total'].apply(lambda x: f"{x:,.0f}")
     st.dataframe(
-        dist_clusters.style.background_gradient(subset=['Pct_Clientes', 'Pct_Ventas'], cmap='Blues'),
+        dist_clusters,
         width='stretch',
         hide_index=True
     )
@@ -1716,8 +1716,8 @@ try:
         fig_rfm_compare.add_trace(go.Bar(
             name=name,
             x=df_profiles['cluster_nombre'],
-            y=df_profiles[metric],
-            text=df_profiles[metric].round(0),
+            y=np.log1p(df_profiles[metric]),
+            text=df_profiles[metric].apply(lambda x: f"${x:,.0f}" if metric == 'monetary' else f"{x:.0f}"),
             textposition='auto',
         ))
     
@@ -1737,37 +1737,34 @@ try:
     # =============================
     # RECOMENDACIONES ESTRATÉGICAS
     # =============================
-    st.subheader("💡 Recomendaciones Estratégicas por Segmento")
+    st.subheader("Recomendaciones Estratégicas por Segmento")
     
     recomendaciones = {
         "VIP Premium Activo": {
             "emoji": "👑",
-            "color": "#FFD700",
             "estrategia": [
-                "🎁 Programa de fidelización exclusivo con beneficios premium",
-                "📧 Comunicación personalizada con ofertas VIP anticipadas",
-                "🎯 Cross-selling de productos premium y lanzamientos exclusivos",
-                "💎 Eventos especiales y acceso prioritario a promociones"
+                "Programa de fidelización exclusivo con beneficios premium",
+                "Comunicación personalizada con ofertas VIP anticipadas",
+                "Cross-selling de productos premium y lanzamientos exclusivos",
+                "Eventos especiales y acceso prioritario a promociones"
             ]
         },
         "VIP Moderado": {
             "emoji": "⭐",
-            "color": "#87CEEB",
             "estrategia": [
-                "🚀 Programa de incentivos para aumentar frecuencia de compra",
-                "📦 Bundles personalizados basados en historial de compra",
-                "🎯 Upselling estratégico para migrar a categoría Premium",
-                "💌 Comunicación regular con ofertas relevantes"
+                "Programa de incentivos para aumentar frecuencia de compra",
+                "Bundles personalizados basados en historial de compra",
+                "Upselling estratégico para migrar a categoría Premium",
+                "Comunicación regular con ofertas relevantes"
             ]
         },
         "Habitual Moderado": {
             "emoji": "🔄",
-            "color": "#90EE90",
             "estrategia": [
-                "📈 Campañas de engagement para aumentar valor de compra",
-                "🎁 Programas de recompensas por volumen",
-                "🛒 Recomendaciones personalizadas en categorías poco exploradas",
-                "📱 App móvil con ofertas exclusivas"
+                "Campañas de engagement para aumentar valor de compra",
+                "Programas de recompensas por volumen",
+                "Recomendaciones personalizadas en categorías poco exploradas",
+                "App móvil con ofertas exclusivas"
             ]
         }
     }
@@ -1778,12 +1775,11 @@ try:
             categoria = cluster.split("(")[-1].replace(")", "") if "(" in cluster else "general"
             recomendaciones[cluster] = {
                 "emoji": "💤",
-                "color": "#FFB6C1",
                 "estrategia": [
-                    f"📧 Campaña de reactivación con descuento especial en {categoria}",
-                    "🎯 Email marketing con productos que compraban frecuentemente",
-                    "📱 SMS con código de descuento de bienvenida de regreso",
-                    "🔔 Recordatorios de productos en su categoría preferida"
+                    f"Campaña de reactivación con descuento especial en {categoria}",
+                    "Email marketing con productos que compraban frecuentemente",
+                    "SMS con código de descuento de bienvenida de regreso",
+                    "Recordatorios de productos en su categoría preferida"
                 ]
             }
     
@@ -1791,7 +1787,6 @@ try:
     for cluster_nombre, info in recomendaciones.items():
         if cluster_nombre in clusters_disponibles:
             with st.expander(f"{info['emoji']} **{cluster_nombre}** - Estrategias Recomendadas"):
-                st.markdown(f"<div style='background-color: {info['color']}20; padding: 15px; border-radius: 10px;'>", unsafe_allow_html=True)
                 for estrategia in info['estrategia']:
                     st.markdown(f"- {estrategia}")
                 st.markdown("</div>", unsafe_allow_html=True)
